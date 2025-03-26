@@ -15,7 +15,7 @@ import {atoms as a, useTheme, web} from '#/alf'
 import {Button, ButtonText} from '#/components/Button'
 import * as Dialog from '#/components/Dialog'
 import {useDialogControl} from '#/components/Dialog'
-import {Newskie} from '#/components/icons/Newskie'
+import Newskie from '#/components/icons/Newskie'
 import * as StarterPackCard from '#/components/StarterPack/StarterPackCard'
 import {Text} from '#/components/Typography'
 
@@ -68,8 +68,7 @@ export function NewskieDialog({
         onPress={control.open}>
         {({hovered, pressed}) => (
           <Newskie
-            size="lg"
-            fill="#FFC404"
+            size={24}
             style={{
               opacity: hovered || pressed ? 0.5 : 1,
             }}
@@ -92,10 +91,8 @@ export function NewskieDialog({
                   },
                 ]}>
                 <Newskie
-                  width={64}
-                  height={64}
-                  fill="#FFC404"
-                  style={[a.absolute, a.inset_0]}
+                  size={64}
+                  style={{...a.absolute, ...a.inset_0}}
                 />
               </View>
               <Text style={[a.font_bold, a.text_xl]}>
