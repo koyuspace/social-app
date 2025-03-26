@@ -1,9 +1,9 @@
 {
   "platforms": ["ios", "android", "web"],
   "ios": {
-    "modules": ["Expokoyu.spaceGifViewModule"]
+    "modules": ["ExpoBlueskyGifViewModule"]
   },
   "android": {
-    "modules": ["expo.modules.blueskygifview.Expokoyu.spaceGifViewModule"]
+    "modules": ["expo.modules.blueskygifview.ExpoBlueskyGifViewModule"]
   }
 }

@@ -2,9 +2,9 @@ import ExpoModulesCore
 import SDWebImage
 import SDWebImageWebPCoder
 
-public class Expokoyu.spaceGifViewModule: Module {
+public class ExpoBlueskyGifViewModule: Module {
   public func definition() -> ModuleDefinition {
-    Name("Expokoyu.spaceGifView")
+    Name("ExpoBlueskyGifView")
 
     OnCreate {
       SDImageCodersManager.shared.addCoder(SDImageGIFCoder.shared)

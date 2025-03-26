@@ -564,7 +564,7 @@ export function parseTenorGif(urlp: URL):
 
   return {
     success: true,
-    playerUri: `https://t.gifs.koyu.space/${id}/${filename}`,
+    playerUri: `https://t.gifs.bsky.app/${id}/${filename}`,
     dimensions,
   }
 }

@@ -5,10 +5,10 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 
-class Expokoyu.spaceGifViewModule : Module() {
+class ExpoBlueskyGifViewModule : Module() {
   override fun definition() =
     ModuleDefinition {
-      Name("Expokoyu.spaceGifView")
+      Name("ExpoBlueskyGifView")
 
       AsyncFunction("prefetchAsync") { sources: List<String> ->
         val activity = appContext.currentActivity ?: return@AsyncFunction

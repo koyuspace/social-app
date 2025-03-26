@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name           = 'Expokoyu.spaceGifView'
+  s.name           = 'ExpoBlueskyGifView'
   s.version        = '1.0.0'
   s.summary        = 'A simple GIF player for koyu.space'
   s.description    = 'A simple GIF player for koyu.space'

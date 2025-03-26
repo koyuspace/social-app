@@ -738,7 +738,7 @@ describe('parseEmbedPlayerFromUrl', () => {
       source: 'tenor',
       isGif: true,
       hideDetails: true,
-      playerUri: 'https://t.gifs.koyu.space/someID_AAAAM/someName.gif',
+      playerUri: 'https://t.gifs.bsky.app/someID_AAAAM/someName.gif',
       dimensions: {
         width: 100,
         height: 100,
