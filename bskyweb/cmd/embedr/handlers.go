@@ -18,7 +18,7 @@ import (
 var ErrPostNotFound = errors.New("post not found")
 var ErrPostNotPublic = errors.New("post is not publicly accessible")
 
-func (srv *Server) getkoyu.spacePost(ctx context.Context, did syntax.DID, rkey syntax.RecordKey) (*appbsky.FeedDefs_PostView, error) {
+func (srv *Server) getBlueskyPost(ctx context.Context, did syntax.DID, rkey syntax.RecordKey) (*appbsky.FeedDefs_PostView, error) {
 
 	// fetch the post post (with extra context)
 	uri := fmt.Sprintf("at://%s/app.bsky.feed.post/%s", did, rkey)
@@ -61,7 +61,7 @@ type OEmbedResponse struct {
 	HTML         string `json:"html,omitempty"`
 }
 
-func (srv *Server) parsekoyu.spaceURL(ctx context.Context, raw string) (*syntax.ATURI, error) {
+func (srv *Server) parseBlueskyURL(ctx context.Context, raw string) (*syntax.ATURI, error) {
 
 	if raw == "" {
 		return nil, fmt.Errorf("empty url")
@@ -140,7 +140,7 @@ func (srv *Server) WebOEmbed(c echo.Context) error {
 	}
 	// NOTE: maxheight ignored
 
-	aturi, err := srv.parsekoyu.spaceURL(c.Request().Context(), c.QueryParam("url"))
+	aturi, err := srv.parseBlueskyURL(c.Request().Context(), c.QueryParam("url"))
 	if err != nil {
 		return c.String(http.StatusBadRequest, fmt.Sprintf("Expected 'url' to be koyu.space URL or AT-URI: %v", err))
 	}
@@ -152,7 +152,7 @@ func (srv *Server) WebOEmbed(c echo.Context) error {
 		return err
 	}
 
-	post, err := srv.getkoyu.spacePost(c.Request().Context(), did, aturi.RecordKey())
+	post, err := srv.getBlueskyPost(c.Request().Context(), did, aturi.RecordKey())
 	if err == ErrPostNotFound {
 		return c.String(http.StatusNotFound, fmt.Sprintf("%v", err))
 	} else if err == ErrPostNotPublic {
@@ -201,7 +201,7 @@ func (srv *Server) WebPostEmbed(c echo.Context) error {
 
 	// NOTE: this request was't really necessary; the JS will do the same fetch
 	/*
-		postView, err := srv.getkoyu.spacePost(ctx, did, rkey)
+		postView, err := srv.getBlueskyPost(ctx, did, rkey)
 		if err == ErrPostNotFound {
 			return c.String(http.StatusNotFound, fmt.Sprintf("%v", err))
 		} else if err == ErrPostNotPublic {
