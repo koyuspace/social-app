@@ -86,8 +86,8 @@ export function PrivacyAndSecuritySettingsScreen({}: Props) {
                 <View style={[a.flex_1, a.gap_sm]}>
                   <Admonition.Text>
                     <Trans>
-                      Note: Bluesky is an open and public network. This setting
-                      only limits the visibility of your content on the Bluesky
+                      Note: koyu.space is an open and public network. This setting
+                      only limits the visibility of your content on the koyu.space
                       app and website, and other apps may not respect this
                       setting. Your content may still be shown to logged-out
                       users by other apps and websites.
@@ -96,10 +96,10 @@ export function PrivacyAndSecuritySettingsScreen({}: Props) {
                   <Admonition.Text>
                     <InlineLinkText
                       label={_(
-                        msg`Learn more about what is public on Bluesky.`,
+                        msg`Learn more about what is public on koyu.space.`,
                       )}
                       to="https://blueskyweb.zendesk.com/hc/en-us/articles/15835264007693-Data-Privacy">
-                      <Trans>Learn more about what is public on Bluesky.</Trans>
+                      <Trans>Learn more about what is public on koyu.space.</Trans>
                     </InlineLinkText>
                   </Admonition.Text>
                 </View>

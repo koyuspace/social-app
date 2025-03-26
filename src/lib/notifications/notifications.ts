@@ -12,7 +12,7 @@ import BackgroundNotificationHandler from '../../../modules/expo-background-noti
 const SERVICE_DID = (serviceUrl?: string) =>
   serviceUrl?.includes('staging')
     ? 'did:web:api.staging.bsky.dev'
-    : 'did:web:api.bsky.app'
+    : 'did:web:api.koyu.space'
 
 const logger = Logger.create(Logger.Context.Notifications)
 
@@ -54,7 +54,7 @@ export function useNotificationsRegistration() {
       return
     }
 
-    // HACK - see https://github.com/bluesky-social/social-app/pull/4467
+    // HACK - see https://github.com/koyuspace/social-app/pull/4467
     // An apparent regression in expo-notifications causes `addPushTokenListener` to not fire on Android whenever the
     // token changes by calling `getPushToken()`. This is a workaround to ensure we register the token once it is
     // generated on Android.

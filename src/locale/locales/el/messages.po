@@ -143,7 +143,7 @@ msgstr ""
 msgid "{0} people have used this starter pack!"
 msgstr "{0} άτομα έχουν χρησιμοποιήσει αυτό το Starter Pack!"
 
-#: src/view/com/util/UserAvatar.tsx:445
+#: src/view/com/util/UserAvatar.tsx:464
 msgid "{0}'s avatar"
 msgstr "Η εικόνα προφίλ του {0}"
 
@@ -175,7 +175,7 @@ msgstr "{0}λ."
 msgid "{0}s"
 msgstr "{0}δευτ."
 
-#: src/view/shell/desktop/LeftNav.tsx:382
+#: src/view/shell/desktop/LeftNav.tsx:383
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
@@ -294,12 +294,12 @@ msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:116
-msgid "{profileName} joined Bluesky {0} ago"
-msgstr "Ο/Η {profileName} εντάχθηκε στο Bluesky πριν από {0}"
+msgid "{profileName} joined koyu.space {0} ago"
+msgstr "Ο/Η {profileName} εντάχθηκε στο koyu.space πριν από {0}"
 
 #: src/components/NewskieDialog.tsx:111
-msgid "{profileName} joined Bluesky using a starter pack {0} ago"
-msgstr "Ο/Η {profileName} εντάχθηκε στο Bluesky με starter pack πριν από {0}"
+msgid "{profileName} joined koyu.space using a starter pack {0} ago"
+msgstr "Ο/Η {profileName} εντάχθηκε στο koyu.space με starter pack πριν από {0}"
 
 #: src/screens/StarterPack/Wizard/index.tsx:449
 msgctxt "profiles"
@@ -499,12 +499,12 @@ msgstr "Προσθήκη εναλλακτικού κειμένου (προαιρ
 
 #: src/screens/Settings/Settings.tsx:373
 #: src/screens/Settings/Settings.tsx:376
-#: src/view/shell/desktop/LeftNav.tsx:280
-#: src/view/shell/desktop/LeftNav.tsx:284
+#: src/view/shell/desktop/LeftNav.tsx:281
+#: src/view/shell/desktop/LeftNav.tsx:285
 msgid "Add another account"
 msgstr "Προσθήκη άλλου λογαριασμού"
 
-#: src/view/com/composer/Composer.tsx:743
+#: src/view/com/composer/Composer.tsx:744
 msgid "Add another post"
 msgstr "Προσθήκη άλλης ανάρτησης"
 
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Add muted words and tags"
 msgstr "Προσθήκη λέξεων και ετικετών που θα είναι σε σίγαση"
 
-#: src/view/com/composer/Composer.tsx:1258
+#: src/view/com/composer/Composer.tsx:1261
 msgid "Add new post"
 msgstr "Προσθήκη νέας ανάρτησης"
 
@@ -594,8 +594,8 @@ msgid "Adult Content"
 msgstr "Περιεχόμενο για ενηλίκους"
 
 #: src/screens/Moderation/index.tsx:355
-msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
-msgstr "Το περιεχόμενο για ενηλίκους μπορεί να ενεργοποιηθεί μόνο μέσω του Web στην διεύθυνση <0>bsky.app</0>."
+msgid "Adult content can only be enabled via the Web at <0>koyu.space</0>."
+msgstr "Το περιεχόμενο για ενηλίκους μπορεί να ενεργοποιηθεί μόνο μέσω του Web στην διεύθυνση <0>koyu.space</0>."
 
 #: src/components/moderation/LabelPreference.tsx:242
 msgid "Adult content is disabled."
@@ -894,7 +894,7 @@ msgstr "Αρχειοθετημένη ανάρτηση"
 msgid "Are you sure you want to delete the app password \"{0}\"?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τον κωδικό πρόσβασης εφαρμογής;"
 
-#: src/components/dms/MessageMenu.tsx:152
+#: src/components/dms/MessageContextMenu.tsx:142
 msgid "Are you sure you want to delete this message? The message will be deleted for you, but not for the other participant."
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το μήνυμα; Το μήνυμα θα διαγραφεί για εσάς, αλλά όχι για τον άλλο συμμετέχοντα."
 
@@ -922,11 +922,11 @@ msgstr "Θέλετε σίγουρα να αφαιρέσετε τον/την {0} 
 msgid "Are you sure you want to remove this from your feeds?"
 msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετε αυτό από τις ροές σας;"
 
-#: src/view/com/composer/Composer.tsx:694
+#: src/view/com/composer/Composer.tsx:695
 msgid "Are you sure you'd like to discard this draft?"
 msgstr "Είστε σίγουροι ότι θέλετε να απορρίψετε αυτό το προσχέδιο;"
 
-#: src/view/com/composer/Composer.tsx:868
+#: src/view/com/composer/Composer.tsx:872
 msgid "Are you sure you'd like to discard this post?"
 msgstr "Είστε σίγουροι ότι θέλετε να απορρίψετε αυτήν την ανάρτηση;"
 
@@ -1110,57 +1110,6 @@ msgstr "Ο αποκλεισμός είναι δημόσιος. Οι αποκλε
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "Ο αποκλεισμός δεν θα εμποδίσει την εφαρμογή ετικετών στον λογαριασμό σας, αλλά θα σταματήσει αυτόν τον λογαριασμό από το να απαντά στις συζητήσεις σας ή να αλληλεπιδρά μαζί σας."
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Blog"
-msgstr "Ιστολόγιο"
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr "Bluesky"
-
-#: src/view/com/post-thread/PostThreadItem.tsx:870
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "Το Bluesky δεν μπορεί να επιβεβαιώσει την αυθεντικότητα της ημερομηνίας που δηλώθηκε."
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:212
-msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr "Το Bluesky είναι ένα ανοιχτό δίκτυο όπου μπορείτε να επιλέξετε τον πάροχο φιλοξενίας σας. Αν είστε προγραμματιστής, μπορείτε να φιλοξενήσετε τον δικό σας διακομιστή."
-
-#: src/view/com/auth/server-input/index.tsx:149
-msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr ""
-
-#: src/components/ProgressGuide/List.tsx:53
-#: src/components/ProgressGuide/List.tsx:70
-msgid "Bluesky is better with friends!"
-msgstr "Το Bluesky είναι καλύτερο με φίλους!"
-
-#: src/screens/Takendown.tsx:217
-msgid "Bluesky Social Terms of Service"
-msgstr ""
-
-#: src/components/StarterPack/ProfileStarterPacks.tsx:298
-msgid "Bluesky will choose a set of recommended accounts from people in your network."
-msgstr "Το Bluesky θα επιλέξει μια σειρά από προτεινόμενους λογαριασμούς από άτομα στο δίκτυό σας."
-
-#: src/screens/Settings/components/PwiOptOut.tsx:99
-msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr "Το Bluesky δεν θα εμφανίσει το προφίλ και τις αναρτήσεις σας σε χρήστες που δεν έχουν συνδεθεί. Άλλες εφαρμογές ενδέχεται να μην σεβαστούν αυτό το αίτημα. Αυτό δεν κάνει τον λογαριασμό σας ιδιωτικό."
-
-#: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "Bluesky+"
-msgstr "Bluesky+"
-
-#: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "Bluesky+ icons"
-msgstr ""
-
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
 msgstr "Θόλωμα εικόνων"
@@ -1215,10 +1164,6 @@ msgstr ""
 msgid "Browse topic {displayName}"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Business"
-msgstr "Επιχειρήσεις"
-
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:672
 msgid "By {0}"
@@ -1257,7 +1202,7 @@ msgstr "Κάμερα"
 #: src/screens/Settings/Settings.tsx:260
 #: src/screens/Takendown.tsx:99
 #: src/screens/Takendown.tsx:102
-#: src/view/com/composer/Composer.tsx:931
+#: src/view/com/composer/Composer.tsx:935
 #: src/view/com/modals/ChangeEmail.tsx:213
 #: src/view/com/modals/ChangeEmail.tsx:215
 #: src/view/com/modals/ChangePassword.tsx:279
@@ -1273,7 +1218,7 @@ msgstr "Κάμερα"
 #: src/view/com/modals/VerifyEmail.tsx:261
 #: src/view/com/util/post-ctrls/RepostButton.tsx:213
 #: src/view/screens/Search/Search.tsx:890
-#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -1398,7 +1343,7 @@ msgstr ""
 
 #: src/Navigation.tsx:408
 #: src/view/shell/bottom-bar/BottomBar.tsx:205
-#: src/view/shell/desktop/LeftNav.tsx:534
+#: src/view/shell/desktop/LeftNav.tsx:535
 #: src/view/shell/Drawer.tsx:422
 msgid "Chat"
 msgstr "Συνομιλία"
@@ -1425,7 +1370,6 @@ msgid "Chat requests"
 msgstr ""
 
 #: src/components/dms/ConvoMenu.tsx:75
-#: src/components/dms/MessageMenu.tsx:83
 #: src/Navigation.tsx:413
 #: src/screens/Messages/ChatList.tsx:328
 msgid "Chat settings"
@@ -1531,7 +1475,7 @@ msgstr "Κάντε κλικ για να ενεργοποιήσετε τις αν
 msgid "Click to open tag menu for {tag}"
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:241
+#: src/components/dms/MessageItem.tsx:229
 msgid "Click to retry failed message"
 msgstr "Κάντε κλικ για να επαναλάβετε το αποτυχημένο μήνυμα"
 
@@ -1597,6 +1541,11 @@ msgstr "Κλείσιμο εικόνας"
 msgid "Close image viewer"
 msgstr "Κλείσιμο προγράμματος προβολής εικόνας"
 
+#: src/components/ContextMenu/Backdrop.ios.tsx:43
+#: src/components/ContextMenu/Backdrop.tsx:39
+msgid "Close menu"
+msgstr ""
+
 #: src/components/Menu/index.tsx:298
 msgid "Close this dialog"
 msgstr "Κλείσιμο αυτού του διαλόγου"
@@ -1654,11 +1603,11 @@ msgstr "Ολοκληρώστε την εισαγωγή και ξεκινήστε
 msgid "Complete the challenge"
 msgstr "Ολοκλήρωση της πρόκλησης"
 
-#: src/view/shell/desktop/LeftNav.tsx:499
+#: src/view/shell/desktop/LeftNav.tsx:500
 msgid "Compose new post"
 msgstr "Σύνταξη νέας ανάρτησης"
 
-#: src/view/com/composer/Composer.tsx:834
+#: src/view/com/composer/Composer.tsx:838
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
 msgstr "Σύνταξη αναρτήσεων έως {MAX_GRAPHEME_LENGTH} χαρακτήρες σε μήκος"
 
@@ -1666,7 +1615,7 @@ msgstr "Σύνταξη αναρτήσεων έως {MAX_GRAPHEME_LENGTH} χαρ�
 msgid "Compose reply"
 msgstr "Σύνταξη απάντησης"
 
-#: src/view/com/composer/Composer.tsx:1652
+#: src/view/com/composer/Composer.tsx:1644
 msgid "Compressing video..."
 msgstr "Συμπίεση βίντεο..."
 
@@ -1827,7 +1776,7 @@ msgstr "Αντιγράφηκε"
 msgid "Copied build version to clipboard"
 msgstr "Η έκδοση build αντιγράφηκε στο πρόχειρο"
 
-#: src/components/dms/MessageMenu.tsx:57
+#: src/components/dms/MessageContextMenu.tsx:52
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -1895,8 +1844,8 @@ msgstr "Αντιγραφή συνδέσμου στη λίστα"
 msgid "Copy link to post"
 msgstr "Αντιγραφή συνδέσμου στην ανάρτηση"
 
-#: src/components/dms/MessageMenu.tsx:112
-#: src/components/dms/MessageMenu.tsx:114
+#: src/components/dms/MessageContextMenu.tsx:103
+#: src/components/dms/MessageContextMenu.tsx:106
 msgid "Copy message text"
 msgstr "Αντιγραφή κειμένου μηνύματος"
 
@@ -1962,8 +1911,8 @@ msgstr "Δημιουργία starter pack"
 msgid "Create a starter pack for me"
 msgstr "Δημιουργία starter pack για μένα"
 
-#: src/view/com/auth/SplashScreen.tsx:55
-#: src/view/com/auth/SplashScreen.web.tsx:117
+#: src/view/com/auth/SplashScreen.tsx:48
+#: src/view/com/auth/SplashScreen.web.tsx:106
 #: src/view/shell/bottom-bar/BottomBar.tsx:315
 #: src/view/shell/bottom-bar/BottomBar.tsx:320
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:199
@@ -1990,8 +1939,8 @@ msgstr "Δημιουργήστε μια εικόνα προφίλ εωαλλακ
 msgid "Create another"
 msgstr "Δημιουργία άλλου"
 
-#: src/view/com/auth/SplashScreen.tsx:47
-#: src/view/com/auth/SplashScreen.web.tsx:109
+#: src/view/com/auth/SplashScreen.tsx:40
+#: src/view/com/auth/SplashScreen.web.tsx:98
 msgid "Create new account"
 msgstr "Δημιουργία νέου λογαριασμού"
 
@@ -2027,7 +1976,7 @@ msgid "Customize who can interact with this post."
 msgstr "Προσαρμόστε ποιος μπορεί να αλληλεπιδράσει με αυτήν την ανάρτηση."
 
 #: src/screens/Onboarding/Layout.tsx:56
-msgid "Customizes your Bluesky experience"
+msgid "Customizes your koyu.space experience"
 msgstr ""
 
 #: src/components/dialogs/Embed.tsx:167
@@ -2076,7 +2025,7 @@ msgstr "Προεπιλογή"
 msgid "Default icons"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:154
+#: src/components/dms/MessageContextMenu.tsx:144
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:591
@@ -2124,7 +2073,7 @@ msgstr ""
 msgid "Delete Conversation"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:126
+#: src/components/dms/MessageContextMenu.tsx:117
 msgid "Delete for me"
 msgstr "Διαγραφή για μένα"
 
@@ -2132,11 +2081,11 @@ msgstr "Διαγραφή για μένα"
 msgid "Delete List"
 msgstr "Διαγραφή Λίστας"
 
-#: src/components/dms/MessageMenu.tsx:150
+#: src/components/dms/MessageContextMenu.tsx:140
 msgid "Delete message"
 msgstr "Διαγραφή μηνύματος"
 
-#: src/components/dms/MessageMenu.tsx:124
+#: src/components/dms/MessageContextMenu.tsx:115
 msgid "Delete message for me"
 msgstr "Διαγραφή μηνύματος για μένα"
 
@@ -2144,7 +2093,7 @@ msgstr "Διαγραφή μηνύματος για μένα"
 msgid "Delete my account"
 msgstr "Διαγραφή του λογαριασμού μου"
 
-#: src/view/com/composer/Composer.tsx:842
+#: src/view/com/composer/Composer.tsx:846
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:709
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:711
 msgid "Delete post"
@@ -2256,8 +2205,8 @@ msgid "Disabled"
 msgstr "Απενεργοποιημένο"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:84
-#: src/view/com/composer/Composer.tsx:696
-#: src/view/com/composer/Composer.tsx:875
+#: src/view/com/composer/Composer.tsx:697
+#: src/view/com/composer/Composer.tsx:879
 msgid "Discard"
 msgstr "Απόρριψη"
 
@@ -2265,11 +2214,11 @@ msgstr "Απόρριψη"
 msgid "Discard changes?"
 msgstr "Απόρριψη αλλαγών;"
 
-#: src/view/com/composer/Composer.tsx:693
+#: src/view/com/composer/Composer.tsx:694
 msgid "Discard draft?"
 msgstr "Απόρριψη προσχεδίου;"
 
-#: src/view/com/composer/Composer.tsx:867
+#: src/view/com/composer/Composer.tsx:871
 msgid "Discard post?"
 msgstr "Απόρριψη ανάρτησης;"
 
@@ -2295,7 +2244,7 @@ msgstr "Ανακαλύψτε Νέες Ροές"
 msgid "Dismiss"
 msgstr "Απόρριψη"
 
-#: src/view/com/composer/Composer.tsx:1576
+#: src/view/com/composer/Composer.tsx:1568
 msgid "Dismiss error"
 msgstr "Απόρριψη σφάλματος"
 
@@ -2393,14 +2342,14 @@ msgstr "Πατήστε δύο φορές για να κλείσετε το πα�
 msgid "Double tap to like"
 msgstr ""
 
-#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
-msgid "Download Bluesky"
-msgstr "Κατεβάστε το Bluesky"
-
 #: src/screens/Settings/components/ExportCarDialog.tsx:79
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
 msgstr "Κατεβάστε το αρχείο CAR"
+
+#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
+msgid "Download koyu.space"
+msgstr "Κατεβάστε το koyu.space"
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:342
 msgid "Drop to add images"
@@ -2466,7 +2415,7 @@ msgctxt "action"
 msgid "Edit"
 msgstr "Επεξεργασία"
 
-#: src/view/com/util/UserAvatar.tsx:344
+#: src/view/com/util/UserAvatar.tsx:363
 #: src/view/com/util/UserBanner.tsx:95
 msgid "Edit avatar"
 msgstr "Επεξεργασία εικόνας προφίλ"
@@ -2746,7 +2695,7 @@ msgstr "Εισάγετε το όνομα χρήστη και τον κωδικό
 msgid "Enters full screen"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1661
+#: src/view/com/composer/Composer.tsx:1653
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Σφάλμα"
@@ -2931,7 +2880,7 @@ msgctxt "toast"
 msgid "Failed to delete chat"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:75
+#: src/components/dms/MessageContextMenu.tsx:70
 msgid "Failed to delete message"
 msgstr "Απέτυχε η διαγραφή μηνύματος"
 
@@ -2991,7 +2940,7 @@ msgstr "Απέτυχε η αποθήκευση προτιμήσεων ειδοπ
 msgid "Failed to save settings. Please try again."
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:234
+#: src/components/dms/MessageItem.tsx:222
 msgid "Failed to send"
 msgstr "Απέτυχε η αποστολή"
 
@@ -3040,8 +2989,8 @@ msgstr ""
 msgid "Feed toggle"
 msgstr "Εναλλαγή ροής"
 
-#: src/view/shell/desktop/RightNav.tsx:97
-#: src/view/shell/desktop/RightNav.tsx:98
+#: src/view/shell/desktop/RightNav.tsx:102
+#: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:324
 msgid "Feedback"
 msgstr "Σχόλια"
@@ -3058,7 +3007,7 @@ msgstr "Τα σχόλια στάλθηκαν!"
 #: src/view/screens/Profile.tsx:227
 #: src/view/screens/SavedFeeds.tsx:96
 #: src/view/screens/Search/Search.tsx:531
-#: src/view/shell/desktop/LeftNav.tsx:651
+#: src/view/shell/desktop/LeftNav.tsx:655
 #: src/view/shell/Drawer.tsx:486
 msgid "Feeds"
 msgstr "Ροές"
@@ -3114,7 +3063,7 @@ msgid "Find people to follow"
 msgstr ""
 
 #: src/view/screens/Search/Search.tsx:582
-msgid "Find posts, users, and feeds on Bluesky"
+msgid "Find posts, users, and feeds on koyu.space"
 msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:195
@@ -3363,7 +3312,7 @@ msgstr "Δώστε στο προφίλ σας ένα πρόσωπο"
 msgid "Glaring violations of law or terms of service"
 msgstr "Φανοφανείς παραβιάσεις του νόμου ή των όρων παροχής υπηρεσιών"
 
-#: src/components/Layout/Header/index.tsx:126
+#: src/components/Layout/Header/index.tsx:127
 #: src/components/moderation/ScreenHider.tsx:154
 #: src/components/moderation/ScreenHider.tsx:163
 #: src/screens/Messages/Inbox.tsx:228
@@ -3475,8 +3424,8 @@ msgstr "Έχετε πρόβλημα;"
 
 #: src/screens/Settings/Settings.tsx:207
 #: src/screens/Settings/Settings.tsx:211
-#: src/view/shell/desktop/RightNav.tsx:115
-#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:120
+#: src/view/shell/desktop/RightNav.tsx:121
 #: src/view/shell/Drawer.tsx:337
 msgid "Help"
 msgstr "Βοήθεια"
@@ -3506,7 +3455,7 @@ msgstr "Κρυφή λίστα"
 #: src/components/interstitials/TrendingVideos.tsx:140
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:135
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -3610,7 +3559,7 @@ msgstr "Περιμένετε! Δίνουμε σταδιακά πρόσβαση �
 #: src/Navigation.tsx:627
 #: src/Navigation.tsx:647
 #: src/view/shell/bottom-bar/BottomBar.tsx:162
-#: src/view/shell/desktop/LeftNav.tsx:595
+#: src/view/shell/desktop/LeftNav.tsx:599
 #: src/view/shell/Drawer.tsx:396
 msgid "Home"
 msgstr "Αρχική"
@@ -3626,8 +3575,8 @@ msgstr "Πάροχος φιλοξενίας"
 
 #: src/screens/Settings/ThreadPreferences.tsx:67
 #: src/screens/Settings/ThreadPreferences.tsx:70
-#: src/view/com/post-thread/PostThread.tsx:656
-#: src/view/com/post-thread/PostThread.tsx:661
+#: src/view/com/post-thread/PostThread.tsx:655
+#: src/view/com/post-thread/PostThread.tsx:660
 msgid "Hot replies first"
 msgstr ""
 
@@ -3822,21 +3771,16 @@ msgstr "Είναι σωστό"
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Είστε μόνοι σας αυτή τη στιγμή! Προσθέστε περισσότερους ανθρώπους στο starter pack σας κάνοντας αναζήτηση παραπάνω."
 
-#: src/view/com/composer/Composer.tsx:1595
+#: src/view/com/composer/Composer.tsx:1587
 msgid "Job ID: {0}"
 msgstr "ID εργασίας: {0}"
-
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "Jobs"
-msgstr "Εργασίες"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:211
 #: src/screens/StarterPack/StarterPackScreen.tsx:461
 #: src/screens/StarterPack/StarterPackScreen.tsx:472
-msgid "Join Bluesky"
-msgstr "Εγγραφείτε στο Bluesky"
+msgid "Join koyu.space"
+msgstr "Εγγραφείτε στο koyu.space"
 
 #: src/components/StarterPack/QrCode.tsx:68
 #: src/view/shell/NavSignupCard.tsx:40
@@ -3847,6 +3791,57 @@ msgstr "Συμμετάσχετε στη συζήτηση"
 #: src/screens/Onboarding/state.ts:104
 msgid "Journalism"
 msgstr "Δημοσιογραφία"
+
+#: src/view/com/auth/server-input/index.tsx:136
+#: src/view/com/auth/server-input/index.tsx:137
+msgid "koyu.space"
+msgstr "koyu.space"
+
+#: src/view/com/post-thread/PostThreadItem.tsx:870
+msgid "koyu.space cannot confirm the authenticity of the claimed date."
+msgstr "Το koyu.space δεν μπορεί να επιβεβαιώσει την αυθεντικότητα της ημερομηνίας που δηλώθηκε."
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
+msgctxt "Name of app icon variant"
+msgid "koyu.space Classic™"
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:212
+msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
+msgstr "Το koyu.space είναι ένα ανοιχτό δίκτυο όπου μπορείτε να επιλέξετε τον πάροχο φιλοξενίας σας. Αν είστε προγραμματιστής, μπορείτε να φιλοξενήσετε τον δικό σας διακομιστή."
+
+#: src/view/com/auth/server-input/index.tsx:149
+msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
+msgstr ""
+
+#: src/components/ProgressGuide/List.tsx:53
+#: src/components/ProgressGuide/List.tsx:70
+msgid "koyu.space is better with friends!"
+msgstr "Το koyu.space είναι καλύτερο με φίλους!"
+
+#: src/screens/Takendown.tsx:217
+msgid "koyu.space Terms of Service"
+msgstr ""
+
+#: src/components/StarterPack/ProfileStarterPacks.tsx:298
+msgid "koyu.space will choose a set of recommended accounts from people in your network."
+msgstr "Το koyu.space θα επιλέξει μια σειρά από προτεινόμενους λογαριασμούς από άτομα στο δίκτυό σας."
+
+#: src/screens/Settings/components/PwiOptOut.tsx:99
+msgid "koyu.space will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
+msgstr "Το koyu.space δεν θα εμφανίσει το προφίλ και τις αναρτήσεις σας σε χρήστες που δεν έχουν συνδεθεί. Άλλες εφαρμογές ενδέχεται να μην σεβαστούν αυτό το αίτημα. Αυτό δεν κάνει τον λογαριασμό σας ιδιωτικό."
+
+#: src/screens/Settings/AppIconSettings/index.tsx:99
+msgid "koyu.space+"
+msgstr "koyu.space+"
+
+#: src/screens/Settings/AppIconSettings/index.tsx:102
+msgid "koyu.space+ icons"
+msgstr ""
+
+#: src/view/shell/NavSignupCard.tsx:72
+msgid "koyu's personal website"
+msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:231
 msgid "Labeled by {0}."
@@ -3909,10 +3904,6 @@ msgstr "μαθετε περισσότερα"
 msgid "Learn More"
 msgstr "Μάθετε περισσότερα"
 
-#: src/view/com/auth/SplashScreen.web.tsx:166
-msgid "Learn more about Bluesky"
-msgstr "Μάθετε περισσότερα για το Bluesky"
-
 #: src/view/com/auth/server-input/index.tsx:218
 msgid "Learn more about self hosting your PDS."
 msgstr "Μάθετε περισσότερα για την αυτόνομη φιλοξενία του PDS σας."
@@ -3932,8 +3923,8 @@ msgstr "Μάθετε περισσότερα για αυτήν την προει�
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:99
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:102
-msgid "Learn more about what is public on Bluesky."
-msgstr "Μάθετε περισσότερα για το τι είναι δημόσιο στο Bluesky."
+msgid "Learn more about what is public on koyu.space."
+msgstr "Μάθετε περισσότερα για το τι είναι δημόσιο στο koyu.space."
 
 #: src/components/moderation/ContentHider.tsx:239
 #: src/view/com/auth/server-input/index.tsx:220
@@ -3962,8 +3953,8 @@ msgid "Leave them all unchecked to see any language."
 msgstr "Αφήστε τα όλα χωρίς επιλογή για να δείτε οποιαδήποτε γλώσσα."
 
 #: src/view/com/modals/LinkWarning.tsx:65
-msgid "Leaving Bluesky"
-msgstr "Αποχώρηση από το Bluesky"
+msgid "Leaving koyu.space"
+msgstr "Αποχώρηση από το koyu.space"
 
 #: src/screens/SignupQueued.tsx:155
 msgid "left to go."
@@ -4050,8 +4041,8 @@ msgstr "\"Μου αρέσει\""
 msgid "Likes on this post"
 msgstr "\"Μου αρέσει\" σε αυτήν την ανάρτηση"
 
-#: src/view/com/post-thread/PostThread.tsx:630
-#: src/view/com/post-thread/PostThread.tsx:635
+#: src/view/com/post-thread/PostThread.tsx:629
+#: src/view/com/post-thread/PostThread.tsx:634
 msgid "Linear"
 msgstr ""
 
@@ -4117,7 +4108,7 @@ msgstr "Λίστα αφαίρεση σίγασης"
 #: src/view/screens/Lists.tsx:62
 #: src/view/screens/Profile.tsx:221
 #: src/view/screens/Profile.tsx:229
-#: src/view/shell/desktop/LeftNav.tsx:669
+#: src/view/shell/desktop/LeftNav.tsx:673
 #: src/view/shell/Drawer.tsx:501
 msgid "Lists"
 msgstr "Λίστες"
@@ -4161,18 +4152,22 @@ msgstr "Ημερολόγιο"
 msgid "Logged-out visibility"
 msgstr "Ορατότητα κατά την αποσύνδεση"
 
-#: src/view/shell/desktop/RightNav.tsx:125
-msgid "Logo by @sawaratsuki.bsky.social"
+#: src/view/shell/desktop/RightNav.tsx:130
+msgid "Logo by @sawaratsuki.koyu.space"
 msgstr ""
 
-#: src/view/shell/desktop/RightNav.tsx:122
+#: src/view/shell/desktop/RightNav.tsx:127
 #: src/view/shell/Drawer.tsx:639
-msgid "Logo by <0>@sawaratsuki.bsky.social</0>"
-msgstr "Λογότυπο από <0>@sawaratsuki.bsky.social</0>"
+msgid "Logo by <0>@sawaratsuki.koyu.space</0>"
+msgstr "Λογότυπο από <0>@sawaratsuki.koyu.space</0>"
 
 #: src/components/RichTextTag.tsx:53
 msgid "Long press to open tag menu for #{tag}"
 msgstr "Πατήστε παρατεταμένα για να ανοίξετε το μενού ετικετών για #{tag}"
+
+#: src/view/shell/NavSignupCard.tsx:69
+msgid "Looking for"
+msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:120
 msgid "Looks like XXXXX-XXXXX"
@@ -4251,7 +4246,7 @@ msgstr "Μενού"
 msgid "Message {0}"
 msgstr "Μήνυμα {0}"
 
-#: src/components/dms/MessageMenu.tsx:73
+#: src/components/dms/MessageContextMenu.tsx:68
 msgctxt "toast"
 msgid "Message deleted"
 msgstr "Το μήνυμα διαγράφηκε"
@@ -4259,6 +4254,10 @@ msgstr "Το μήνυμα διαγράφηκε"
 #: src/screens/Messages/components/ChatListItem.tsx:190
 msgid "Message deleted"
 msgstr "Το μήνυμα διαγράφηκε"
+
+#: src/components/dms/MessageContextMenu.tsx:83
+msgid "Message from @{0}: {1}"
+msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:201
 msgid "Message from server: {0}"
@@ -4272,6 +4271,10 @@ msgstr "Πεδίο εισαγωγής μηνύματος"
 #: src/screens/Messages/components/MessageInput.web.tsx:60
 msgid "Message is too long"
 msgstr "Το μήνυμα είναι πολύ μακρύ"
+
+#: src/components/dms/MessageContextMenu.tsx:81
+msgid "Message options"
+msgstr ""
 
 #: src/Navigation.tsx:642
 msgid "Messages"
@@ -4373,8 +4376,8 @@ msgid "Most-liked first"
 msgstr "Τα Πιο πολύ αγαπημένα πρώτα"
 
 #: src/screens/Settings/ThreadPreferences.tsx:91
-#: src/view/com/post-thread/PostThread.tsx:686
-#: src/view/com/post-thread/PostThread.tsx:691
+#: src/view/com/post-thread/PostThread.tsx:685
+#: src/view/com/post-thread/PostThread.tsx:690
 msgid "Most-liked replies first"
 msgstr "Πιο πολύ αγαπημένες απαντήσεις πρώτα"
 
@@ -4601,7 +4604,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "Νέα δημοσίευση"
 
-#: src/view/shell/desktop/LeftNav.tsx:507
+#: src/view/shell/desktop/LeftNav.tsx:508
 msgctxt "action"
 msgid "New Post"
 msgstr "Νέα Δημοσίευση"
@@ -4616,8 +4619,8 @@ msgstr "Νέα λίστα χρηστών"
 
 #: src/screens/Settings/ThreadPreferences.tsx:83
 #: src/screens/Settings/ThreadPreferences.tsx:86
-#: src/view/com/post-thread/PostThread.tsx:676
-#: src/view/com/post-thread/PostThread.tsx:681
+#: src/view/com/post-thread/PostThread.tsx:675
+#: src/view/com/post-thread/PostThread.tsx:680
 msgid "Newest replies first"
 msgstr "Πιο πρόσφατες απαντήσεις πρώτα"
 
@@ -4789,8 +4792,8 @@ msgid "Note about sharing"
 msgstr "Σημείωση σχετικά με την κοινή χρήση"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:88
-msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
-msgstr "Σημείωση: Το Bluesky είναι ένα ανοιχτό και δημόσιο δίκτυο. Αυτή η ρύθμιση περιορίζει μόνο την ορατότητα του περιεχομένου σας στην εφαρμογή και τον ιστότοπο Bluesky, και άλλες εφαρμογές ενδέχεται να μην σεβαστούν αυτήν τη ρύθμιση. Το περιεχόμενό σας μπορεί να εξακολουθεί να εμφανίζεται σε χρήστες που δεν έχουν συνδεθεί από άλλες εφαρμογές και ιστότοπους."
+msgid "Note: koyu.space is an open and public network. This setting only limits the visibility of your content on the koyu.space app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
+msgstr "Σημείωση: Το koyu.space είναι ένα ανοιχτό και δημόσιο δίκτυο. Αυτή η ρύθμιση περιορίζει μόνο την ορατότητα του περιεχομένου σας στην εφαρμογή και τον ιστότοπο koyu.space, και άλλες εφαρμογές ενδέχεται να μην σεβαστούν αυτήν τη ρύθμιση. Το περιεχόμενό σας μπορεί να εξακολουθεί να εμφανίζεται σε χρήστες που δεν έχουν συνδεθεί από άλλες εφαρμογές και ιστότοπους."
 
 #: src/screens/Messages/ChatList.tsx:264
 msgid "Nothing here"
@@ -4820,7 +4823,7 @@ msgstr "Ήχοι Ειδοποιήσεων"
 #: src/Navigation.tsx:637
 #: src/view/screens/Notifications.tsx:128
 #: src/view/shell/bottom-bar/BottomBar.tsx:236
-#: src/view/shell/desktop/LeftNav.tsx:632
+#: src/view/shell/desktop/LeftNav.tsx:636
 #: src/view/shell/Drawer.tsx:449
 msgid "Notifications"
 msgstr "Ειδοποιήσεις"
@@ -4829,7 +4832,7 @@ msgstr "Ειδοποιήσεις"
 msgid "now"
 msgstr "τώρα"
 
-#: src/components/dms/MessageItem.tsx:198
+#: src/components/dms/MessageItem.tsx:186
 msgid "Now"
 msgstr "Τώρα"
 
@@ -4869,8 +4872,8 @@ msgstr "Εντάξει"
 
 #: src/screens/Settings/ThreadPreferences.tsx:75
 #: src/screens/Settings/ThreadPreferences.tsx:78
-#: src/view/com/post-thread/PostThread.tsx:666
-#: src/view/com/post-thread/PostThread.tsx:671
+#: src/view/com/post-thread/PostThread.tsx:665
+#: src/view/com/post-thread/PostThread.tsx:670
 msgid "Oldest replies first"
 msgstr "Πιο παλιές απαντήσεις πρώτα"
 
@@ -4945,12 +4948,12 @@ msgstr "Άνοιγμα δημιουργού εικόνας προφίλ"
 msgid "Open conversation options"
 msgstr "Άνοιγμα επιλογών συνομιλίας"
 
-#: src/components/Layout/Header/index.tsx:158
+#: src/components/Layout/Header/index.tsx:159
 msgid "Open drawer menu"
 msgstr ""
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1244
+#: src/view/com/composer/Composer.tsx:1247
 msgid "Open emoji picker"
 msgstr "Άνοιγμα επιλογέα emoji"
 
@@ -4963,11 +4966,11 @@ msgstr ""
 msgid "Open feed options menu"
 msgstr "Άνοιγμα μενού επιλογών ροών"
 
-#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:71
+#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:79
 msgid "Open link to {niceUrl}"
 msgstr "Άνοιγμα συνδέσμου προς {niceUrl}"
 
-#: src/components/dms/ActionsWrapper.tsx:90
+#: src/components/dms/ActionsWrapper.tsx:57
 msgid "Open message options"
 msgstr "Άνοιγμα επιλογών μηνύματος"
 
@@ -5036,18 +5039,18 @@ msgstr "Ανοίγει το εργαλείο σύνταξης κειμένου"
 msgid "Opens device photo gallery"
 msgstr "Ανοίγει τη συλλογή φωτογραφιών της συσκευής"
 
-#: src/view/com/composer/Composer.tsx:1245
+#: src/view/com/composer/Composer.tsx:1248
 msgid "Opens emoji picker"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:49
-#: src/view/com/auth/SplashScreen.web.tsx:111
-msgid "Opens flow to create a new Bluesky account"
-msgstr "Ανοίγει τη διαδικασία για να δημιουργήσετε ένα νέο λογαριασμό Bluesky"
+#: src/view/com/auth/SplashScreen.tsx:42
+#: src/view/com/auth/SplashScreen.web.tsx:100
+msgid "Opens flow to create a new koyu.space account"
+msgstr "Ανοίγει τη διαδικασία για να δημιουργήσετε ένα νέο λογαριασμό koyu.space"
 
-#: src/view/com/auth/SplashScreen.tsx:63
-#: src/view/com/auth/SplashScreen.web.tsx:125
-msgid "Opens flow to sign in to your existing Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:56
+#: src/view/com/auth/SplashScreen.web.tsx:114
+msgid "Opens flow to sign in to your existing koyu.space account"
 msgstr ""
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
@@ -5071,7 +5074,7 @@ msgid "Opens the linked website"
 msgstr "Ανοίγει τον συνδεδεμένο ιστότοπο"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:683
-#: src/view/com/util/UserAvatar.tsx:446
+#: src/view/com/util/UserAvatar.tsx:465
 msgid "Opens this profile"
 msgstr "Ανοίγει αυτό το προφίλ"
 
@@ -5135,8 +5138,8 @@ msgid "Our moderation team has received your report."
 msgstr ""
 
 #: src/screens/Messages/components/ChatDisabled.tsx:28
-msgid "Our moderators have reviewed reports and decided to disable your access to chats on Bluesky."
-msgstr "Οι διαχειριστές μας έχουν εξετάσει τις αναφορές και αποφάσισαν να απενεργοποιήσουν την πρόσβαση σας στις συνομιλίες στο Bluesky."
+msgid "Our moderators have reviewed reports and decided to disable your access to chats on koyu.space."
+msgstr "Οι διαχειριστές μας έχουν εξετάσει τις αναφορές και αποφάσισαν να απενεργοποιήσουν την πρόσβαση σας στις συνομιλίες στο koyu.space."
 
 #: src/components/Lists.tsx:190
 #: src/view/screens/NotFound.tsx:47
@@ -5395,7 +5398,7 @@ msgstr ""
 msgid "Porn"
 msgstr "Πορνογραφία"
 
-#: src/view/com/composer/Composer.tsx:959
+#: src/view/com/composer/Composer.tsx:963
 msgctxt "action"
 msgid "Post"
 msgstr "Δημοσίευση"
@@ -5405,7 +5408,7 @@ msgctxt "description"
 msgid "Post"
 msgstr "Δημοσίευση"
 
-#: src/view/com/composer/Composer.tsx:957
+#: src/view/com/composer/Composer.tsx:961
 msgctxt "action"
 msgid "Post All"
 msgstr "Δημοσίευση Όλων"
@@ -5534,8 +5537,8 @@ msgstr "Προτεραιότητα σε όσους λογαριασμούς ακ
 msgid "Priority notifications"
 msgstr "Προτεραιότητες ειδοποιήσεων"
 
-#: src/view/shell/desktop/RightNav.tsx:105
-#: src/view/shell/desktop/RightNav.tsx:106
+#: src/view/shell/desktop/RightNav.tsx:110
+#: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
 msgstr "Απόρρητο"
 
@@ -5558,7 +5561,7 @@ msgstr "Απόρρητο και Ασφάλεια"
 msgid "Privacy Policy"
 msgstr "Πολιτική Απορρήτου"
 
-#: src/view/com/composer/Composer.tsx:1658
+#: src/view/com/composer/Composer.tsx:1650
 msgid "Processing video..."
 msgstr "Επεξεργασία βίντεο..."
 
@@ -5573,7 +5576,7 @@ msgid "profile"
 msgstr "προφίλ"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:286
-#: src/view/shell/desktop/LeftNav.tsx:687
+#: src/view/shell/desktop/LeftNav.tsx:691
 #: src/view/shell/Drawer.tsx:71
 #: src/view/shell/Drawer.tsx:526
 msgid "Profile"
@@ -5645,8 +5648,8 @@ msgstr "Παραθέσεις αυτής της δημοσίευσης"
 
 #: src/screens/Settings/ThreadPreferences.tsx:99
 #: src/screens/Settings/ThreadPreferences.tsx:102
-#: src/view/com/post-thread/PostThread.tsx:696
-#: src/view/com/post-thread/PostThread.tsx:701
+#: src/view/com/post-thread/PostThread.tsx:695
+#: src/view/com/post-thread/PostThread.tsx:700
 msgid "Random (aka \"Poster's Roulette\")"
 msgstr "Τυχαίο (aka “Poster’s Roulette”)"
 
@@ -5671,19 +5674,15 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:171
-msgid "Read the Bluesky blog"
-msgstr "Διαβάστε το blog του Bluesky"
-
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
-msgid "Read the Bluesky Privacy Policy"
-msgstr "Διαβάστε την Πολιτική Απορρήτου του Bluesky"
+msgid "Read the koyu.space Privacy Policy"
+msgstr "Διαβάστε την Πολιτική Απορρήτου του koyu.space"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
-msgid "Read the Bluesky Terms of Service"
-msgstr "Διαβάστε τους Όρους Χρήσης του Bluesky"
+msgid "Read the koyu.space Terms of Service"
+msgstr "Διαβάστε τους Όρους Χρήσης του koyu.space"
 
 #: src/screens/Takendown.tsx:162
 #: src/screens/Takendown.tsx:170
@@ -5749,8 +5748,8 @@ msgstr "Αφαίρεση λογαριασμού"
 msgid "Remove attachment"
 msgstr "Αφαίρεση συνημμένου"
 
-#: src/view/com/util/UserAvatar.tsx:397
-#: src/view/com/util/UserAvatar.tsx:400
+#: src/view/com/util/UserAvatar.tsx:416
+#: src/view/com/util/UserAvatar.tsx:419
 msgid "Remove Avatar"
 msgstr "Αφαίρεση φωτογραφίας προφίλ"
 
@@ -5877,7 +5876,7 @@ msgstr "Οι απαντήσεις είναι απενεργοποιημένες"
 msgid "Replies to this post are disabled."
 msgstr "Οι απαντήσεις σε αυτή τη δημοσίευση είναι απενεργοποιημένες."
 
-#: src/view/com/composer/Composer.tsx:955
+#: src/view/com/composer/Composer.tsx:959
 msgctxt "action"
 msgid "Reply"
 msgstr "Απάντηση"
@@ -5904,7 +5903,7 @@ msgstr "Ρυθμίσεις απαντήσεων"
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "Οι ρυθμίσεις απαντήσεων επιλέγονται από τον δημιουργό του νήματος"
 
-#: src/view/com/post-thread/PostThread.tsx:652
+#: src/view/com/post-thread/PostThread.tsx:651
 msgid "Reply sorting"
 msgstr ""
 
@@ -5939,7 +5938,7 @@ msgstr "Η ορατότητα απάντησης ενημερώθηκε"
 msgid "Reply was successfully hidden"
 msgstr "Η απάντηση κρύφτηκε επιτυχώς"
 
-#: src/components/dms/MessageMenu.tsx:134
+#: src/components/dms/MessageContextMenu.tsx:125
 #: src/components/dms/MessagesListBlockedFooter.tsx:85
 #: src/components/dms/MessagesListBlockedFooter.tsx:92
 msgid "Report"
@@ -5973,7 +5972,7 @@ msgstr "Αναφορά ροής"
 msgid "Report List"
 msgstr "Αναφορά Λίστας"
 
-#: src/components/dms/MessageMenu.tsx:132
+#: src/components/dms/MessageContextMenu.tsx:123
 msgid "Report message"
 msgstr "Αναφορά μηνύματος"
 
@@ -6138,7 +6137,7 @@ msgstr ""
 msgid "Retries the last action, which errored out"
 msgstr "Επανάληψη της τελευταίας ενέργειας, η οποία παρουσίασε σφάλμα"
 
-#: src/components/dms/MessageItem.tsx:245
+#: src/components/dms/MessageItem.tsx:233
 #: src/components/Error.tsx:65
 #: src/components/Lists.tsx:110
 #: src/components/moderation/ReportDialog/index.tsx:221
@@ -6289,7 +6288,7 @@ msgstr "Μετακίνηση στην κορυφή"
 #: src/view/screens/Search/Search.tsx:570
 #: src/view/screens/Search/Search.tsx:848
 #: src/view/shell/bottom-bar/BottomBar.tsx:182
-#: src/view/shell/desktop/LeftNav.tsx:613
+#: src/view/shell/desktop/LeftNav.tsx:617
 #: src/view/shell/Drawer.tsx:370
 msgid "Search"
 msgstr "Αναζήτηση"
@@ -6381,10 +6380,6 @@ msgstr ""
 #: src/components/RichTextTag.tsx:132
 msgid "See #{tag} posts by user"
 msgstr ""
-
-#: src/view/com/auth/SplashScreen.web.tsx:176
-msgid "See jobs at Bluesky"
-msgstr "Δείτε θέσεις εργασίας στο Bluesky"
 
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "See this guide"
@@ -6585,7 +6580,7 @@ msgstr "Ορίζει email για επαναφορά κωδικού πρόσβα
 
 #: src/Navigation.tsx:173
 #: src/screens/Settings/Settings.tsx:80
-#: src/view/shell/desktop/LeftNav.tsx:705
+#: src/view/shell/desktop/LeftNav.tsx:709
 #: src/view/shell/Drawer.tsx:539
 msgid "Settings"
 msgstr "Ρυθμίσεις"
@@ -6665,8 +6660,8 @@ msgid "Share this starter pack"
 msgstr "Κοινή χρήση αυτού του Starter Pack"
 
 #: src/components/StarterPack/ShareDialog.tsx:99
-msgid "Share this starter pack and help people join your community on Bluesky."
-msgstr "Μοιραστείτε αυτό το Starter Pack και βοηθήστε κι άλλους να γίνουν μέλη της κοινότητάς σας στο Bluesky."
+msgid "Share this starter pack and help people join your community on koyu.space."
+msgstr "Μοιραστείτε αυτό το Starter Pack και βοηθήστε κι άλλους να γίνουν μέλη της κοινότητάς σας στο koyu.space."
 
 #: src/components/dms/ChatEmptyPill.tsx:34
 msgid "Share your favorite feed!"
@@ -6682,7 +6677,7 @@ msgstr "Κοινή χρήση της συνδεδεμένης ιστοσελίδ
 
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:137
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 msgid "Show"
 msgstr "Εμφάνιση"
 
@@ -6749,7 +6744,7 @@ msgstr ""
 msgid "Show replies"
 msgstr "Εμφάνιση απαντήσεων"
 
-#: src/view/com/post-thread/PostThread.tsx:626
+#: src/view/com/post-thread/PostThread.tsx:625
 msgid "Show replies as"
 msgstr ""
 
@@ -6802,10 +6797,10 @@ msgstr ""
 #: src/screens/Login/index.tsx:122
 #: src/screens/Login/index.tsx:143
 #: src/screens/Login/LoginForm.tsx:181
-#: src/view/com/auth/SplashScreen.tsx:61
-#: src/view/com/auth/SplashScreen.tsx:69
-#: src/view/com/auth/SplashScreen.web.tsx:123
-#: src/view/com/auth/SplashScreen.web.tsx:131
+#: src/view/com/auth/SplashScreen.tsx:54
+#: src/view/com/auth/SplashScreen.tsx:62
+#: src/view/com/auth/SplashScreen.web.tsx:112
+#: src/view/com/auth/SplashScreen.web.tsx:120
 #: src/view/shell/bottom-bar/BottomBar.tsx:325
 #: src/view/shell/bottom-bar/BottomBar.tsx:330
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:209
@@ -6837,7 +6832,7 @@ msgid "Sign in to account that is not listed"
 msgstr ""
 
 #: src/components/dialogs/Signin.tsx:46
-msgid "Sign in to Bluesky or create a new account"
+msgid "Sign in to koyu.space or create a new account"
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:225
@@ -6846,9 +6841,9 @@ msgstr ""
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:85
-#: src/view/shell/desktop/LeftNav.tsx:207
-#: src/view/shell/desktop/LeftNav.tsx:287
-#: src/view/shell/desktop/LeftNav.tsx:290
+#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:288
+#: src/view/shell/desktop/LeftNav.tsx:291
 msgid "Sign out"
 msgstr "Αποσύνδεση"
 
@@ -6857,7 +6852,7 @@ msgid "Sign Out"
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:256
-#: src/view/shell/desktop/LeftNav.tsx:204
+#: src/view/shell/desktop/LeftNav.tsx:205
 msgid "Sign out?"
 msgstr "Αποσύνδεση;"
 
@@ -6939,8 +6934,8 @@ msgstr ""
 msgid "Something wrong? Let us know."
 msgstr ""
 
-#: src/App.native.tsx:122
-#: src/App.web.tsx:98
+#: src/App.native.tsx:123
+#: src/App.web.tsx:99
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr ""
 
@@ -7122,7 +7117,7 @@ msgstr "Υποστήριξη"
 #: src/screens/Settings/Settings.tsx:102
 #: src/screens/Settings/Settings.tsx:116
 #: src/screens/Settings/Settings.tsx:412
-#: src/view/shell/desktop/LeftNav.tsx:242
+#: src/view/shell/desktop/LeftNav.tsx:243
 msgid "Switch account"
 msgstr "Αλλαγή λογαριασμού"
 
@@ -7131,11 +7126,11 @@ msgstr "Αλλαγή λογαριασμού"
 msgid "Switch Account"
 msgstr "Αλλαγή λογαριασμού"
 
-#: src/view/shell/desktop/LeftNav.tsx:106
+#: src/view/shell/desktop/LeftNav.tsx:107
 msgid "Switch accounts"
 msgstr ""
 
-#: src/view/shell/desktop/LeftNav.tsx:250
+#: src/view/shell/desktop/LeftNav.tsx:251
 msgid "Switch to {0}"
 msgstr ""
 
@@ -7155,6 +7150,11 @@ msgstr "Λογαριασμός συστήματος"
 #: src/components/dialogs/MutedWords.tsx:282
 msgid "Tags only"
 msgstr "Μόνο ετικέτες"
+
+#: src/components/ContextMenu/Backdrop.ios.tsx:44
+#: src/components/ContextMenu/Backdrop.tsx:40
+msgid "Tap to close context menu"
+msgstr ""
 
 #: src/components/ProgressGuide/Toast.tsx:156
 msgid "Tap to dismiss"
@@ -7189,8 +7189,8 @@ msgstr "Πες μας λίγα πράγματα για τον εαυτό σου"
 msgid "Tell us a little more"
 msgstr "Πες μας λίγα ακόμη"
 
-#: src/view/shell/desktop/RightNav.tsx:111
-#: src/view/shell/desktop/RightNav.tsx:112
+#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
 msgstr "Όροι"
 
@@ -7279,10 +7279,6 @@ msgstr ""
 msgid "The author of this thread has hidden this reply."
 msgstr "Ο συντάκτης αυτού του νήματος έχει κρύψει αυτήν την απάντηση."
 
-#: src/screens/Moderation/index.tsx:358
-msgid "The Bluesky web application"
-msgstr ""
-
 #: src/view/screens/CommunityGuidelines.tsx:38
 msgid "The Community Guidelines have been moved to <0/>"
 msgstr "Οι Οδηγίες Κοινότητας έχουν μετακινηθεί στο <0/>"
@@ -7300,8 +7296,8 @@ msgid "The Discover feed now knows what you like"
 msgstr "Η ροή Ανακαλύψτε ξέρει πλέον τι σας αρέσει"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:324
-msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
-msgstr "Η εμπειρία είναι καλύτερη στην εφαρμογή. Κατεβάστε το Bluesky τώρα και θα συνεχίσουμε από εκεί που σταματήσαμε."
+msgid "The experience is better in the app. Download koyu.space now and we'll pick back up where you left off."
+msgstr "Η εμπειρία είναι καλύτερη στην εφαρμογή. Κατεβάστε το koyu.space τώρα και θα συνεχίσουμε από εκεί που σταματήσαμε."
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
 msgid "The feed has been replaced with Discover."
@@ -7317,6 +7313,10 @@ msgstr "Οι ακόλουθες ετικέτες εφαρμόστηκαν στο
 
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
+msgstr ""
+
+#: src/screens/Moderation/index.tsx:358
+msgid "The koyu.space web application"
 msgstr ""
 
 #: src/view/com/post-thread/PostThread.tsx:265
@@ -7339,6 +7339,10 @@ msgstr "Ο διακομιστής φαίνεται να αντιμετωπίζε
 #: src/screens/StarterPack/StarterPackScreen.tsx:722
 msgid "The starter pack that you are trying to view is invalid. You may delete this starter pack instead."
 msgstr "Το starter pack που προσπαθείτε να δείτε είναι άκυρο. Μπορείτε να διαγράψετε αυτό το starter pack αντίθετα."
+
+#: src/components/ContextMenu/index.tsx:305
+msgid "The subject of the context menu"
+msgstr ""
 
 #: src/view/screens/Support.tsx:37
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
@@ -7385,7 +7389,7 @@ msgstr "Παρουσιάστηκε πρόβλημα επικοινωνίας μ�
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Παρουσιάστηκε πρόβλημα λήψης ειδοποιήσεων. Πατήστε εδώ για να δοκιμάσετε ξανά."
 
-#: src/view/com/posts/PostFeed.tsx:592
+#: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Παρουσιάστηκε πρόβλημα λήψης αναρτήσεων. Πατήστε εδώ για να δοκιμάσετε ξανά."
 
@@ -7455,8 +7459,8 @@ msgid "There was an unexpected issue in the application. Please let us know if t
 msgstr "Παρουσιάστηκε ένα απροσδόκητο πρόβλημα στην εφαρμογή. Παρακαλούμε ενημερώστε μας εάν σας συνέβη αυτό!"
 
 #: src/screens/SignupQueued.tsx:130
-msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "Υπήρξε μια έξαρση νέων χρηστών στο Bluesky! Θα ενεργοποιήσουμε τον λογαριασμό σας το συντομότερο δυνατόν."
+msgid "There's been a rush of new users to koyu.space! We'll activate your account as soon as we can."
+msgstr "Υπήρξε μια έξαρση νέων χρηστών στο koyu.space! Θα ενεργοποιήσουμε τον λογαριασμό σας το συντομότερο δυνατόν."
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:62
 msgid "These settings only apply to the Following feed."
@@ -7479,8 +7483,8 @@ msgid "This appeal will be sent to <0>{sourceName}</0>."
 msgstr "Αυτή η ένσταση θα σταλεί στο <0>{sourceName}</0>."
 
 #: src/screens/Messages/components/ChatDisabled.tsx:104
-msgid "This appeal will be sent to Bluesky's moderation service."
-msgstr "Αυτή η ένσταση θα σταλεί στην υπηρεσία διαχείρισης του Bluesky."
+msgid "This appeal will be sent to koyu.space's moderation service."
+msgstr "Αυτή η ένσταση θα σταλεί στην υπηρεσία διαχείρισης του koyu.space."
 
 #: src/screens/Messages/components/MessageListError.tsx:18
 msgid "This chat was disconnected"
@@ -7504,8 +7508,8 @@ msgid "This content is not available because one of the users involved has block
 msgstr "Αυτό το περιεχόμενο δεν είναι διαθέσιμο επειδή ένας από τους εμπλεκόμενους χρήστες έχει αποκλείσει τον άλλον."
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:114
-msgid "This content is not viewable without a Bluesky account."
-msgstr "Αυτό το περιεχόμενο δεν είναι ορατό χωρίς λογαριασμό Bluesky."
+msgid "This content is not viewable without a koyu.space account."
+msgstr "Αυτό το περιεχόμενο δεν είναι ορατό χωρίς λογαριασμό koyu.space."
 
 #: src/screens/Messages/components/ChatListItem.tsx:296
 msgid "This conversation is with a deleted or a deactivated account. Press for options"
@@ -7566,11 +7570,11 @@ msgid "This link is taking you to the following website:"
 msgstr "Αυτός ο σύνδεσμος σας μεταφέρει στον ακόλουθο ιστότοπο:"
 
 #: src/screens/List/ListHiddenScreen.tsx:151
-msgid "This list – created by <0>{0}</0> – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by <0>{0}</0> – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/screens/List/ListHiddenScreen.tsx:146
-msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by you – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/view/screens/ProfileList.tsx:955
@@ -7582,7 +7586,7 @@ msgid "This moderation service is unavailable. See below for more details. If th
 msgstr "Η υπηρεσία διαχείρισης δεν είναι διαθέσιμη. Δείτε παρακάτω για περισσότερες λεπτομέρειες. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας."
 
 #: src/view/com/post-thread/PostThreadItem.tsx:856
-msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
+msgid "This post claims to have been created on <0>{0}</0>, but was first seen by koyu.space on <1>{1}</1>."
 msgstr ""
 
 #: src/components/WhoCanReply.tsx:217
@@ -7667,8 +7671,8 @@ msgstr "Αυτό θα αφαιρέσει τον @{0} από τη λίστα γρ
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr ""
 
-#: src/view/com/post-thread/PostThread.tsx:610
-#: src/view/com/post-thread/PostThread.tsx:613
+#: src/view/com/post-thread/PostThread.tsx:609
+#: src/view/com/post-thread/PostThread.tsx:612
 msgid "Thread options"
 msgstr ""
 
@@ -7681,8 +7685,8 @@ msgstr "Προτιμήσεις νήματος"
 msgid "Thread Preferences"
 msgstr "Προτιμήσεις Νήματος"
 
-#: src/view/com/post-thread/PostThread.tsx:640
-#: src/view/com/post-thread/PostThread.tsx:645
+#: src/view/com/post-thread/PostThread.tsx:639
+#: src/view/com/post-thread/PostThread.tsx:644
 msgid "Threaded"
 msgstr ""
 
@@ -7707,8 +7711,8 @@ msgid "To report a conversation, please report one of its messages via the conve
 msgstr "Για να αναφέρετε μια συνομιλία, παρακαλούμε αναφέρετε ένα από τα μηνύματά της μέσω της οθόνης συνομιλίας. Αυτό επιτρέπει στους διαχειριστές μας να κατανοήσουν το πλαίσιο του προβλήματός σας."
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:129
-msgid "To upload videos to Bluesky, you must first verify your email."
-msgstr "Για να ανεβάσετε βίντεο στο Bluesky, πρέπει πρώτα να επαληθεύσετε το email σας."
+msgid "To upload videos to koyu.space, you must first verify your email."
+msgstr "Για να ανεβάσετε βίντεο στο koyu.space, πρέπει πρώτα να επαληθεύσετε το email σας."
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:31
 msgid "To whom would you like to send this report?"
@@ -7740,8 +7744,8 @@ msgstr "Κορυφή"
 msgid "Topic"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:105
-#: src/components/dms/MessageMenu.tsx:107
+#: src/components/dms/MessageContextMenu.tsx:96
+#: src/components/dms/MessageContextMenu.tsx:98
 #: src/view/com/post-thread/PostThreadItem.tsx:778
 #: src/view/com/post-thread/PostThreadItem.tsx:781
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:451
@@ -7960,7 +7964,7 @@ msgstr "Απεγγραφή από αυτόν τον ετικετογράφο"
 msgid "Unsubscribed from list"
 msgstr "Απεγγραφή από αυτήν την λίστα"
 
-#: src/view/com/composer/Composer.tsx:781
+#: src/view/com/composer/Composer.tsx:782
 msgid "Unsupported video type"
 msgstr ""
 
@@ -8011,20 +8015,20 @@ msgstr "Αντ'αυτού, ανεβάστε μια φωτογραφία"
 msgid "Upload a text file to:"
 msgstr "Ανεβάστε ένα αρχείο κειμένου στο:"
 
-#: src/view/com/util/UserAvatar.tsx:368
-#: src/view/com/util/UserAvatar.tsx:371
+#: src/view/com/util/UserAvatar.tsx:387
+#: src/view/com/util/UserAvatar.tsx:390
 #: src/view/com/util/UserBanner.tsx:123
 #: src/view/com/util/UserBanner.tsx:126
 msgid "Upload from Camera"
 msgstr "Ανεβάστε από την κάμερα"
 
-#: src/view/com/util/UserAvatar.tsx:385
+#: src/view/com/util/UserAvatar.tsx:404
 #: src/view/com/util/UserBanner.tsx:140
 msgid "Upload from Files"
 msgstr "Ανεβάστε από αρχεία"
 
-#: src/view/com/util/UserAvatar.tsx:379
-#: src/view/com/util/UserAvatar.tsx:383
+#: src/view/com/util/UserAvatar.tsx:398
+#: src/view/com/util/UserAvatar.tsx:402
 #: src/view/com/util/UserBanner.tsx:134
 #: src/view/com/util/UserBanner.tsx:138
 msgid "Upload from Library"
@@ -8039,13 +8043,13 @@ msgstr "Ανεβάζω εικόνες..."
 msgid "Uploading link thumbnail..."
 msgstr "Ανεβάζω μικρογραφία συνδέσμου..."
 
-#: src/view/com/composer/Composer.tsx:1655
+#: src/view/com/composer/Composer.tsx:1647
 msgid "Uploading video..."
 msgstr "Ανεβάζω βίντεο..."
 
 #: src/screens/Settings/AppPasswords.tsx:67
-msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
-msgstr "Χρησιμοποιήστε κωδικούς πρόσβασης εφαρμογής για να συνδεθείτε σε άλλους πελάτες Bluesky χωρίς να δώσετε πλήρη πρόσβαση στον λογαριασμό ή τον κωδικό πρόσβασής σας."
+msgid "Use app passwords to sign in to other koyu.space clients without giving full access to your account or password."
+msgstr "Χρησιμοποιήστε κωδικούς πρόσβασης εφαρμογής για να συνδεθείτε σε άλλους πελάτες koyu.space χωρίς να δώσετε πλήρη πρόσβαση στον λογαριασμό ή τον κωδικό πρόσβασής σας."
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:539
 msgid "Use default provider"
@@ -8240,7 +8244,7 @@ msgstr "Το βίντεο δεν βρέθηκε."
 msgid "Video settings"
 msgstr "Ρυθμίσεις βίντεο"
 
-#: src/view/com/composer/Composer.tsx:1665
+#: src/view/com/composer/Composer.tsx:1657
 msgid "Video uploaded"
 msgstr "Το βίντεο ανέβηκε"
 
@@ -8410,8 +8414,8 @@ msgid "We have sent another verification email to <0>{0}</0>."
 msgstr "Στείλαμε ένα νέο email επαλήθευσης στη διεύθυνση <0>{0}</0>."
 
 #: src/screens/Onboarding/StepFinished.tsx:256
-msgid "We hope you have a wonderful time. Remember, Bluesky is:"
-msgstr "Ελπίζουμε να περάσετε υπέροχα. Θυμηθείτε, το Bluesky είναι:"
+msgid "We hope you have a wonderful time. Remember, koyu.space is:"
+msgstr "Ελπίζουμε να περάσετε υπέροχα. Θυμηθείτε, το koyu.space είναι:"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
@@ -8495,9 +8499,7 @@ msgstr "Πώς θέλετε να ονομάσετε το starter pack σας;"
 msgid "What people are posting about."
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:38
-#: src/view/com/auth/SplashScreen.web.tsx:99
-#: src/view/com/composer/Composer.tsx:744
+#: src/view/com/composer/Composer.tsx:745
 msgid "What's up?"
 msgstr "Τι συμβαίνει;"
 
@@ -8571,11 +8573,11 @@ msgstr "Γιατί πρέπει να ελεγχθεί αυτός ο χρήστη
 msgid "Write a message"
 msgstr "Γράψτε ένα μήνυμα"
 
-#: src/view/com/composer/Composer.tsx:832
+#: src/view/com/composer/Composer.tsx:836
 msgid "Write post"
 msgstr "Γράψτε ανάρτηση"
 
-#: src/view/com/composer/Composer.tsx:742
+#: src/view/com/composer/Composer.tsx:743
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:69
 msgid "Write your reply"
 msgstr "Γράψτε την απάντησή σας"
@@ -8684,8 +8686,8 @@ msgid "You don't have any chat requests at the moment."
 msgstr ""
 
 #: src/view/com/modals/InviteCodes.tsx:67
-msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
-msgstr "Δεν έχετε ακόμη κωδικούς πρόσκλησης! Θα σας στείλουμε μερικούς όταν είστε στο Bluesky για λίγο περισσότερο."
+msgid "You don't have any invite codes yet! We'll send you some when you've been on koyu.space for a little longer."
+msgstr "Δεν έχετε ακόμη κωδικούς πρόσκλησης! Θα σας στείλουμε μερικούς όταν είστε στο koyu.space για λίγο περισσότερο."
 
 #: src/view/screens/SavedFeeds.tsx:137
 msgid "You don't have any pinned feeds."
@@ -8820,7 +8822,7 @@ msgid "You previously deactivated @{0}."
 msgstr "Προηγουμένως απενεργοποιήσατε τον @{0}."
 
 #: src/screens/Settings/Settings.tsx:257
-#: src/view/shell/desktop/LeftNav.tsx:205
+#: src/view/shell/desktop/LeftNav.tsx:206
 msgid "You will be signed out of all your accounts."
 msgstr "Θα αποσυνδεθείτε από όλους τους λογαριασμούς σας."
 
@@ -8931,7 +8933,7 @@ msgid "Your account repository, containing all public data records, can be downl
 msgstr "Το αποθετήριο του λογαριασμού σας, που περιέχει όλα τα δημόσια δεδομένα, μπορεί να ληφθεί σε μορφή αρχείου \"CAR\". Αυτό το αρχείο δεν περιέχει ενσωματωμένα πολυμέσα, όπως εικόνες ή τα ιδιωτικά σας δεδομένα, τα οποία μπορούν να ληφθούν ξεχωριστά."
 
 #: src/screens/Takendown.tsx:214
-msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
+msgid "Your account was found to be in violation of the <0>koyu.space Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
 msgstr ""
 
 #: src/screens/Takendown.tsx:154
@@ -9018,8 +9020,8 @@ msgid "Your posts, likes, and blocks are public. Mutes are private."
 msgstr "Οι αναρτήσεις, τα \"Μου αρέσει\" και οι αποκλεισμοί σας είναι δημόσια. Οι σιγάσεις είναι ιδιωτικές."
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
-msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr "Το προφίλ, οι αναρτήσεις, οι ροές και οι λίστες σας δεν θα είναι πλέον ορατές σε άλλους χρήστες του Bluesky. πορείτε να ενεργοποιήσετε τον λογαριασμό σας ανά πάσα στιγμή πραγματοποιώντας είσοδο."
+msgid "Your profile, posts, feeds, and lists will no longer be visible to other koyu.space users. You can reactivate your account at any time by logging in."
+msgstr "Το προφίλ, οι αναρτήσεις, οι ροές και οι λίστες σας δεν θα είναι πλέον ορατές σε άλλους χρήστες του koyu.space. πορείτε να ενεργοποιήσετε τον λογαριασμό σας ανά πάσα στιγμή πραγματοποιώντας είσοδο."
 
 #: src/view/com/composer/Composer.tsx:484
 msgid "Your reply has been published"
@@ -9030,5 +9032,5 @@ msgid "Your report will be sent to <0>{0}</0>."
 msgstr ""
 
 #: src/components/dms/ReportDialog.tsx:200
-msgid "Your report will be sent to the Bluesky Moderation Service"
-msgstr "Η αναφορά σας θα σταλεί στην Υπηρεσία Διαχείρισης του Bluesky"
+msgid "Your report will be sent to the koyu.space Moderation Service"
+msgstr "Η αναφορά σας θα σταλεί στην Υπηρεσία Διαχείρισης του koyu.space"

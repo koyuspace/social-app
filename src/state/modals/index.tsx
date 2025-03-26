@@ -112,7 +112,7 @@ export type Modal =
   // Posts
   | CropImageModal
 
-  // Bluesky access
+  // koyu.space access
   | WaitlistModal
   | InviteCodesModal
 

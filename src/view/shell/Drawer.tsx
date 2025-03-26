@@ -75,7 +75,7 @@ let DrawerProfileCard = ({
       <UserAvatar
         size={52}
         avatar={profile?.avatar}
-        // See https://github.com/bluesky-social/social-app/pull/1801:
+        // See https://github.com/koyuspace/social-app/pull/1801:
         usePlainRNImage={true}
         type={profile?.associated?.labeler ? 'labeler' : 'user'}
       />
@@ -640,9 +640,9 @@ function ExtraLinks() {
             Logo by{' '}
             <InlineLinkText
               style={[a.text_md]}
-              to="/profile/sawaratsuki.bsky.social"
-              label="@sawaratsuki.bsky.social">
-              @sawaratsuki.bsky.social
+              to="/profile/sawaratsuki.koyu.space"
+              label="@sawaratsuki.koyu.space">
+              @sawaratsuki.koyu.space
             </InlineLinkText>
           </Trans>
         </Text>

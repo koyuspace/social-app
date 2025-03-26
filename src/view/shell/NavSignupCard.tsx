@@ -30,7 +30,7 @@ let NavSignupCard = ({}: {}): React.ReactNode => {
 
   return (
     <View style={[{maxWidth: 200}]}>
-      <Link to="/" label="Bluesky - Home">
+      <Link to="/" label="koyu.space - Home">
         <Logo width={32} />
       </Link>
 
@@ -62,6 +62,18 @@ let NavSignupCard = ({}: {}): React.ReactNode => {
             <Trans>Sign in</Trans>
           </ButtonText>
         </Button>
+      </View>
+
+      <View style={[a.mt_md, a.w_full, {height: 32}]}>
+        <Text>
+          <Trans>Looking for</Trans>{' '}
+          <Link to="https://web.koyu.space" label="koyu's personal website">
+            <Text>
+              <Trans>koyu's personal website</Trans>
+            </Text>
+          </Link>
+          <Text>?</Text>
+        </Text>
       </View>
 
       <View style={[a.mt_md, a.w_full, {height: 32}]}>

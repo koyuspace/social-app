@@ -20,10 +20,10 @@ module.exports = function (config) {
   const IS_DEV = !IS_TESTFLIGHT || !IS_PRODUCTION
 
   const ASSOCIATED_DOMAINS = [
-    'applinks:bsky.app',
-    'applinks:staging.bsky.app',
-    'appclips:bsky.app',
-    'appclips:go.bsky.app', // Allows App Clip to work when scanning QR codes
+    'applinks:koyu.space',
+    'applinks:staging.koyu.space',
+    'appclips:koyu.space',
+    'appclips:go.koyu.space', // Allows App Clip to work when scanning QR codes
     // When testing local services, enter an ngrok (et al) domain here. It must use a standard HTTP/HTTPS port.
     ...(IS_DEV || IS_TESTFLIGHT ? [] : []),
   ]
@@ -40,7 +40,7 @@ module.exports = function (config) {
   return {
     expo: {
       version: VERSION,
-      name: 'Bluesky',
+      name: 'koyu.space',
       slug: 'bluesky',
       scheme: 'bluesky',
       owner: 'blueskysocial',
@@ -164,7 +164,7 @@ module.exports = function (config) {
             data: [
               {
                 scheme: 'https',
-                host: 'bsky.app',
+                host: 'koyu.space',
               },
               IS_DEV && {
                 scheme: 'http',
@@ -179,7 +179,7 @@ module.exports = function (config) {
         favicon: './assets/favicon.png',
       },
       updates: {
-        url: 'https://updates.bsky.app/manifest',
+        url: 'https://updates.koyu.space/manifest',
         enabled: UPDATES_ENABLED,
         fallbackToCacheTimeout: 30000,
         codeSigningCertificate: UPDATES_ENABLED
@@ -307,7 +307,7 @@ module.exports = function (config) {
             },
 
             /**
-             * Bluesky+ core set
+             * koyu.space+ core set
              */
             core_aurora: {
               ios: './assets/app-icons/ios_icon_core_aurora.png',
@@ -361,10 +361,10 @@ module.exports = function (config) {
           'react-native-vision-camera',
           {
             enableLocation: false,
-            cameraPermissionText: 'Bluesky needs access to your camera.',
+            cameraPermissionText: 'koyu.space needs access to your camera.',
             enableMicrophonePermission: true,
             microphonePermissionText:
-              'Bluesky needs access to your microphone.',
+              'koyu.space needs access to your microphone.',
           },
         ],
       ].filter(Boolean),
@@ -375,8 +375,8 @@ module.exports = function (config) {
               ios: {
                 appExtensions: [
                   {
-                    targetName: 'Share-with-Bluesky',
-                    bundleIdentifier: 'xyz.blueskyweb.app.Share-with-Bluesky',
+                    targetName: 'Share-with-koyu.space',
+                    bundleIdentifier: 'xyz.blueskyweb.app.Share-with-koyu.space',
                     entitlements: {
                       'com.apple.security.application-groups': [
                         'group.app.bsky',
@@ -384,8 +384,8 @@ module.exports = function (config) {
                     },
                   },
                   {
-                    targetName: 'BlueskyNSE',
-                    bundleIdentifier: 'xyz.blueskyweb.app.BlueskyNSE',
+                    targetName: 'koyu.spaceNSE',
+                    bundleIdentifier: 'xyz.blueskyweb.app.koyu.spaceNSE',
                     entitlements: {
                       'com.apple.security.application-groups': [
                         'group.app.bsky',
@@ -393,7 +393,7 @@ module.exports = function (config) {
                     },
                   },
                   {
-                    targetName: 'BlueskyClip',
+                    targetName: 'koyu.spaceClip',
                     bundleIdentifier: 'xyz.blueskyweb.app.AppClip',
                   },
                 ],

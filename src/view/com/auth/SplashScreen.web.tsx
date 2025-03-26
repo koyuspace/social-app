@@ -87,17 +87,6 @@ export const SplashScreen = ({
           <ErrorBoundary>
             <View style={[a.justify_center, a.align_center]}>
               <Logo width={kawaii ? 300 : 92} fill="sky" />
-
-              {!kawaii && (
-                <View style={[a.pb_sm, a.pt_5xl]}>
-                  <Logotype width={161} fill={t.atoms.text.color} />
-                </View>
-              )}
-
-              <Text
-                style={[a.text_md, a.font_bold, t.atoms.text_contrast_medium]}>
-                <Trans>What's up?</Trans>
-              </Text>
             </View>
 
             <View
@@ -108,7 +97,7 @@ export const SplashScreen = ({
                 onPress={onPressCreateAccount}
                 label={_(msg`Create new account`)}
                 accessibilityHint={_(
-                  msg`Opens flow to create a new Bluesky account`,
+                  msg`Opens flow to create a new koyu.space account`,
                 )}
                 size="large"
                 variant="solid"
@@ -122,7 +111,7 @@ export const SplashScreen = ({
                 onPress={onPressSignin}
                 label={_(msg`Sign in`)}
                 accessibilityHint={_(
-                  msg`Opens flow to sign in to your existing Bluesky account`,
+                  msg`Opens flow to sign in to your existing koyu.space account`,
                 )}
                 size="large"
                 variant="solid"
@@ -162,23 +151,6 @@ function Footer() {
         a.flex_1,
         t.atoms.border_contrast_medium,
       ]}>
-      <InlineLinkText
-        label={_(msg`Learn more about Bluesky`)}
-        to="https://bsky.social">
-        <Trans>Business</Trans>
-      </InlineLinkText>
-      <InlineLinkText
-        label={_(msg`Read the Bluesky blog`)}
-        to="https://bsky.social/about/blog">
-        <Trans>Blog</Trans>
-      </InlineLinkText>
-      <InlineLinkText
-        label={_(msg`See jobs at Bluesky`)}
-        to="https://bsky.social/about/join">
-        <Trans comment="Link to a page with job openings at Bluesky">
-          Jobs
-        </Trans>
-      </InlineLinkText>
 
       <View style={a.flex_1} />
 

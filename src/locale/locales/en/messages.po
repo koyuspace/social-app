@@ -289,11 +289,11 @@ msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:116
-msgid "{profileName} joined Bluesky {0} ago"
+msgid "{profileName} joined koyu.space {0} ago"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:111
-msgid "{profileName} joined Bluesky using a starter pack {0} ago"
+msgid "{profileName} joined koyu.space using a starter pack {0} ago"
 msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:449
@@ -589,7 +589,7 @@ msgid "Adult Content"
 msgstr ""
 
 #: src/screens/Moderation/index.tsx:355
-msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
+msgid "Adult content can only be enabled via the Web at <0>koyu.space</0>."
 msgstr ""
 
 #: src/components/moderation/LabelPreference.tsx:242
@@ -1105,57 +1105,6 @@ msgstr ""
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Blog"
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr ""
-
-#: src/view/com/post-thread/PostThreadItem.tsx:870
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr ""
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:212
-msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:149
-msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr ""
-
-#: src/components/ProgressGuide/List.tsx:53
-#: src/components/ProgressGuide/List.tsx:70
-msgid "Bluesky is better with friends!"
-msgstr ""
-
-#: src/screens/Takendown.tsx:217
-msgid "Bluesky Social Terms of Service"
-msgstr ""
-
-#: src/components/StarterPack/ProfileStarterPacks.tsx:298
-msgid "Bluesky will choose a set of recommended accounts from people in your network."
-msgstr ""
-
-#: src/screens/Settings/components/PwiOptOut.tsx:99
-msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr ""
-
-#: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "Bluesky+"
-msgstr ""
-
-#: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "Bluesky+ icons"
-msgstr ""
-
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
 msgstr ""
@@ -1208,10 +1157,6 @@ msgstr ""
 
 #: src/components/TrendingTopics.tsx:232
 msgid "Browse topic {displayName}"
-msgstr ""
-
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Business"
 msgstr ""
 
 #: src/components/LabelingServiceCard/index.tsx:62
@@ -1961,8 +1906,8 @@ msgstr ""
 msgid "Create a starter pack for me"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:55
-#: src/view/com/auth/SplashScreen.web.tsx:117
+#: src/view/com/auth/SplashScreen.tsx:48
+#: src/view/com/auth/SplashScreen.web.tsx:106
 #: src/view/shell/bottom-bar/BottomBar.tsx:315
 #: src/view/shell/bottom-bar/BottomBar.tsx:320
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:199
@@ -1989,8 +1934,8 @@ msgstr ""
 msgid "Create another"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:47
-#: src/view/com/auth/SplashScreen.web.tsx:109
+#: src/view/com/auth/SplashScreen.tsx:40
+#: src/view/com/auth/SplashScreen.web.tsx:98
 msgid "Create new account"
 msgstr ""
 
@@ -2026,7 +1971,7 @@ msgid "Customize who can interact with this post."
 msgstr ""
 
 #: src/screens/Onboarding/Layout.tsx:56
-msgid "Customizes your Bluesky experience"
+msgid "Customizes your koyu.space experience"
 msgstr ""
 
 #: src/components/dialogs/Embed.tsx:167
@@ -2392,13 +2337,13 @@ msgstr ""
 msgid "Double tap to like"
 msgstr ""
 
-#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
-msgid "Download Bluesky"
-msgstr ""
-
 #: src/screens/Settings/components/ExportCarDialog.tsx:79
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
+msgstr ""
+
+#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
+msgid "Download koyu.space"
 msgstr ""
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:342
@@ -3113,7 +3058,7 @@ msgid "Find people to follow"
 msgstr ""
 
 #: src/view/screens/Search/Search.tsx:582
-msgid "Find posts, users, and feeds on Bluesky"
+msgid "Find posts, users, and feeds on koyu.space"
 msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:195
@@ -3825,16 +3770,11 @@ msgstr ""
 msgid "Job ID: {0}"
 msgstr ""
 
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "Jobs"
-msgstr ""
-
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:211
 #: src/screens/StarterPack/StarterPackScreen.tsx:461
 #: src/screens/StarterPack/StarterPackScreen.tsx:472
-msgid "Join Bluesky"
+msgid "Join koyu.space"
 msgstr ""
 
 #: src/components/StarterPack/QrCode.tsx:68
@@ -3845,6 +3785,57 @@ msgstr ""
 #: src/screens/Onboarding/index.tsx:21
 #: src/screens/Onboarding/state.ts:104
 msgid "Journalism"
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:136
+#: src/view/com/auth/server-input/index.tsx:137
+msgid "koyu.space"
+msgstr ""
+
+#: src/view/com/post-thread/PostThreadItem.tsx:870
+msgid "koyu.space cannot confirm the authenticity of the claimed date."
+msgstr ""
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
+msgctxt "Name of app icon variant"
+msgid "koyu.space Classic™"
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:212
+msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:149
+msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
+msgstr ""
+
+#: src/components/ProgressGuide/List.tsx:53
+#: src/components/ProgressGuide/List.tsx:70
+msgid "koyu.space is better with friends!"
+msgstr ""
+
+#: src/screens/Takendown.tsx:217
+msgid "koyu.space Terms of Service"
+msgstr ""
+
+#: src/components/StarterPack/ProfileStarterPacks.tsx:298
+msgid "koyu.space will choose a set of recommended accounts from people in your network."
+msgstr ""
+
+#: src/screens/Settings/components/PwiOptOut.tsx:99
+msgid "koyu.space will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
+msgstr ""
+
+#: src/screens/Settings/AppIconSettings/index.tsx:99
+msgid "koyu.space+"
+msgstr ""
+
+#: src/screens/Settings/AppIconSettings/index.tsx:102
+msgid "koyu.space+ icons"
+msgstr ""
+
+#: src/view/shell/NavSignupCard.tsx:72
+msgid "koyu's personal website"
 msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:231
@@ -3908,10 +3899,6 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:166
-msgid "Learn more about Bluesky"
-msgstr ""
-
 #: src/view/com/auth/server-input/index.tsx:218
 msgid "Learn more about self hosting your PDS."
 msgstr ""
@@ -3931,7 +3918,7 @@ msgstr ""
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:99
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:102
-msgid "Learn more about what is public on Bluesky."
+msgid "Learn more about what is public on koyu.space."
 msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:239
@@ -3961,7 +3948,7 @@ msgid "Leave them all unchecked to see any language."
 msgstr ""
 
 #: src/view/com/modals/LinkWarning.tsx:65
-msgid "Leaving Bluesky"
+msgid "Leaving koyu.space"
 msgstr ""
 
 #: src/screens/SignupQueued.tsx:155
@@ -4161,16 +4148,20 @@ msgid "Logged-out visibility"
 msgstr ""
 
 #: src/view/shell/desktop/RightNav.tsx:130
-msgid "Logo by @sawaratsuki.bsky.social"
+msgid "Logo by @sawaratsuki.koyu.space"
 msgstr ""
 
 #: src/view/shell/desktop/RightNav.tsx:127
 #: src/view/shell/Drawer.tsx:639
-msgid "Logo by <0>@sawaratsuki.bsky.social</0>"
+msgid "Logo by <0>@sawaratsuki.koyu.space</0>"
 msgstr ""
 
 #: src/components/RichTextTag.tsx:53
 msgid "Long press to open tag menu for #{tag}"
+msgstr ""
+
+#: src/view/shell/NavSignupCard.tsx:69
+msgid "Looking for"
 msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:120
@@ -4796,7 +4787,7 @@ msgid "Note about sharing"
 msgstr ""
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:88
-msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
+msgid "Note: koyu.space is an open and public network. This setting only limits the visibility of your content on the koyu.space app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
 msgstr ""
 
 #: src/screens/Messages/ChatList.tsx:264
@@ -5047,14 +5038,14 @@ msgstr ""
 msgid "Opens emoji picker"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:49
-#: src/view/com/auth/SplashScreen.web.tsx:111
-msgid "Opens flow to create a new Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:42
+#: src/view/com/auth/SplashScreen.web.tsx:100
+msgid "Opens flow to create a new koyu.space account"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:63
-#: src/view/com/auth/SplashScreen.web.tsx:125
-msgid "Opens flow to sign in to your existing Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:56
+#: src/view/com/auth/SplashScreen.web.tsx:114
+msgid "Opens flow to sign in to your existing koyu.space account"
 msgstr ""
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
@@ -5142,7 +5133,7 @@ msgid "Our moderation team has received your report."
 msgstr ""
 
 #: src/screens/Messages/components/ChatDisabled.tsx:28
-msgid "Our moderators have reviewed reports and decided to disable your access to chats on Bluesky."
+msgid "Our moderators have reviewed reports and decided to disable your access to chats on koyu.space."
 msgstr ""
 
 #: src/components/Lists.tsx:190
@@ -5678,18 +5669,14 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:171
-msgid "Read the Bluesky blog"
-msgstr ""
-
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
-msgid "Read the Bluesky Privacy Policy"
+msgid "Read the koyu.space Privacy Policy"
 msgstr ""
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
-msgid "Read the Bluesky Terms of Service"
+msgid "Read the koyu.space Terms of Service"
 msgstr ""
 
 #: src/screens/Takendown.tsx:162
@@ -6389,10 +6376,6 @@ msgstr ""
 msgid "See #{tag} posts by user"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:176
-msgid "See jobs at Bluesky"
-msgstr ""
-
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "See this guide"
 msgstr ""
@@ -6672,7 +6655,7 @@ msgid "Share this starter pack"
 msgstr ""
 
 #: src/components/StarterPack/ShareDialog.tsx:99
-msgid "Share this starter pack and help people join your community on Bluesky."
+msgid "Share this starter pack and help people join your community on koyu.space."
 msgstr ""
 
 #: src/components/dms/ChatEmptyPill.tsx:34
@@ -6809,10 +6792,10 @@ msgstr ""
 #: src/screens/Login/index.tsx:122
 #: src/screens/Login/index.tsx:143
 #: src/screens/Login/LoginForm.tsx:181
-#: src/view/com/auth/SplashScreen.tsx:61
-#: src/view/com/auth/SplashScreen.tsx:69
-#: src/view/com/auth/SplashScreen.web.tsx:123
-#: src/view/com/auth/SplashScreen.web.tsx:131
+#: src/view/com/auth/SplashScreen.tsx:54
+#: src/view/com/auth/SplashScreen.tsx:62
+#: src/view/com/auth/SplashScreen.web.tsx:112
+#: src/view/com/auth/SplashScreen.web.tsx:120
 #: src/view/shell/bottom-bar/BottomBar.tsx:325
 #: src/view/shell/bottom-bar/BottomBar.tsx:330
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:209
@@ -6844,7 +6827,7 @@ msgid "Sign in to account that is not listed"
 msgstr ""
 
 #: src/components/dialogs/Signin.tsx:46
-msgid "Sign in to Bluesky or create a new account"
+msgid "Sign in to koyu.space or create a new account"
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:225
@@ -7291,10 +7274,6 @@ msgstr ""
 msgid "The author of this thread has hidden this reply."
 msgstr ""
 
-#: src/screens/Moderation/index.tsx:358
-msgid "The Bluesky web application"
-msgstr ""
-
 #: src/view/screens/CommunityGuidelines.tsx:38
 msgid "The Community Guidelines have been moved to <0/>"
 msgstr ""
@@ -7312,7 +7291,7 @@ msgid "The Discover feed now knows what you like"
 msgstr ""
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:324
-msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
+msgid "The experience is better in the app. Download koyu.space now and we'll pick back up where you left off."
 msgstr ""
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
@@ -7329,6 +7308,10 @@ msgstr ""
 
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
+msgstr ""
+
+#: src/screens/Moderation/index.tsx:358
+msgid "The koyu.space web application"
 msgstr ""
 
 #: src/view/com/post-thread/PostThread.tsx:265
@@ -7471,7 +7454,7 @@ msgid "There was an unexpected issue in the application. Please let us know if t
 msgstr ""
 
 #: src/screens/SignupQueued.tsx:130
-msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
+msgid "There's been a rush of new users to koyu.space! We'll activate your account as soon as we can."
 msgstr ""
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:62
@@ -7495,7 +7478,7 @@ msgid "This appeal will be sent to <0>{sourceName}</0>."
 msgstr ""
 
 #: src/screens/Messages/components/ChatDisabled.tsx:104
-msgid "This appeal will be sent to Bluesky's moderation service."
+msgid "This appeal will be sent to koyu.space's moderation service."
 msgstr ""
 
 #: src/screens/Messages/components/MessageListError.tsx:18
@@ -7520,7 +7503,7 @@ msgid "This content is not available because one of the users involved has block
 msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:114
-msgid "This content is not viewable without a Bluesky account."
+msgid "This content is not viewable without a koyu.space account."
 msgstr ""
 
 #: src/screens/Messages/components/ChatListItem.tsx:296
@@ -7582,11 +7565,11 @@ msgid "This link is taking you to the following website:"
 msgstr ""
 
 #: src/screens/List/ListHiddenScreen.tsx:151
-msgid "This list – created by <0>{0}</0> – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by <0>{0}</0> – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/screens/List/ListHiddenScreen.tsx:146
-msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by you – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/view/screens/ProfileList.tsx:955
@@ -7598,7 +7581,7 @@ msgid "This moderation service is unavailable. See below for more details. If th
 msgstr ""
 
 #: src/view/com/post-thread/PostThreadItem.tsx:856
-msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
+msgid "This post claims to have been created on <0>{0}</0>, but was first seen by koyu.space on <1>{1}</1>."
 msgstr ""
 
 #: src/components/WhoCanReply.tsx:217
@@ -7723,7 +7706,7 @@ msgid "To report a conversation, please report one of its messages via the conve
 msgstr ""
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:129
-msgid "To upload videos to Bluesky, you must first verify your email."
+msgid "To upload videos to koyu.space, you must first verify your email."
 msgstr ""
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:31
@@ -8060,7 +8043,7 @@ msgid "Uploading video..."
 msgstr ""
 
 #: src/screens/Settings/AppPasswords.tsx:67
-msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
+msgid "Use app passwords to sign in to other koyu.space clients without giving full access to your account or password."
 msgstr ""
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:539
@@ -8426,7 +8409,7 @@ msgid "We have sent another verification email to <0>{0}</0>."
 msgstr ""
 
 #: src/screens/Onboarding/StepFinished.tsx:256
-msgid "We hope you have a wonderful time. Remember, Bluesky is:"
+msgid "We hope you have a wonderful time. Remember, koyu.space is:"
 msgstr ""
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
@@ -8511,8 +8494,6 @@ msgstr ""
 msgid "What people are posting about."
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:38
-#: src/view/com/auth/SplashScreen.web.tsx:99
 #: src/view/com/composer/Composer.tsx:745
 msgid "What's up?"
 msgstr ""
@@ -8700,7 +8681,7 @@ msgid "You don't have any chat requests at the moment."
 msgstr ""
 
 #: src/view/com/modals/InviteCodes.tsx:67
-msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
+msgid "You don't have any invite codes yet! We'll send you some when you've been on koyu.space for a little longer."
 msgstr ""
 
 #: src/view/screens/SavedFeeds.tsx:137
@@ -8947,7 +8928,7 @@ msgid "Your account repository, containing all public data records, can be downl
 msgstr ""
 
 #: src/screens/Takendown.tsx:214
-msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
+msgid "Your account was found to be in violation of the <0>koyu.space Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
 msgstr ""
 
 #: src/screens/Takendown.tsx:154
@@ -9034,7 +9015,7 @@ msgid "Your posts, likes, and blocks are public. Mutes are private."
 msgstr ""
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
-msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
+msgid "Your profile, posts, feeds, and lists will no longer be visible to other koyu.space users. You can reactivate your account at any time by logging in."
 msgstr ""
 
 #: src/view/com/composer/Composer.tsx:484
@@ -9046,5 +9027,5 @@ msgid "Your report will be sent to <0>{0}</0>."
 msgstr ""
 
 #: src/components/dms/ReportDialog.tsx:200
-msgid "Your report will be sent to the Bluesky Moderation Service"
+msgid "Your report will be sent to the koyu.space Moderation Service"
 msgstr ""

@@ -3,12 +3,12 @@
 
 <https://oembed.com/>
 
-* URL scheme: `https://bsky.app/profile/*/post/*`
-* API endpoint: `https://embed.bsky.app/oembed`
+* URL scheme: `https://koyu.space/profile/*/post/*`
+* API endpoint: `https://embed.koyu.space/oembed`
 
 Request params:
 
-- `url` (required): support both AT-URI and bsky.app URL
+- `url` (required): support both AT-URI and koyu.space URL
 - `maxwidth` (optional): [220..550], 325 is default
 - `maxheight` (not supported!)
 - `format` (optional): only `json` supported
@@ -19,8 +19,8 @@ Response format:
 - `version` (required): "1.0"
 - `author_name` (optional): display name
 - `author_url` (optional): profile URL
-- `provider_name` (optional): "Bluesky Social"
-- `provider_url` (optional): "https://bsky.app"
+- `provider_name` (optional): "koyu.space"
+- `provider_url` (optional): "https://koyu.space"
 - `cache_age` (optional, integer seconds): 86400 (24 hours) (?)
 - `width` (required): ?
 - `height` (required): ?
@@ -35,14 +35,14 @@ Not used:
 Only `json` is supported; `xml` is a 501.
 
 ```
-<link rel="alternate" type="application/json+oembed" href="https://embed.bsky.app/oembed?format=json&url=https://bsky.app/profile/bnewbold.net/post/abc123" />
+<link rel="alternate" type="application/json+oembed" href="https://embed.koyu.space/oembed?format=json&url=https://koyu.space/profile/bnewbold.net/post/abc123" />
 ```
 
 
 ## iframe URL
 
-`https://embed.bsky.app/embed/<did>/app.bsky.feed.post/<rkey>`
-`https://embed.bsky.app/static/embed.js`
+`https://embed.koyu.space/embed/<did>/app.bsky.feed.post/<rkey>`
+`https://embed.koyu.space/static/embed.js`
 
 ```
 <blockquote class="bluesky-post" data-lang="en" data-align="center">

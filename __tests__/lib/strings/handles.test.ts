@@ -2,12 +2,12 @@ import {IsValidHandle, validateServiceHandle} from '#/lib/strings/handles'
 
 describe('handle validation', () => {
   const valid = [
-    ['ali', 'bsky.social'],
-    ['alice', 'bsky.social'],
-    ['a-lice', 'bsky.social'],
-    ['a-----lice', 'bsky.social'],
-    ['123', 'bsky.social'],
-    ['123456789012345678', 'bsky.social'],
+    ['ali', 'koyu.space'],
+    ['alice', 'koyu.space'],
+    ['a-lice', 'koyu.space'],
+    ['a-----lice', 'koyu.space'],
+    ['123', 'koyu.space'],
+    ['123456789012345678', 'koyu.space'],
     ['alice', 'custom-pds.com'],
     ['alice', 'my-custom-pds-with-long-name.social'],
     ['123456789012345678', 'my-custom-pds-with-long-name.social'],
@@ -18,11 +18,11 @@ describe('handle validation', () => {
   })
 
   const invalid = [
-    ['al', 'bsky.social', 'frontLength'],
-    ['-alice', 'bsky.social', 'hyphenStartOrEnd'],
-    ['alice-', 'bsky.social', 'hyphenStartOrEnd'],
-    ['%%%', 'bsky.social', 'handleChars'],
-    ['1234567890123456789', 'bsky.social', 'frontLength'],
+    ['al', 'koyu.space', 'frontLength'],
+    ['-alice', 'koyu.space', 'hyphenStartOrEnd'],
+    ['alice-', 'koyu.space', 'hyphenStartOrEnd'],
+    ['%%%', 'koyu.space', 'handleChars'],
+    ['1234567890123456789', 'koyu.space', 'frontLength'],
     [
       '1234567890123456789',
       'my-custom-pds-with-long-name.social',

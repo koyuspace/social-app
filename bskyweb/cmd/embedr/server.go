@@ -16,7 +16,7 @@ import (
 	"github.com/bluesky-social/indigo/atproto/identity"
 	"github.com/bluesky-social/indigo/util/cliutil"
 	"github.com/bluesky-social/indigo/xrpc"
-	"github.com/bluesky-social/social-app/bskyweb"
+	"github.com/koyuspace/social-app/bskyweb"
 
 	"github.com/klauspost/compress/gzhttp"
 	"github.com/klauspost/compress/gzip"
@@ -122,7 +122,7 @@ func serve(cctx *cli.Context) error {
 			return id, nil
 		},
 		DenyHandler: func(c echo.Context, identifier string, err error) error {
-			return c.String(http.StatusTooManyRequests, "Your request has been rate limited. Please try again later. Contact support@bsky.app if you believe this was a mistake.\n")
+			return c.String(http.StatusTooManyRequests, "Your request has been rate limited. Please try again later. Contact support@koyu.space if you believe this was a mistake.\n")
 		},
 	}))
 

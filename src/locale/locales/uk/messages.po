@@ -143,7 +143,7 @@ msgstr ""
 msgid "{0} people have used this starter pack!"
 msgstr "{0} користувачів використали цю підбірку!"
 
-#: src/view/com/util/UserAvatar.tsx:445
+#: src/view/com/util/UserAvatar.tsx:464
 msgid "{0}'s avatar"
 msgstr "Аватарка користувача {0}"
 
@@ -175,7 +175,7 @@ msgstr "{0}хв"
 msgid "{0}s"
 msgstr "{0}с"
 
-#: src/view/shell/desktop/LeftNav.tsx:382
+#: src/view/shell/desktop/LeftNav.tsx:383
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
@@ -294,12 +294,12 @@ msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:116
-msgid "{profileName} joined Bluesky {0} ago"
-msgstr "{profileName} приєднався до Bluesky {0} тому"
+msgid "{profileName} joined koyu.space {0} ago"
+msgstr "{profileName} приєднався до koyu.space {0} тому"
 
 #: src/components/NewskieDialog.tsx:111
-msgid "{profileName} joined Bluesky using a starter pack {0} ago"
-msgstr "{profileName} приєднався до Bluesky за підбіркою {0} тому"
+msgid "{profileName} joined koyu.space using a starter pack {0} ago"
+msgstr "{profileName} приєднався до koyu.space за підбіркою {0} тому"
 
 #: src/screens/StarterPack/Wizard/index.tsx:449
 msgctxt "profiles"
@@ -499,12 +499,12 @@ msgstr "Додати альтернативний текст (за бажанн�
 
 #: src/screens/Settings/Settings.tsx:373
 #: src/screens/Settings/Settings.tsx:376
-#: src/view/shell/desktop/LeftNav.tsx:280
-#: src/view/shell/desktop/LeftNav.tsx:284
+#: src/view/shell/desktop/LeftNav.tsx:281
+#: src/view/shell/desktop/LeftNav.tsx:285
 msgid "Add another account"
 msgstr "Додати інший обліковий запис"
 
-#: src/view/com/composer/Composer.tsx:743
+#: src/view/com/composer/Composer.tsx:744
 msgid "Add another post"
 msgstr "Написати ще"
 
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Add muted words and tags"
 msgstr "Додати ігноровані слова та теги"
 
-#: src/view/com/composer/Composer.tsx:1258
+#: src/view/com/composer/Composer.tsx:1261
 msgid "Add new post"
 msgstr "Написати"
 
@@ -594,8 +594,8 @@ msgid "Adult Content"
 msgstr "Вміст для дорослих"
 
 #: src/screens/Moderation/index.tsx:355
-msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
-msgstr "Вміст для дорослих може бути увімкнено лише через вебверсію <0>bsky.app</0>."
+msgid "Adult content can only be enabled via the Web at <0>koyu.space</0>."
+msgstr "Вміст для дорослих може бути увімкнено лише через вебверсію <0>koyu.space</0>."
 
 #: src/components/moderation/LabelPreference.tsx:242
 msgid "Adult content is disabled."
@@ -894,7 +894,7 @@ msgstr "Архівований пост"
 msgid "Are you sure you want to delete the app password \"{0}\"?"
 msgstr "Ви дійсно хочете видалити пароль застосунку «{0}»?"
 
-#: src/components/dms/MessageMenu.tsx:152
+#: src/components/dms/MessageContextMenu.tsx:142
 msgid "Are you sure you want to delete this message? The message will be deleted for you, but not for the other participant."
 msgstr "Ви впевнені, що хочете видалити це повідомлення? Повідомлення буде видалено для вас, але не для іншого учасника розмови."
 
@@ -922,11 +922,11 @@ msgstr "Ви впевнені, що бажаєте видалити {0} зі с�
 msgid "Are you sure you want to remove this from your feeds?"
 msgstr "Ви впевнені, що бажаєте вилучити це зі своїх стрічок?"
 
-#: src/view/com/composer/Composer.tsx:694
+#: src/view/com/composer/Composer.tsx:695
 msgid "Are you sure you'd like to discard this draft?"
 msgstr "Ви дійсно бажаєте видалити цю чернетку?"
 
-#: src/view/com/composer/Composer.tsx:868
+#: src/view/com/composer/Composer.tsx:872
 msgid "Are you sure you'd like to discard this post?"
 msgstr "Ви справді хочете не публікувати пост?"
 
@@ -1110,57 +1110,6 @@ msgstr "Блокування - це відкрита інформація. За�
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "Блокування не завадить додавання міток до вашого облікового запису, але це зупинить можливість цього облікового запису від коментування ваших постів чи взаємодії з вами."
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Blog"
-msgstr "Блог"
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr ""
-
-#: src/view/com/post-thread/PostThreadItem.tsx:870
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "Bluesky не може підтвердити автентичність зазначеної дати."
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:212
-msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr "Bluesky — відкрита мережа, в якій ви можете обрати свого хостинг-провайдера. Якщо ви розробник, ви можете розмістити свій власний сервер."
-
-#: src/view/com/auth/server-input/index.tsx:149
-msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr ""
-
-#: src/components/ProgressGuide/List.tsx:53
-#: src/components/ProgressGuide/List.tsx:70
-msgid "Bluesky is better with friends!"
-msgstr "Bluesky найкращий з друзями!"
-
-#: src/screens/Takendown.tsx:217
-msgid "Bluesky Social Terms of Service"
-msgstr ""
-
-#: src/components/StarterPack/ProfileStarterPacks.tsx:298
-msgid "Bluesky will choose a set of recommended accounts from people in your network."
-msgstr "Bluesky обере набір рекомендованих облікових записів користувачів у вашій мережі."
-
-#: src/screens/Settings/components/PwiOptOut.tsx:99
-msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr "Bluesky не буде показувати ваш профіль і повідомлення відвідувачам без облікового запису. Інші застосунки можуть не слідувати цьому запиту. Це не робить ваш обліковий запис приватним."
-
-#: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "Bluesky+"
-msgstr ""
-
-#: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "Bluesky+ icons"
-msgstr ""
-
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
 msgstr "Розмити зображення"
@@ -1215,10 +1164,6 @@ msgstr ""
 msgid "Browse topic {displayName}"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Business"
-msgstr "Організація"
-
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:672
 msgid "By {0}"
@@ -1257,7 +1202,7 @@ msgstr "Камера"
 #: src/screens/Settings/Settings.tsx:260
 #: src/screens/Takendown.tsx:99
 #: src/screens/Takendown.tsx:102
-#: src/view/com/composer/Composer.tsx:931
+#: src/view/com/composer/Composer.tsx:935
 #: src/view/com/modals/ChangeEmail.tsx:213
 #: src/view/com/modals/ChangeEmail.tsx:215
 #: src/view/com/modals/ChangePassword.tsx:279
@@ -1273,7 +1218,7 @@ msgstr "Камера"
 #: src/view/com/modals/VerifyEmail.tsx:261
 #: src/view/com/util/post-ctrls/RepostButton.tsx:213
 #: src/view/screens/Search/Search.tsx:890
-#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -1398,7 +1343,7 @@ msgstr ""
 
 #: src/Navigation.tsx:408
 #: src/view/shell/bottom-bar/BottomBar.tsx:205
-#: src/view/shell/desktop/LeftNav.tsx:534
+#: src/view/shell/desktop/LeftNav.tsx:535
 #: src/view/shell/Drawer.tsx:422
 msgid "Chat"
 msgstr "Чат"
@@ -1425,7 +1370,6 @@ msgid "Chat requests"
 msgstr ""
 
 #: src/components/dms/ConvoMenu.tsx:75
-#: src/components/dms/MessageMenu.tsx:83
 #: src/Navigation.tsx:413
 #: src/screens/Messages/ChatList.tsx:328
 msgid "Chat settings"
@@ -1531,7 +1475,7 @@ msgstr "Торкніться, щоб увімкнути цитування ць�
 msgid "Click to open tag menu for {tag}"
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:241
+#: src/components/dms/MessageItem.tsx:229
 msgid "Click to retry failed message"
 msgstr "Торкніться, щоб спробувати надіслати повідомлення знов"
 
@@ -1597,6 +1541,11 @@ msgstr "Закрити зображення"
 msgid "Close image viewer"
 msgstr "Закрити перегляд зображення"
 
+#: src/components/ContextMenu/Backdrop.ios.tsx:43
+#: src/components/ContextMenu/Backdrop.tsx:39
+msgid "Close menu"
+msgstr ""
+
 #: src/components/Menu/index.tsx:298
 msgid "Close this dialog"
 msgstr "Закрити діалогове вікно"
@@ -1654,11 +1603,11 @@ msgstr "Завершити ознайомлення та розпочати ко
 msgid "Complete the challenge"
 msgstr "Завершити завдання"
 
-#: src/view/shell/desktop/LeftNav.tsx:499
+#: src/view/shell/desktop/LeftNav.tsx:500
 msgid "Compose new post"
 msgstr "Новий пост"
 
-#: src/view/com/composer/Composer.tsx:834
+#: src/view/com/composer/Composer.tsx:838
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
 msgstr "Створити пости до {MAX_GRAPHEME_LENGTH} символів у довжину"
 
@@ -1666,7 +1615,7 @@ msgstr "Створити пости до {MAX_GRAPHEME_LENGTH} символів 
 msgid "Compose reply"
 msgstr "Відповісти"
 
-#: src/view/com/composer/Composer.tsx:1652
+#: src/view/com/composer/Composer.tsx:1644
 msgid "Compressing video..."
 msgstr "Стискання відео..."
 
@@ -1827,7 +1776,7 @@ msgstr "Скопійовано"
 msgid "Copied build version to clipboard"
 msgstr "Скопійовано версію збірки до буфера обміну"
 
-#: src/components/dms/MessageMenu.tsx:57
+#: src/components/dms/MessageContextMenu.tsx:52
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -1895,8 +1844,8 @@ msgstr "Копіювати посилання на список"
 msgid "Copy link to post"
 msgstr "Копіювати посилання на пост"
 
-#: src/components/dms/MessageMenu.tsx:112
-#: src/components/dms/MessageMenu.tsx:114
+#: src/components/dms/MessageContextMenu.tsx:103
+#: src/components/dms/MessageContextMenu.tsx:106
 msgid "Copy message text"
 msgstr "Копіювати текст повідомлення"
 
@@ -1962,8 +1911,8 @@ msgstr "Створити власну підбірку"
 msgid "Create a starter pack for me"
 msgstr "Створення власної підбірки для мене"
 
-#: src/view/com/auth/SplashScreen.tsx:55
-#: src/view/com/auth/SplashScreen.web.tsx:117
+#: src/view/com/auth/SplashScreen.tsx:48
+#: src/view/com/auth/SplashScreen.web.tsx:106
 #: src/view/shell/bottom-bar/BottomBar.tsx:315
 #: src/view/shell/bottom-bar/BottomBar.tsx:320
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:199
@@ -1990,8 +1939,8 @@ msgstr "Натомість створити аватар"
 msgid "Create another"
 msgstr "Створити інший"
 
-#: src/view/com/auth/SplashScreen.tsx:47
-#: src/view/com/auth/SplashScreen.web.tsx:109
+#: src/view/com/auth/SplashScreen.tsx:40
+#: src/view/com/auth/SplashScreen.web.tsx:98
 msgid "Create new account"
 msgstr "Створити новий обліковий запис"
 
@@ -2027,7 +1976,7 @@ msgid "Customize who can interact with this post."
 msgstr "Налаштуйте, хто може взаємодіяти з цим постом."
 
 #: src/screens/Onboarding/Layout.tsx:56
-msgid "Customizes your Bluesky experience"
+msgid "Customizes your koyu.space experience"
 msgstr ""
 
 #: src/components/dialogs/Embed.tsx:167
@@ -2076,7 +2025,7 @@ msgstr "Типово"
 msgid "Default icons"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:154
+#: src/components/dms/MessageContextMenu.tsx:144
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:591
@@ -2124,7 +2073,7 @@ msgstr ""
 msgid "Delete Conversation"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:126
+#: src/components/dms/MessageContextMenu.tsx:117
 msgid "Delete for me"
 msgstr "Видалити для мене"
 
@@ -2132,11 +2081,11 @@ msgstr "Видалити для мене"
 msgid "Delete List"
 msgstr "Видалити список"
 
-#: src/components/dms/MessageMenu.tsx:150
+#: src/components/dms/MessageContextMenu.tsx:140
 msgid "Delete message"
 msgstr "Видалити повідомлення"
 
-#: src/components/dms/MessageMenu.tsx:124
+#: src/components/dms/MessageContextMenu.tsx:115
 msgid "Delete message for me"
 msgstr "Видалити повідомлення для мене"
 
@@ -2144,7 +2093,7 @@ msgstr "Видалити повідомлення для мене"
 msgid "Delete my account"
 msgstr "Видалити мій обліковий запис"
 
-#: src/view/com/composer/Composer.tsx:842
+#: src/view/com/composer/Composer.tsx:846
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:709
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:711
 msgid "Delete post"
@@ -2256,8 +2205,8 @@ msgid "Disabled"
 msgstr "Вимкнено"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:84
-#: src/view/com/composer/Composer.tsx:696
-#: src/view/com/composer/Composer.tsx:875
+#: src/view/com/composer/Composer.tsx:697
+#: src/view/com/composer/Composer.tsx:879
 msgid "Discard"
 msgstr "Видалити"
 
@@ -2265,11 +2214,11 @@ msgstr "Видалити"
 msgid "Discard changes?"
 msgstr "Відхилити зміни?"
 
-#: src/view/com/composer/Composer.tsx:693
+#: src/view/com/composer/Composer.tsx:694
 msgid "Discard draft?"
 msgstr "Відхилити чернетку?"
 
-#: src/view/com/composer/Composer.tsx:867
+#: src/view/com/composer/Composer.tsx:871
 msgid "Discard post?"
 msgstr "Не зберігати пост?"
 
@@ -2295,7 +2244,7 @@ msgstr "Відкрити для себе нові стрічки"
 msgid "Dismiss"
 msgstr "Відхилити"
 
-#: src/view/com/composer/Composer.tsx:1576
+#: src/view/com/composer/Composer.tsx:1568
 msgid "Dismiss error"
 msgstr "Пропустити помилку"
 
@@ -2393,14 +2342,14 @@ msgstr "Торкніться двічі для закриття діалогу"
 msgid "Double tap to like"
 msgstr ""
 
-#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
-msgid "Download Bluesky"
-msgstr "Завантажити Bluesky"
-
 #: src/screens/Settings/components/ExportCarDialog.tsx:79
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
 msgstr "Завантажити CAR файл"
+
+#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
+msgid "Download koyu.space"
+msgstr "Завантажити koyu.space"
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:342
 msgid "Drop to add images"
@@ -2466,7 +2415,7 @@ msgctxt "action"
 msgid "Edit"
 msgstr "Редагувати"
 
-#: src/view/com/util/UserAvatar.tsx:344
+#: src/view/com/util/UserAvatar.tsx:363
 #: src/view/com/util/UserBanner.tsx:95
 msgid "Edit avatar"
 msgstr "Редагувати фото профілю"
@@ -2746,7 +2695,7 @@ msgstr "Введіть псевдонім та пароль"
 msgid "Enters full screen"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1661
+#: src/view/com/composer/Composer.tsx:1653
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Помилка"
@@ -2931,7 +2880,7 @@ msgctxt "toast"
 msgid "Failed to delete chat"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:75
+#: src/components/dms/MessageContextMenu.tsx:70
 msgid "Failed to delete message"
 msgstr "Не вдалося видалити повідомлення"
 
@@ -2991,7 +2940,7 @@ msgstr "Не вдалося зберегти налаштування спові
 msgid "Failed to save settings. Please try again."
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:234
+#: src/components/dms/MessageItem.tsx:222
 msgid "Failed to send"
 msgstr "Не вдалося надіслати"
 
@@ -3040,8 +2989,8 @@ msgstr ""
 msgid "Feed toggle"
 msgstr "Перемикач стрічки"
 
-#: src/view/shell/desktop/RightNav.tsx:97
-#: src/view/shell/desktop/RightNav.tsx:98
+#: src/view/shell/desktop/RightNav.tsx:102
+#: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:324
 msgid "Feedback"
 msgstr "Зворотний зв'язок"
@@ -3058,7 +3007,7 @@ msgstr "Відгук надіслано!"
 #: src/view/screens/Profile.tsx:227
 #: src/view/screens/SavedFeeds.tsx:96
 #: src/view/screens/Search/Search.tsx:531
-#: src/view/shell/desktop/LeftNav.tsx:651
+#: src/view/shell/desktop/LeftNav.tsx:655
 #: src/view/shell/Drawer.tsx:486
 msgid "Feeds"
 msgstr "Стрічки"
@@ -3114,7 +3063,7 @@ msgid "Find people to follow"
 msgstr ""
 
 #: src/view/screens/Search/Search.tsx:582
-msgid "Find posts, users, and feeds on Bluesky"
+msgid "Find posts, users, and feeds on koyu.space"
 msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:195
@@ -3363,7 +3312,7 @@ msgstr "Створити обличчя для вашого облікового
 msgid "Glaring violations of law or terms of service"
 msgstr "Грубі порушення закону чи умов використання"
 
-#: src/components/Layout/Header/index.tsx:126
+#: src/components/Layout/Header/index.tsx:127
 #: src/components/moderation/ScreenHider.tsx:154
 #: src/components/moderation/ScreenHider.tsx:163
 #: src/screens/Messages/Inbox.tsx:228
@@ -3475,8 +3424,8 @@ msgstr "Виникли проблеми?"
 
 #: src/screens/Settings/Settings.tsx:207
 #: src/screens/Settings/Settings.tsx:211
-#: src/view/shell/desktop/RightNav.tsx:115
-#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:120
+#: src/view/shell/desktop/RightNav.tsx:121
 #: src/view/shell/Drawer.tsx:337
 msgid "Help"
 msgstr "Довідка"
@@ -3506,7 +3455,7 @@ msgstr "Прихований список"
 #: src/components/interstitials/TrendingVideos.tsx:140
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:135
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -3610,7 +3559,7 @@ msgstr "Чекай-но! Ми поступово даємо доступ до в
 #: src/Navigation.tsx:627
 #: src/Navigation.tsx:647
 #: src/view/shell/bottom-bar/BottomBar.tsx:162
-#: src/view/shell/desktop/LeftNav.tsx:595
+#: src/view/shell/desktop/LeftNav.tsx:599
 #: src/view/shell/Drawer.tsx:396
 msgid "Home"
 msgstr "Головна"
@@ -3626,8 +3575,8 @@ msgstr "Хостинг-провайдер"
 
 #: src/screens/Settings/ThreadPreferences.tsx:67
 #: src/screens/Settings/ThreadPreferences.tsx:70
-#: src/view/com/post-thread/PostThread.tsx:656
-#: src/view/com/post-thread/PostThread.tsx:661
+#: src/view/com/post-thread/PostThread.tsx:655
+#: src/view/com/post-thread/PostThread.tsx:660
 msgid "Hot replies first"
 msgstr "Спочатку найновіші"
 
@@ -3822,21 +3771,16 @@ msgstr "Все вірно"
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Зараз ви на самоті. Додайте користувачів до власної підбірки шукаючи їх вище."
 
-#: src/view/com/composer/Composer.tsx:1595
+#: src/view/com/composer/Composer.tsx:1587
 msgid "Job ID: {0}"
 msgstr "Вакансія: {0}"
-
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "Jobs"
-msgstr "Вакансії"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:211
 #: src/screens/StarterPack/StarterPackScreen.tsx:461
 #: src/screens/StarterPack/StarterPackScreen.tsx:472
-msgid "Join Bluesky"
-msgstr "Приєднатися до Bluesky"
+msgid "Join koyu.space"
+msgstr "Приєднатися до koyu.space"
 
 #: src/components/StarterPack/QrCode.tsx:68
 #: src/view/shell/NavSignupCard.tsx:40
@@ -3847,6 +3791,57 @@ msgstr "Приєднатися до розмови"
 #: src/screens/Onboarding/state.ts:104
 msgid "Journalism"
 msgstr "Журналістика"
+
+#: src/view/com/auth/server-input/index.tsx:136
+#: src/view/com/auth/server-input/index.tsx:137
+msgid "koyu.space"
+msgstr ""
+
+#: src/view/com/post-thread/PostThreadItem.tsx:870
+msgid "koyu.space cannot confirm the authenticity of the claimed date."
+msgstr "koyu.space не може підтвердити автентичність зазначеної дати."
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
+msgctxt "Name of app icon variant"
+msgid "koyu.space Classic™"
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:212
+msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
+msgstr "koyu.space — відкрита мережа, в якій ви можете обрати свого хостинг-провайдера. Якщо ви розробник, ви можете розмістити свій власний сервер."
+
+#: src/view/com/auth/server-input/index.tsx:149
+msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
+msgstr ""
+
+#: src/components/ProgressGuide/List.tsx:53
+#: src/components/ProgressGuide/List.tsx:70
+msgid "koyu.space is better with friends!"
+msgstr "koyu.space найкращий з друзями!"
+
+#: src/screens/Takendown.tsx:217
+msgid "koyu.space Terms of Service"
+msgstr ""
+
+#: src/components/StarterPack/ProfileStarterPacks.tsx:298
+msgid "koyu.space will choose a set of recommended accounts from people in your network."
+msgstr "koyu.space обере набір рекомендованих облікових записів користувачів у вашій мережі."
+
+#: src/screens/Settings/components/PwiOptOut.tsx:99
+msgid "koyu.space will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
+msgstr "koyu.space не буде показувати ваш профіль і повідомлення відвідувачам без облікового запису. Інші застосунки можуть не слідувати цьому запиту. Це не робить ваш обліковий запис приватним."
+
+#: src/screens/Settings/AppIconSettings/index.tsx:99
+msgid "koyu.space+"
+msgstr ""
+
+#: src/screens/Settings/AppIconSettings/index.tsx:102
+msgid "koyu.space+ icons"
+msgstr ""
+
+#: src/view/shell/NavSignupCard.tsx:72
+msgid "koyu's personal website"
+msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:231
 msgid "Labeled by {0}."
@@ -3909,10 +3904,6 @@ msgstr "дізнатись більше"
 msgid "Learn More"
 msgstr "Дізнатися більше"
 
-#: src/view/com/auth/SplashScreen.web.tsx:166
-msgid "Learn more about Bluesky"
-msgstr "Дізнатись більше про Bluesky"
-
 #: src/view/com/auth/server-input/index.tsx:218
 msgid "Learn more about self hosting your PDS."
 msgstr ""
@@ -3932,8 +3923,8 @@ msgstr "Дізнатися більше про це попередження"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:99
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:102
-msgid "Learn more about what is public on Bluesky."
-msgstr "Дізнатися більше про те, що є публічним в Bluesky."
+msgid "Learn more about what is public on koyu.space."
+msgstr "Дізнатися більше про те, що є публічним в koyu.space."
 
 #: src/components/moderation/ContentHider.tsx:239
 #: src/view/com/auth/server-input/index.tsx:220
@@ -3962,8 +3953,8 @@ msgid "Leave them all unchecked to see any language."
 msgstr "Залишити їх усі невідміченими, щоб побачити будь-яку мову."
 
 #: src/view/com/modals/LinkWarning.tsx:65
-msgid "Leaving Bluesky"
-msgstr "Залишити Bluesky"
+msgid "Leaving koyu.space"
+msgstr "Залишити koyu.space"
 
 #: src/screens/SignupQueued.tsx:155
 msgid "left to go."
@@ -4050,8 +4041,8 @@ msgstr "Уподобання"
 msgid "Likes on this post"
 msgstr "Уподобання цього посту"
 
-#: src/view/com/post-thread/PostThread.tsx:630
-#: src/view/com/post-thread/PostThread.tsx:635
+#: src/view/com/post-thread/PostThread.tsx:629
+#: src/view/com/post-thread/PostThread.tsx:634
 msgid "Linear"
 msgstr ""
 
@@ -4117,7 +4108,7 @@ msgstr "Список більше не ігноровано"
 #: src/view/screens/Lists.tsx:62
 #: src/view/screens/Profile.tsx:221
 #: src/view/screens/Profile.tsx:229
-#: src/view/shell/desktop/LeftNav.tsx:669
+#: src/view/shell/desktop/LeftNav.tsx:673
 #: src/view/shell/Drawer.tsx:501
 msgid "Lists"
 msgstr "Списки"
@@ -4161,18 +4152,22 @@ msgstr "Звіт"
 msgid "Logged-out visibility"
 msgstr "Видимість для користувачів без облікового запису"
 
-#: src/view/shell/desktop/RightNav.tsx:125
-msgid "Logo by @sawaratsuki.bsky.social"
+#: src/view/shell/desktop/RightNav.tsx:130
+msgid "Logo by @sawaratsuki.koyu.space"
 msgstr ""
 
-#: src/view/shell/desktop/RightNav.tsx:122
+#: src/view/shell/desktop/RightNav.tsx:127
 #: src/view/shell/Drawer.tsx:639
-msgid "Logo by <0>@sawaratsuki.bsky.social</0>"
-msgstr "Лого від <0>@sawaratsuki.bsky.social</0>"
+msgid "Logo by <0>@sawaratsuki.koyu.space</0>"
+msgstr "Лого від <0>@sawaratsuki.koyu.space</0>"
 
 #: src/components/RichTextTag.tsx:53
 msgid "Long press to open tag menu for #{tag}"
 msgstr "Тривале натискання відкриває меню тегів для #{tag}"
+
+#: src/view/shell/NavSignupCard.tsx:69
+msgid "Looking for"
+msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:120
 msgid "Looks like XXXXX-XXXXX"
@@ -4251,7 +4246,7 @@ msgstr "Меню"
 msgid "Message {0}"
 msgstr "Повідомлення {0}"
 
-#: src/components/dms/MessageMenu.tsx:73
+#: src/components/dms/MessageContextMenu.tsx:68
 msgctxt "toast"
 msgid "Message deleted"
 msgstr "Повідомлення видалено"
@@ -4259,6 +4254,10 @@ msgstr "Повідомлення видалено"
 #: src/screens/Messages/components/ChatListItem.tsx:190
 msgid "Message deleted"
 msgstr "Повідомлення видалено"
+
+#: src/components/dms/MessageContextMenu.tsx:83
+msgid "Message from @{0}: {1}"
+msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:201
 msgid "Message from server: {0}"
@@ -4272,6 +4271,10 @@ msgstr "Поле введення повідомлення"
 #: src/screens/Messages/components/MessageInput.web.tsx:60
 msgid "Message is too long"
 msgstr "Повідомлення задовге"
+
+#: src/components/dms/MessageContextMenu.tsx:81
+msgid "Message options"
+msgstr ""
 
 #: src/Navigation.tsx:642
 msgid "Messages"
@@ -4373,8 +4376,8 @@ msgid "Most-liked first"
 msgstr "Спочатку найбільш вподобані"
 
 #: src/screens/Settings/ThreadPreferences.tsx:91
-#: src/view/com/post-thread/PostThread.tsx:686
-#: src/view/com/post-thread/PostThread.tsx:691
+#: src/view/com/post-thread/PostThread.tsx:685
+#: src/view/com/post-thread/PostThread.tsx:690
 msgid "Most-liked replies first"
 msgstr "За кількістю вподобань"
 
@@ -4601,7 +4604,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "Новий пост"
 
-#: src/view/shell/desktop/LeftNav.tsx:507
+#: src/view/shell/desktop/LeftNav.tsx:508
 msgctxt "action"
 msgid "New Post"
 msgstr "Новий пост"
@@ -4616,8 +4619,8 @@ msgstr "Новий список користувачів"
 
 #: src/screens/Settings/ThreadPreferences.tsx:83
 #: src/screens/Settings/ThreadPreferences.tsx:86
-#: src/view/com/post-thread/PostThread.tsx:676
-#: src/view/com/post-thread/PostThread.tsx:681
+#: src/view/com/post-thread/PostThread.tsx:675
+#: src/view/com/post-thread/PostThread.tsx:680
 msgid "Newest replies first"
 msgstr "Спочатку найновіші"
 
@@ -4789,8 +4792,8 @@ msgid "Note about sharing"
 msgstr "Примітка щодо поширення"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:88
-msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
-msgstr "Примітка: Bluesky є відкритою і публічною мережею. Цей параметр обмежує видимість вашого вмісту лише у застосунках і на сайті Bluesky, але інші застосунки можуть цього не дотримуватися. Ваш вміст все ще може бути показаний відвідувачам без облікового запису іншими застосунками і вебсайтами."
+msgid "Note: koyu.space is an open and public network. This setting only limits the visibility of your content on the koyu.space app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
+msgstr "Примітка: koyu.space є відкритою і публічною мережею. Цей параметр обмежує видимість вашого вмісту лише у застосунках і на сайті koyu.space, але інші застосунки можуть цього не дотримуватися. Ваш вміст все ще може бути показаний відвідувачам без облікового запису іншими застосунками і вебсайтами."
 
 #: src/screens/Messages/ChatList.tsx:264
 msgid "Nothing here"
@@ -4820,7 +4823,7 @@ msgstr "Звуки сповіщень"
 #: src/Navigation.tsx:637
 #: src/view/screens/Notifications.tsx:128
 #: src/view/shell/bottom-bar/BottomBar.tsx:236
-#: src/view/shell/desktop/LeftNav.tsx:632
+#: src/view/shell/desktop/LeftNav.tsx:636
 #: src/view/shell/Drawer.tsx:449
 msgid "Notifications"
 msgstr "Сповіщення"
@@ -4829,7 +4832,7 @@ msgstr "Сповіщення"
 msgid "now"
 msgstr "щойно"
 
-#: src/components/dms/MessageItem.tsx:198
+#: src/components/dms/MessageItem.tsx:186
 msgid "Now"
 msgstr "Щойно"
 
@@ -4869,8 +4872,8 @@ msgstr "Добре"
 
 #: src/screens/Settings/ThreadPreferences.tsx:75
 #: src/screens/Settings/ThreadPreferences.tsx:78
-#: src/view/com/post-thread/PostThread.tsx:666
-#: src/view/com/post-thread/PostThread.tsx:671
+#: src/view/com/post-thread/PostThread.tsx:665
+#: src/view/com/post-thread/PostThread.tsx:670
 msgid "Oldest replies first"
 msgstr "Спочатку найдавніші"
 
@@ -4945,12 +4948,12 @@ msgstr "Відкрити створювач аватарів"
 msgid "Open conversation options"
 msgstr "Відкрити налаштування розмови"
 
-#: src/components/Layout/Header/index.tsx:158
+#: src/components/Layout/Header/index.tsx:159
 msgid "Open drawer menu"
 msgstr ""
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1244
+#: src/view/com/composer/Composer.tsx:1247
 msgid "Open emoji picker"
 msgstr "Емоджі"
 
@@ -4963,11 +4966,11 @@ msgstr ""
 msgid "Open feed options menu"
 msgstr "Відкрити меню налаштувань стрічки"
 
-#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:71
+#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:79
 msgid "Open link to {niceUrl}"
 msgstr "Відкрити посилання на {niceUrl}"
 
-#: src/components/dms/ActionsWrapper.tsx:90
+#: src/components/dms/ActionsWrapper.tsx:57
 msgid "Open message options"
 msgstr "Відкрити налаштування повідомлень"
 
@@ -5036,18 +5039,18 @@ msgstr "Відкриє редактор"
 msgid "Opens device photo gallery"
 msgstr "Відкриє фотогалерею пристрою"
 
-#: src/view/com/composer/Composer.tsx:1245
+#: src/view/com/composer/Composer.tsx:1248
 msgid "Opens emoji picker"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:49
-#: src/view/com/auth/SplashScreen.web.tsx:111
-msgid "Opens flow to create a new Bluesky account"
-msgstr "Відкриє процес створення нового облікового запису Bluesky"
+#: src/view/com/auth/SplashScreen.tsx:42
+#: src/view/com/auth/SplashScreen.web.tsx:100
+msgid "Opens flow to create a new koyu.space account"
+msgstr "Відкриє процес створення нового облікового запису koyu.space"
 
-#: src/view/com/auth/SplashScreen.tsx:63
-#: src/view/com/auth/SplashScreen.web.tsx:125
-msgid "Opens flow to sign in to your existing Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:56
+#: src/view/com/auth/SplashScreen.web.tsx:114
+msgid "Opens flow to sign in to your existing koyu.space account"
 msgstr ""
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
@@ -5071,7 +5074,7 @@ msgid "Opens the linked website"
 msgstr "Відкриває посилання"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:683
-#: src/view/com/util/UserAvatar.tsx:446
+#: src/view/com/util/UserAvatar.tsx:465
 msgid "Opens this profile"
 msgstr "Відкриває цей профіль"
 
@@ -5135,8 +5138,8 @@ msgid "Our moderation team has received your report."
 msgstr ""
 
 #: src/screens/Messages/components/ChatDisabled.tsx:28
-msgid "Our moderators have reviewed reports and decided to disable your access to chats on Bluesky."
-msgstr "Наші модератори переглянули скарги та вирішили позбавити вас доступу до чатів у Bluesky."
+msgid "Our moderators have reviewed reports and decided to disable your access to chats on koyu.space."
+msgstr "Наші модератори переглянули скарги та вирішили позбавити вас доступу до чатів у koyu.space."
 
 #: src/components/Lists.tsx:190
 #: src/view/screens/NotFound.tsx:47
@@ -5395,7 +5398,7 @@ msgstr ""
 msgid "Porn"
 msgstr "Порнографія"
 
-#: src/view/com/composer/Composer.tsx:959
+#: src/view/com/composer/Composer.tsx:963
 msgctxt "action"
 msgid "Post"
 msgstr "Запостити"
@@ -5405,7 +5408,7 @@ msgctxt "description"
 msgid "Post"
 msgstr "Запостити"
 
-#: src/view/com/composer/Composer.tsx:957
+#: src/view/com/composer/Composer.tsx:961
 msgctxt "action"
 msgid "Post All"
 msgstr "Опублікувати все"
@@ -5534,8 +5537,8 @@ msgstr "Віддати перевагу тим, кого читаєте"
 msgid "Priority notifications"
 msgstr "Важливі сповіщення"
 
-#: src/view/shell/desktop/RightNav.tsx:105
-#: src/view/shell/desktop/RightNav.tsx:106
+#: src/view/shell/desktop/RightNav.tsx:110
+#: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
 msgstr "Конфіденційність"
 
@@ -5558,7 +5561,7 @@ msgstr "Конфіденційність та безпека"
 msgid "Privacy Policy"
 msgstr "Політика конфіденційності"
 
-#: src/view/com/composer/Composer.tsx:1658
+#: src/view/com/composer/Composer.tsx:1650
 msgid "Processing video..."
 msgstr "Обробка відео..."
 
@@ -5573,7 +5576,7 @@ msgid "profile"
 msgstr "профіль"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:286
-#: src/view/shell/desktop/LeftNav.tsx:687
+#: src/view/shell/desktop/LeftNav.tsx:691
 #: src/view/shell/Drawer.tsx:71
 #: src/view/shell/Drawer.tsx:526
 msgid "Profile"
@@ -5645,8 +5648,8 @@ msgstr "Цитування цього поста"
 
 #: src/screens/Settings/ThreadPreferences.tsx:99
 #: src/screens/Settings/ThreadPreferences.tsx:102
-#: src/view/com/post-thread/PostThread.tsx:696
-#: src/view/com/post-thread/PostThread.tsx:701
+#: src/view/com/post-thread/PostThread.tsx:695
+#: src/view/com/post-thread/PostThread.tsx:700
 msgid "Random (aka \"Poster's Roulette\")"
 msgstr "У випадковому порядку"
 
@@ -5671,19 +5674,15 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:171
-msgid "Read the Bluesky blog"
-msgstr "Читати блог Bluesky"
-
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
-msgid "Read the Bluesky Privacy Policy"
-msgstr "Читати Політику конфіденційності Bluesky"
+msgid "Read the koyu.space Privacy Policy"
+msgstr "Читати Політику конфіденційності koyu.space"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
-msgid "Read the Bluesky Terms of Service"
-msgstr "Читати Умови використання Bluesky"
+msgid "Read the koyu.space Terms of Service"
+msgstr "Читати Умови використання koyu.space"
 
 #: src/screens/Takendown.tsx:162
 #: src/screens/Takendown.tsx:170
@@ -5749,8 +5748,8 @@ msgstr "Видалити обліковий запис"
 msgid "Remove attachment"
 msgstr "Видалити вкладення"
 
-#: src/view/com/util/UserAvatar.tsx:397
-#: src/view/com/util/UserAvatar.tsx:400
+#: src/view/com/util/UserAvatar.tsx:416
+#: src/view/com/util/UserAvatar.tsx:419
 msgid "Remove Avatar"
 msgstr "Видалити аватар"
 
@@ -5877,7 +5876,7 @@ msgstr "Відповіді вимкнуто"
 msgid "Replies to this post are disabled."
 msgstr "Відповіді в цьому пості вимкнено."
 
-#: src/view/com/composer/Composer.tsx:955
+#: src/view/com/composer/Composer.tsx:959
 msgctxt "action"
 msgid "Reply"
 msgstr "Відповісти"
@@ -5904,7 +5903,7 @@ msgstr "Налаштування відповідей"
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "Налаштування відповіді визначаються автором гілки"
 
-#: src/view/com/post-thread/PostThread.tsx:652
+#: src/view/com/post-thread/PostThread.tsx:651
 msgid "Reply sorting"
 msgstr ""
 
@@ -5939,7 +5938,7 @@ msgstr "Оновлено видимість відповідей"
 msgid "Reply was successfully hidden"
 msgstr "Відповідь успішно приховано"
 
-#: src/components/dms/MessageMenu.tsx:134
+#: src/components/dms/MessageContextMenu.tsx:125
 #: src/components/dms/MessagesListBlockedFooter.tsx:85
 #: src/components/dms/MessagesListBlockedFooter.tsx:92
 msgid "Report"
@@ -5973,7 +5972,7 @@ msgstr "Поскаржитись на стрічку"
 msgid "Report List"
 msgstr "Поскаржитись на список"
 
-#: src/components/dms/MessageMenu.tsx:132
+#: src/components/dms/MessageContextMenu.tsx:123
 msgid "Report message"
 msgstr "Поскаржитися на повідомлення"
 
@@ -6138,7 +6137,7 @@ msgstr ""
 msgid "Retries the last action, which errored out"
 msgstr "Повторити останню дію, яка спричинила помилку"
 
-#: src/components/dms/MessageItem.tsx:245
+#: src/components/dms/MessageItem.tsx:233
 #: src/components/Error.tsx:65
 #: src/components/Lists.tsx:110
 #: src/components/moderation/ReportDialog/index.tsx:221
@@ -6289,7 +6288,7 @@ msgstr "Прогорнути вгору"
 #: src/view/screens/Search/Search.tsx:570
 #: src/view/screens/Search/Search.tsx:848
 #: src/view/shell/bottom-bar/BottomBar.tsx:182
-#: src/view/shell/desktop/LeftNav.tsx:613
+#: src/view/shell/desktop/LeftNav.tsx:617
 #: src/view/shell/Drawer.tsx:370
 msgid "Search"
 msgstr "Пошук"
@@ -6381,10 +6380,6 @@ msgstr ""
 #: src/components/RichTextTag.tsx:132
 msgid "See #{tag} posts by user"
 msgstr ""
-
-#: src/view/com/auth/SplashScreen.web.tsx:176
-msgid "See jobs at Bluesky"
-msgstr "Переглянути вакансії у Bluesky"
 
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "See this guide"
@@ -6585,7 +6580,7 @@ msgstr "Встановлює ел. адресу для скидання паро
 
 #: src/Navigation.tsx:173
 #: src/screens/Settings/Settings.tsx:80
-#: src/view/shell/desktop/LeftNav.tsx:705
+#: src/view/shell/desktop/LeftNav.tsx:709
 #: src/view/shell/Drawer.tsx:539
 msgid "Settings"
 msgstr "Налаштування"
@@ -6665,8 +6660,8 @@ msgid "Share this starter pack"
 msgstr "Поділитись цією підбіркою"
 
 #: src/components/StarterPack/ShareDialog.tsx:99
-msgid "Share this starter pack and help people join your community on Bluesky."
-msgstr "Поділіться цією підбіркою та допоможіть людям долучитись до своєї спільности у Bluesky."
+msgid "Share this starter pack and help people join your community on koyu.space."
+msgstr "Поділіться цією підбіркою та допоможіть людям долучитись до своєї спільности у koyu.space."
 
 #: src/components/dms/ChatEmptyPill.tsx:34
 msgid "Share your favorite feed!"
@@ -6682,7 +6677,7 @@ msgstr "Поширює посилання"
 
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:137
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 msgid "Show"
 msgstr "Показати"
 
@@ -6749,7 +6744,7 @@ msgstr "Показувати цитовані пости"
 msgid "Show replies"
 msgstr "Показувати відповіді"
 
-#: src/view/com/post-thread/PostThread.tsx:626
+#: src/view/com/post-thread/PostThread.tsx:625
 msgid "Show replies as"
 msgstr ""
 
@@ -6802,10 +6797,10 @@ msgstr ""
 #: src/screens/Login/index.tsx:122
 #: src/screens/Login/index.tsx:143
 #: src/screens/Login/LoginForm.tsx:181
-#: src/view/com/auth/SplashScreen.tsx:61
-#: src/view/com/auth/SplashScreen.tsx:69
-#: src/view/com/auth/SplashScreen.web.tsx:123
-#: src/view/com/auth/SplashScreen.web.tsx:131
+#: src/view/com/auth/SplashScreen.tsx:54
+#: src/view/com/auth/SplashScreen.tsx:62
+#: src/view/com/auth/SplashScreen.web.tsx:112
+#: src/view/com/auth/SplashScreen.web.tsx:120
 #: src/view/shell/bottom-bar/BottomBar.tsx:325
 #: src/view/shell/bottom-bar/BottomBar.tsx:330
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:209
@@ -6837,7 +6832,7 @@ msgid "Sign in to account that is not listed"
 msgstr ""
 
 #: src/components/dialogs/Signin.tsx:46
-msgid "Sign in to Bluesky or create a new account"
+msgid "Sign in to koyu.space or create a new account"
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:225
@@ -6846,9 +6841,9 @@ msgstr ""
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:85
-#: src/view/shell/desktop/LeftNav.tsx:207
-#: src/view/shell/desktop/LeftNav.tsx:287
-#: src/view/shell/desktop/LeftNav.tsx:290
+#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:288
+#: src/view/shell/desktop/LeftNav.tsx:291
 msgid "Sign out"
 msgstr "Вийти"
 
@@ -6857,7 +6852,7 @@ msgid "Sign Out"
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:256
-#: src/view/shell/desktop/LeftNav.tsx:204
+#: src/view/shell/desktop/LeftNav.tsx:205
 msgid "Sign out?"
 msgstr "Вийти?"
 
@@ -6939,8 +6934,8 @@ msgstr ""
 msgid "Something wrong? Let us know."
 msgstr ""
 
-#: src/App.native.tsx:122
-#: src/App.web.tsx:98
+#: src/App.native.tsx:123
+#: src/App.web.tsx:99
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr ""
 
@@ -7122,7 +7117,7 @@ msgstr "Підтримка"
 #: src/screens/Settings/Settings.tsx:102
 #: src/screens/Settings/Settings.tsx:116
 #: src/screens/Settings/Settings.tsx:412
-#: src/view/shell/desktop/LeftNav.tsx:242
+#: src/view/shell/desktop/LeftNav.tsx:243
 msgid "Switch account"
 msgstr "Перемкнути обліковий запис"
 
@@ -7131,11 +7126,11 @@ msgstr "Перемкнути обліковий запис"
 msgid "Switch Account"
 msgstr "Перемикнути обліковий запис"
 
-#: src/view/shell/desktop/LeftNav.tsx:106
+#: src/view/shell/desktop/LeftNav.tsx:107
 msgid "Switch accounts"
 msgstr ""
 
-#: src/view/shell/desktop/LeftNav.tsx:250
+#: src/view/shell/desktop/LeftNav.tsx:251
 msgid "Switch to {0}"
 msgstr ""
 
@@ -7155,6 +7150,11 @@ msgstr "Системний журнал"
 #: src/components/dialogs/MutedWords.tsx:282
 msgid "Tags only"
 msgstr "Лише мітки"
+
+#: src/components/ContextMenu/Backdrop.ios.tsx:44
+#: src/components/ContextMenu/Backdrop.tsx:40
+msgid "Tap to close context menu"
+msgstr ""
 
 #: src/components/ProgressGuide/Toast.tsx:156
 msgid "Tap to dismiss"
@@ -7189,8 +7189,8 @@ msgstr "Розкажіть нам трохи про себе"
 msgid "Tell us a little more"
 msgstr "Розкажіть нам ще трохи"
 
-#: src/view/shell/desktop/RightNav.tsx:111
-#: src/view/shell/desktop/RightNav.tsx:112
+#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
 msgstr "Умови"
 
@@ -7279,10 +7279,6 @@ msgstr ""
 msgid "The author of this thread has hidden this reply."
 msgstr "Автор цієї гілки приховав цю відповідь."
 
-#: src/screens/Moderation/index.tsx:358
-msgid "The Bluesky web application"
-msgstr "Веб — застосунок BlueSky"
-
 #: src/view/screens/CommunityGuidelines.tsx:38
 msgid "The Community Guidelines have been moved to <0/>"
 msgstr "Правила Спільноти переміщено до <0/>"
@@ -7300,8 +7296,8 @@ msgid "The Discover feed now knows what you like"
 msgstr "Тепер Стрічка відкриття знає ваші уподобання"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:324
-msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
-msgstr "Досвід використання кращий у застосунку. Завантажте Bluesky вже зараз та продовжуйте з того місця, де зупинились."
+msgid "The experience is better in the app. Download koyu.space now and we'll pick back up where you left off."
+msgstr "Досвід використання кращий у застосунку. Завантажте koyu.space вже зараз та продовжуйте з того місця, де зупинились."
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
 msgid "The feed has been replaced with Discover."
@@ -7318,6 +7314,10 @@ msgstr "Наступні мітки були додані до вашого ко
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
 msgstr ""
+
+#: src/screens/Moderation/index.tsx:358
+msgid "The koyu.space web application"
+msgstr "Веб — застосунок BlueSky"
 
 #: src/view/com/post-thread/PostThread.tsx:265
 #: src/view/com/post-thread/PostThread.tsx:277
@@ -7339,6 +7339,10 @@ msgstr "Схоже, на сервері певні проблеми. Будь л
 #: src/screens/StarterPack/StarterPackScreen.tsx:722
 msgid "The starter pack that you are trying to view is invalid. You may delete this starter pack instead."
 msgstr "Підбірка, яку ви намагаєтесь переглянути, хибна. Ви можете її видалити."
+
+#: src/components/ContextMenu/index.tsx:305
+msgid "The subject of the context menu"
+msgstr ""
 
 #: src/view/screens/Support.tsx:37
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
@@ -7385,7 +7389,7 @@ msgstr "При з'єднанні з вашим сервером виникла �
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Виникла проблема з завантаженням сповіщень. Натисніть тут, щоб повторити спробу."
 
-#: src/view/com/posts/PostFeed.tsx:592
+#: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Виникла проблема з завантаженням постів. Натисніть тут, щоб повторити спробу."
 
@@ -7455,8 +7459,8 @@ msgid "There was an unexpected issue in the application. Please let us know if t
 msgstr "У застосунку сталася неочікувана проблема. Будь ласка, повідомте нас, якщо ви отримали це повідомлення!"
 
 #: src/screens/SignupQueued.tsx:130
-msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "Відбувався наплив нових користувачів у Bluesky! Ми активуємо ваш обліковий запис як тільки зможемо."
+msgid "There's been a rush of new users to koyu.space! We'll activate your account as soon as we can."
+msgstr "Відбувався наплив нових користувачів у koyu.space! Ми активуємо ваш обліковий запис як тільки зможемо."
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:62
 msgid "These settings only apply to the Following feed."
@@ -7479,8 +7483,8 @@ msgid "This appeal will be sent to <0>{sourceName}</0>."
 msgstr "Це звернення буде надіслано до <0>{sourceName}</0>."
 
 #: src/screens/Messages/components/ChatDisabled.tsx:104
-msgid "This appeal will be sent to Bluesky's moderation service."
-msgstr "Це звернення буде направлено до сервісу модерації Bluesky."
+msgid "This appeal will be sent to koyu.space's moderation service."
+msgstr "Це звернення буде направлено до сервісу модерації koyu.space."
 
 #: src/screens/Messages/components/MessageListError.tsx:18
 msgid "This chat was disconnected"
@@ -7504,8 +7508,8 @@ msgid "This content is not available because one of the users involved has block
 msgstr "Цей контент недоступний, оскільки один із залучених користувачів заблокував іншого."
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:114
-msgid "This content is not viewable without a Bluesky account."
-msgstr "Цей вміст не доступний для перегляду без облікового запису Bluesky."
+msgid "This content is not viewable without a koyu.space account."
+msgstr "Цей вміст не доступний для перегляду без облікового запису koyu.space."
 
 #: src/screens/Messages/components/ChatListItem.tsx:296
 msgid "This conversation is with a deleted or a deactivated account. Press for options"
@@ -7566,11 +7570,11 @@ msgid "This link is taking you to the following website:"
 msgstr "Це посилання веде на сайт:"
 
 #: src/screens/List/ListHiddenScreen.tsx:151
-msgid "This list – created by <0>{0}</0> – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by <0>{0}</0> – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/screens/List/ListHiddenScreen.tsx:146
-msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by you – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/view/screens/ProfileList.tsx:955
@@ -7582,8 +7586,8 @@ msgid "This moderation service is unavailable. See below for more details. If th
 msgstr "Даний сервіс модерації недоступний. Перегляньте деталі нижче. Якщо проблема не зникне, зв'яжіться з нами."
 
 #: src/view/com/post-thread/PostThreadItem.tsx:856
-msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
-msgstr "Зазначається, що пост було створено — <0>{0}</0>, але вперше цей пост було оприлюднено на Bluesky — <1>{1}</1>."
+msgid "This post claims to have been created on <0>{0}</0>, but was first seen by koyu.space on <1>{1}</1>."
+msgstr "Зазначається, що пост було створено — <0>{0}</0>, але вперше цей пост було оприлюднено на koyu.space — <1>{1}</1>."
 
 #: src/components/WhoCanReply.tsx:217
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
@@ -7667,8 +7671,8 @@ msgstr "Це прибере @{0} зі списку швидкого доступ
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "Це видалить ваш пост з цитованого посту для усіх користувачів та замінить його на заповнювач."
 
-#: src/view/com/post-thread/PostThread.tsx:610
-#: src/view/com/post-thread/PostThread.tsx:613
+#: src/view/com/post-thread/PostThread.tsx:609
+#: src/view/com/post-thread/PostThread.tsx:612
 msgid "Thread options"
 msgstr ""
 
@@ -7681,8 +7685,8 @@ msgstr "Налаштування гілок"
 msgid "Thread Preferences"
 msgstr "Налаштування гілок"
 
-#: src/view/com/post-thread/PostThread.tsx:640
-#: src/view/com/post-thread/PostThread.tsx:645
+#: src/view/com/post-thread/PostThread.tsx:639
+#: src/view/com/post-thread/PostThread.tsx:644
 msgid "Threaded"
 msgstr ""
 
@@ -7707,8 +7711,8 @@ msgid "To report a conversation, please report one of its messages via the conve
 msgstr "Для скарги на розмову, будь ласка, поскаржтеся на одне з повідомлень з неї через екран розмови. Це дозволить нашим модераторам зрозуміти контекст проблеми."
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:129
-msgid "To upload videos to Bluesky, you must first verify your email."
-msgstr "Для завантаження відео на Bluesky потрібно підтвердити адресу електронної пошти."
+msgid "To upload videos to koyu.space, you must first verify your email."
+msgstr "Для завантаження відео на koyu.space потрібно підтвердити адресу електронної пошти."
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:31
 msgid "To whom would you like to send this report?"
@@ -7740,8 +7744,8 @@ msgstr "Топ"
 msgid "Topic"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:105
-#: src/components/dms/MessageMenu.tsx:107
+#: src/components/dms/MessageContextMenu.tsx:96
+#: src/components/dms/MessageContextMenu.tsx:98
 #: src/view/com/post-thread/PostThreadItem.tsx:778
 #: src/view/com/post-thread/PostThreadItem.tsx:781
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:451
@@ -7960,7 +7964,7 @@ msgstr "Відписатися від цього мітника"
 msgid "Unsubscribed from list"
 msgstr "Відписано від списку"
 
-#: src/view/com/composer/Composer.tsx:781
+#: src/view/com/composer/Composer.tsx:782
 msgid "Unsupported video type"
 msgstr "Непідтримуваний тип відео"
 
@@ -8011,20 +8015,20 @@ msgstr "Натомість завантажити фото"
 msgid "Upload a text file to:"
 msgstr "Завантажити текстовий файл до:"
 
-#: src/view/com/util/UserAvatar.tsx:368
-#: src/view/com/util/UserAvatar.tsx:371
+#: src/view/com/util/UserAvatar.tsx:387
+#: src/view/com/util/UserAvatar.tsx:390
 #: src/view/com/util/UserBanner.tsx:123
 #: src/view/com/util/UserBanner.tsx:126
 msgid "Upload from Camera"
 msgstr "Завантажити з камери"
 
-#: src/view/com/util/UserAvatar.tsx:385
+#: src/view/com/util/UserAvatar.tsx:404
 #: src/view/com/util/UserBanner.tsx:140
 msgid "Upload from Files"
 msgstr "Завантажити з файлів"
 
-#: src/view/com/util/UserAvatar.tsx:379
-#: src/view/com/util/UserAvatar.tsx:383
+#: src/view/com/util/UserAvatar.tsx:398
+#: src/view/com/util/UserAvatar.tsx:402
 #: src/view/com/util/UserBanner.tsx:134
 #: src/view/com/util/UserBanner.tsx:138
 msgid "Upload from Library"
@@ -8039,12 +8043,12 @@ msgstr "Завантаження зображень..."
 msgid "Uploading link thumbnail..."
 msgstr "Завантаження ескізу посилання..."
 
-#: src/view/com/composer/Composer.tsx:1655
+#: src/view/com/composer/Composer.tsx:1647
 msgid "Uploading video..."
 msgstr "Завантаження відео..."
 
 #: src/screens/Settings/AppPasswords.tsx:67
-msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
+msgid "Use app passwords to sign in to other koyu.space clients without giving full access to your account or password."
 msgstr ""
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:539
@@ -8240,7 +8244,7 @@ msgstr "Відео не знайдено."
 msgid "Video settings"
 msgstr "Налаштування відео"
 
-#: src/view/com/composer/Composer.tsx:1665
+#: src/view/com/composer/Composer.tsx:1657
 msgid "Video uploaded"
 msgstr "Відео завантажено"
 
@@ -8410,8 +8414,8 @@ msgid "We have sent another verification email to <0>{0}</0>."
 msgstr "Ми надіслали ще один лист з підтвердженням на <0>{0}</0>."
 
 #: src/screens/Onboarding/StepFinished.tsx:256
-msgid "We hope you have a wonderful time. Remember, Bluesky is:"
-msgstr "Ми сподіваємося, що ви проведете чудово свій час. Пам'ятайте, Bluesky — це:"
+msgid "We hope you have a wonderful time. Remember, koyu.space is:"
+msgstr "Ми сподіваємося, що ви проведете чудово свій час. Пам'ятайте, koyu.space — це:"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
@@ -8495,9 +8499,7 @@ msgstr "Яку назву оберете для власної підбірки?
 msgid "What people are posting about."
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:38
-#: src/view/com/auth/SplashScreen.web.tsx:99
-#: src/view/com/composer/Composer.tsx:744
+#: src/view/com/composer/Composer.tsx:745
 msgid "What's up?"
 msgstr "Як справи?"
 
@@ -8571,11 +8573,11 @@ msgstr "Чому слід переглянути цього користувач
 msgid "Write a message"
 msgstr "Уведіть повідомлення"
 
-#: src/view/com/composer/Composer.tsx:832
+#: src/view/com/composer/Composer.tsx:836
 msgid "Write post"
 msgstr "Написати пост"
 
-#: src/view/com/composer/Composer.tsx:742
+#: src/view/com/composer/Composer.tsx:743
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:69
 msgid "Write your reply"
 msgstr "Написати відповідь"
@@ -8684,7 +8686,7 @@ msgid "You don't have any chat requests at the moment."
 msgstr ""
 
 #: src/view/com/modals/InviteCodes.tsx:67
-msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
+msgid "You don't have any invite codes yet! We'll send you some when you've been on koyu.space for a little longer."
 msgstr "У вас ще немає кодів запрошення! З часом ми надамо вам декілька."
 
 #: src/view/screens/SavedFeeds.tsx:137
@@ -8820,7 +8822,7 @@ msgid "You previously deactivated @{0}."
 msgstr "Раніше ви деактивували @{0}."
 
 #: src/screens/Settings/Settings.tsx:257
-#: src/view/shell/desktop/LeftNav.tsx:205
+#: src/view/shell/desktop/LeftNav.tsx:206
 msgid "You will be signed out of all your accounts."
 msgstr "Ви вийдете з усіх облікових записів."
 
@@ -8931,7 +8933,7 @@ msgid "Your account repository, containing all public data records, can be downl
 msgstr "Дані з вашого облікового запису, які містять усі загальнодоступні записи, можна завантажити як \"CAR\" файл. Цей файл не містить медіафайлів, таких як зображення, або особисті дані, які необхідно отримати окремо."
 
 #: src/screens/Takendown.tsx:214
-msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
+msgid "Your account was found to be in violation of the <0>koyu.space Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
 msgstr ""
 
 #: src/screens/Takendown.tsx:154
@@ -9018,8 +9020,8 @@ msgid "Your posts, likes, and blocks are public. Mutes are private."
 msgstr "Ваші повідомлення, вподобання і блоки є публічними. Ігнорування - приватні."
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
-msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr "Ваш обліковий запис, пости, стрічки та списки більше не будуть видимі іншим користувачам Bluesky. Ви можете відновити свій обліковий запис в будь-який момент ввівши дані облікового запису у поле для входу."
+msgid "Your profile, posts, feeds, and lists will no longer be visible to other koyu.space users. You can reactivate your account at any time by logging in."
+msgstr "Ваш обліковий запис, пости, стрічки та списки більше не будуть видимі іншим користувачам koyu.space. Ви можете відновити свій обліковий запис в будь-який момент ввівши дані облікового запису у поле для входу."
 
 #: src/view/com/composer/Composer.tsx:484
 msgid "Your reply has been published"
@@ -9030,5 +9032,5 @@ msgid "Your report will be sent to <0>{0}</0>."
 msgstr ""
 
 #: src/components/dms/ReportDialog.tsx:200
-msgid "Your report will be sent to the Bluesky Moderation Service"
-msgstr "Вашу скаргу буде надіслано до Служби модерації Bluesky"
+msgid "Your report will be sent to the koyu.space Moderation Service"
+msgstr "Вашу скаргу буде надіслано до Служби модерації koyu.space"

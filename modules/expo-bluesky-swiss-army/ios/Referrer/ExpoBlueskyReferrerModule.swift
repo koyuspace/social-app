@@ -1,7 +1,7 @@
 import ExpoModulesCore
 
-public class ExpoBlueskyReferrerModule: Module {
+public class Expokoyu.spaceReferrerModule: Module {
   public func definition() -> ModuleDefinition {
-    Name("ExpoBlueskyReferrer")
+    Name("Expokoyu.spaceReferrer")
   }
 }

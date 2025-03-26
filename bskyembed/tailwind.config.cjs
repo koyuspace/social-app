@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: 'rgb(10,122,255)',
-        brandLighten: 'rgb(32,139,254)',
-        textLight: 'rgb(66,87,108)',
-        textDimmed: 'rgb(174,187,201)',
-        dimmedBgLighten: 'rgb(30,41,54)',
-        dimmedBg: 'rgb(22,30,39)',
-        dimmedBgDarken: 'rgb(18,25,32)',
+        brand: 'rgb(254,82,225)',
+        brandLighten: 'rgb(254,158,237)',
+        textLight: 'rgb(66,66,66)',
+        textDimmed: 'rgb(174,174,174)',
+        dimmedBgLighten: 'rgb(34,34,51)',
+        dimmedBg: 'rgb(25,25,51)',
+        dimmedBgDarken: 'rgb(17,17,34)',
       },
     },
   },

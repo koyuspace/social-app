@@ -1,12 +1,10 @@
-# Bluesky Social App
+# koyu.space App
 
-Welcome friends! This is the codebase for the Bluesky Social app.
+Welcome friends! This is the codebase for the koyu.space app.
 
 Get the app itself:
 
-- **Web: [bsky.app](https://bsky.app)**
-- **iOS: [App Store](https://apps.apple.com/us/app/bluesky-social/id6444370199)**
-- **Android: [Play Store](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app)**
+- **Web: [koyu.space](https://koyu.space)**
 
 ## Development Resources
 
@@ -23,7 +21,7 @@ The Authenticated Transfer Protocol ("AT Protocol" or "atproto") is a decentrali
 - [Protocol Specifications](https://atproto.com/specs/atp)
 - [Blogpost on self-authenticating data structures](https://bsky.social/about/blog/3-6-2022-a-self-authenticating-social-protocol)
 
-The Bluesky Social application encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these "Lexicons" is `app.bsky.*`.
+The koyu.space application encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these "Lexicons" is `app.bsky.*`.
 
 ## Contributions
 
@@ -53,17 +51,17 @@ You have our blessing 🪄✨ to fork this application! However, it's very impor
 
 Please be sure to:
 
-- Change all branding in the repository and UI to clearly differentiate from Bluesky.
+- Change all branding in the repository and UI to clearly differentiate from koyu.space.
 - Change any support links (feedback, email, terms of service, etc) to your own systems.
 - Replace any analytics or error-collection systems with your own so we don't get super confused.
 
 ## Security disclosures
 
-If you discover any security issues, please send an email to security@bsky.app. The email is automatically CCed to the entire team and we'll respond promptly.
+If you discover any security issues, please send an email to security@koyu.space. The email is automatically CCed to the entire team and we'll respond promptly.
 
 ## Are you a developer interested in building on atproto?
 
-Bluesky is an open social network built on the AT Protocol, a flexible technology that will never lock developers out of the ecosystems that they help build. With atproto, third-party integration can be as seamless as first-party through custom feeds, federated services, clients, and more.
+koyu.space is an open social network built on the AT Protocol, a flexible technology that will never lock developers out of the ecosystems that they help build. With atproto, third-party integration can be as seamless as first-party through custom feeds, federated services, clients, and more.
 
 ## License (MIT)
 
@@ -71,4 +69,4 @@ See [./LICENSE](./LICENSE) for the full license.
 
 ## P.S.
 
-We ❤️ you and all of the ways you support us. Thank you for making Bluesky a great place!
+We ❤️ you and all of the ways you support us. Thank you for making koyu.space a great place!

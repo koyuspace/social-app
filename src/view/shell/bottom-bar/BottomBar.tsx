@@ -261,7 +261,7 @@ export function BottomBar({navigation}: BottomTabBarProps) {
                       <UserAvatar
                         avatar={profile?.avatar}
                         size={iconWidth - 3}
-                        // See https://github.com/bluesky-social/social-app/pull/1801:
+                        // See https://github.com/koyuspace/social-app/pull/1801:
                         usePlainRNImage={true}
                         type={profile?.associated?.labeler ? 'labeler' : 'user'}
                       />
@@ -272,7 +272,7 @@ export function BottomBar({navigation}: BottomTabBarProps) {
                       <UserAvatar
                         avatar={profile?.avatar}
                         size={iconWidth - 3}
-                        // See https://github.com/bluesky-social/social-app/pull/1801:
+                        // See https://github.com/koyuspace/social-app/pull/1801:
                         usePlainRNImage={true}
                         type={profile?.associated?.labeler ? 'labeler' : 'user'}
                       />

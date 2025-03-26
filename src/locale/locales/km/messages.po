@@ -143,7 +143,7 @@ msgstr ""
 msgid "{0} people have used this starter pack!"
 msgstr "មនុស្ស {0} នាក់បានប្រើកញ្ចប់ចាប់ផ្តើមនេះ"
 
-#: src/view/com/util/UserAvatar.tsx:445
+#: src/view/com/util/UserAvatar.tsx:464
 msgid "{0}'s avatar"
 msgstr ""
 
@@ -175,7 +175,7 @@ msgstr ""
 msgid "{0}s"
 msgstr ""
 
-#: src/view/shell/desktop/LeftNav.tsx:382
+#: src/view/shell/desktop/LeftNav.tsx:383
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
@@ -294,12 +294,12 @@ msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:116
-msgid "{profileName} joined Bluesky {0} ago"
-msgstr "{profileName} បានចូលរួមជាមួយ Bluesky {0} មុន។"
+msgid "{profileName} joined koyu.space {0} ago"
+msgstr "{profileName} បានចូលរួមជាមួយ koyu.space {0} មុន។"
 
 #: src/components/NewskieDialog.tsx:111
-msgid "{profileName} joined Bluesky using a starter pack {0} ago"
-msgstr "{profileName} បានចូលរួមជាមួយ Bluesky ដោយប្រើកញ្ចប់ចាប់ផ្តើម {0} មុន"
+msgid "{profileName} joined koyu.space using a starter pack {0} ago"
+msgstr "{profileName} បានចូលរួមជាមួយ koyu.space ដោយប្រើកញ្ចប់ចាប់ផ្តើម {0} មុន"
 
 #: src/screens/StarterPack/Wizard/index.tsx:449
 msgctxt "profiles"
@@ -499,12 +499,12 @@ msgstr "បន្ថែមអត្ថបទជំនួស (ជាជម្រ�
 
 #: src/screens/Settings/Settings.tsx:373
 #: src/screens/Settings/Settings.tsx:376
-#: src/view/shell/desktop/LeftNav.tsx:280
-#: src/view/shell/desktop/LeftNav.tsx:284
+#: src/view/shell/desktop/LeftNav.tsx:281
+#: src/view/shell/desktop/LeftNav.tsx:285
 msgid "Add another account"
 msgstr "បន្ថែមគណនីផ្សេងទៀត"
 
-#: src/view/com/composer/Composer.tsx:743
+#: src/view/com/composer/Composer.tsx:744
 msgid "Add another post"
 msgstr "បន្ថែមប្រកាសមួយទៀត"
 
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Add muted words and tags"
 msgstr "បន្ថែមពាក្យ និងស្លាកដែលបានបិទ"
 
-#: src/view/com/composer/Composer.tsx:1258
+#: src/view/com/composer/Composer.tsx:1261
 msgid "Add new post"
 msgstr "បន្ថែមប្រកាសថ្មី"
 
@@ -594,8 +594,8 @@ msgid "Adult Content"
 msgstr "មាតិកាសម្រាប់មនុស្សពេញវ័យ"
 
 #: src/screens/Moderation/index.tsx:355
-msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
-msgstr "មាតិកាសម្រាប់មនុស្សពេញវ័យអាចត្រូវបានបើកតាមរយៈគេហទំព័រនៅ <0>bsky.app</0> ប៉ុណ្ណោះ។"
+msgid "Adult content can only be enabled via the Web at <0>koyu.space</0>."
+msgstr "មាតិកាសម្រាប់មនុស្សពេញវ័យអាចត្រូវបានបើកតាមរយៈគេហទំព័រនៅ <0>koyu.space</0> ប៉ុណ្ណោះ។"
 
 #: src/components/moderation/LabelPreference.tsx:242
 msgid "Adult content is disabled."
@@ -894,7 +894,7 @@ msgstr ""
 msgid "Are you sure you want to delete the app password \"{0}\"?"
 msgstr "តើអ្នកប្រាកដថាចង់លុបពាក្យសម្ងាត់កម្មវិធី \"{0}\"?"
 
-#: src/components/dms/MessageMenu.tsx:152
+#: src/components/dms/MessageContextMenu.tsx:142
 msgid "Are you sure you want to delete this message? The message will be deleted for you, but not for the other participant."
 msgstr "តើអ្នកប្រាកដថាចង់លុបសារនេះទេ? សារនឹងត្រូវបានលុបសម្រាប់អ្នក ប៉ុន្តែមិនមែនសម្រាប់អ្នកចូលរួមផ្សេងទៀតទេ"
 
@@ -922,11 +922,11 @@ msgstr "តើអ្នកប្រាកដទេថាអ្នកចង់ល
 msgid "Are you sure you want to remove this from your feeds?"
 msgstr "តើអ្នកប្រាកដថាចង់លុបវាចេញពីមតិព័ត៌មានរបស់អ្នកមែនទេ"
 
-#: src/view/com/composer/Composer.tsx:694
+#: src/view/com/composer/Composer.tsx:695
 msgid "Are you sure you'd like to discard this draft?"
 msgstr "តើ​អ្នក​ប្រាកដ​ថា​អ្នក​ចង់​បោះបង់​សេចក្តី​ព្រាង​នេះ"
 
-#: src/view/com/composer/Composer.tsx:868
+#: src/view/com/composer/Composer.tsx:872
 msgid "Are you sure you'd like to discard this post?"
 msgstr "តើអ្នកប្រាកដថាចង់បោះបង់ការបង្ហោះនេះទេ?"
 
@@ -1110,57 +1110,6 @@ msgstr "ការទប់ស្កាត់ជាសាធារណៈ។ គ�
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "ការទប់ស្កាត់នឹងមិនរារាំងស្លាកមិនឱ្យអនុវត្តនៅលើគណនីរបស់អ្នកទេ ប៉ុន្តែវានឹងបញ្ឈប់គណនីនេះពីការឆ្លើយតបនៅក្នុងខ្សែស្រឡាយរបស់អ្នក ឬធ្វើអន្តរកម្មជាមួយអ្នក"
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Blog"
-msgstr "ប្លុក"
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr ""
-
-#: src/view/com/post-thread/PostThreadItem.tsx:870
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "Bluesky មិនអាចបញ្ជាក់ពីភាពត្រឹមត្រូវនៃកាលបរិច្ឆេទដែលបានទាមទារនោះទេ"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr ""
-
-#: src/view/com/auth/server-input/index.tsx:212
-msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr "Bluesky គឺជាបណ្តាញបើកចំហដែលអ្នកអាចជ្រើសរើសអ្នកផ្តល់សេវាបង្ហោះរបស់អ្នក។ ប្រសិនបើអ្នកជាអ្នកអភិវឌ្ឍន៍ អ្នកអាចធ្វើជាម្ចាស់ផ្ទះម៉ាស៊ីនមេរបស់អ្នក"
-
-#: src/view/com/auth/server-input/index.tsx:149
-msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr ""
-
-#: src/components/ProgressGuide/List.tsx:53
-#: src/components/ProgressGuide/List.tsx:70
-msgid "Bluesky is better with friends!"
-msgstr "Bluesky គឺល្អជាមួយមិត្តភក្តិ!"
-
-#: src/screens/Takendown.tsx:217
-msgid "Bluesky Social Terms of Service"
-msgstr ""
-
-#: src/components/StarterPack/ProfileStarterPacks.tsx:298
-msgid "Bluesky will choose a set of recommended accounts from people in your network."
-msgstr "Bluesky នឹងជ្រើសរើសសំណុំនៃគណនីដែលបានណែនាំពីមនុស្សនៅក្នុងបណ្តាញរបស់អ្នក"
-
-#: src/screens/Settings/components/PwiOptOut.tsx:99
-msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr "Bluesky នឹងមិនបង្ហាញប្រវត្តិរូប និងការបង្ហោះរបស់អ្នកទៅកាន់អ្នកប្រើប្រាស់ដែលបានចេញពីគណនីនោះទេ។ កម្មវិធីផ្សេងទៀតប្រហែលជាមិនគោរពសំណើនេះទេ។ នេះមិនធ្វើឱ្យគណនីរបស់អ្នកជាឯកជនទេ"
-
-#: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "Bluesky+"
-msgstr ""
-
-#: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "Bluesky+ icons"
-msgstr ""
-
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
 msgstr "រូបភាពព្រិលៗ"
@@ -1215,10 +1164,6 @@ msgstr ""
 msgid "Browse topic {displayName}"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Business"
-msgstr "អាជីវកម្ម"
-
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:672
 msgid "By {0}"
@@ -1257,7 +1202,7 @@ msgstr "កាមេរ៉ា"
 #: src/screens/Settings/Settings.tsx:260
 #: src/screens/Takendown.tsx:99
 #: src/screens/Takendown.tsx:102
-#: src/view/com/composer/Composer.tsx:931
+#: src/view/com/composer/Composer.tsx:935
 #: src/view/com/modals/ChangeEmail.tsx:213
 #: src/view/com/modals/ChangeEmail.tsx:215
 #: src/view/com/modals/ChangePassword.tsx:279
@@ -1273,7 +1218,7 @@ msgstr "កាមេរ៉ា"
 #: src/view/com/modals/VerifyEmail.tsx:261
 #: src/view/com/util/post-ctrls/RepostButton.tsx:213
 #: src/view/screens/Search/Search.tsx:890
-#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Cancel"
 msgstr "បោះបង់"
 
@@ -1398,7 +1343,7 @@ msgstr ""
 
 #: src/Navigation.tsx:408
 #: src/view/shell/bottom-bar/BottomBar.tsx:205
-#: src/view/shell/desktop/LeftNav.tsx:534
+#: src/view/shell/desktop/LeftNav.tsx:535
 #: src/view/shell/Drawer.tsx:422
 msgid "Chat"
 msgstr "ជជែក"
@@ -1425,7 +1370,6 @@ msgid "Chat requests"
 msgstr ""
 
 #: src/components/dms/ConvoMenu.tsx:75
-#: src/components/dms/MessageMenu.tsx:83
 #: src/Navigation.tsx:413
 #: src/screens/Messages/ChatList.tsx:328
 msgid "Chat settings"
@@ -1531,7 +1475,7 @@ msgstr "ចុច​ដើម្បី​បើក​ការ​ប្រកា
 msgid "Click to open tag menu for {tag}"
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:241
+#: src/components/dms/MessageItem.tsx:229
 msgid "Click to retry failed message"
 msgstr "ចុចដើម្បីព្យាយាមសារដែលបរាជ័យម្តងទៀត"
 
@@ -1597,6 +1541,11 @@ msgstr "រូបភាពបិទ"
 msgid "Close image viewer"
 msgstr "បិទកម្មវិធីមើលរូបភាព"
 
+#: src/components/ContextMenu/Backdrop.ios.tsx:43
+#: src/components/ContextMenu/Backdrop.tsx:39
+msgid "Close menu"
+msgstr ""
+
 #: src/components/Menu/index.tsx:298
 msgid "Close this dialog"
 msgstr "បិទប្រអប់នេះ។"
@@ -1654,11 +1603,11 @@ msgstr "បញ្ចប់ការបើកដំណើរការ ហើយ�
 msgid "Complete the challenge"
 msgstr "បញ្ចប់ការប្រឈម"
 
-#: src/view/shell/desktop/LeftNav.tsx:499
+#: src/view/shell/desktop/LeftNav.tsx:500
 msgid "Compose new post"
 msgstr "សរសេរអត្ថបទថ្មី"
 
-#: src/view/com/composer/Composer.tsx:834
+#: src/view/com/composer/Composer.tsx:838
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
 msgstr "សរសេរការបង្ហោះរហូតដល់ {MAX_GRAPHEME_LENGTH} តួអក្សរដែលមានប្រវែង"
 
@@ -1666,7 +1615,7 @@ msgstr "សរសេរការបង្ហោះរហូតដល់ {MAX_GRA
 msgid "Compose reply"
 msgstr "សរសេរការឆ្លើយតប"
 
-#: src/view/com/composer/Composer.tsx:1652
+#: src/view/com/composer/Composer.tsx:1644
 msgid "Compressing video..."
 msgstr "កំពុង​បង្ហាប់​វីដេអូ..."
 
@@ -1827,7 +1776,7 @@ msgstr "ចម្លង"
 msgid "Copied build version to clipboard"
 msgstr "បានចម្លងកំណែស្ថាបនាទៅ clipboard"
 
-#: src/components/dms/MessageMenu.tsx:57
+#: src/components/dms/MessageContextMenu.tsx:52
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -1895,8 +1844,8 @@ msgstr "ចម្លងតំណទៅបញ្ជី"
 msgid "Copy link to post"
 msgstr "ចម្លងតំណទៅប្រកាស"
 
-#: src/components/dms/MessageMenu.tsx:112
-#: src/components/dms/MessageMenu.tsx:114
+#: src/components/dms/MessageContextMenu.tsx:103
+#: src/components/dms/MessageContextMenu.tsx:106
 msgid "Copy message text"
 msgstr "ចម្លងអត្ថបទសារ"
 
@@ -1962,8 +1911,8 @@ msgstr "បង្កើតកញ្ចប់ចាប់ផ្តើម"
 msgid "Create a starter pack for me"
 msgstr "បង្កើតកញ្ចប់ចាប់ផ្តើមសម្រាប់ខ្ញុំ"
 
-#: src/view/com/auth/SplashScreen.tsx:55
-#: src/view/com/auth/SplashScreen.web.tsx:117
+#: src/view/com/auth/SplashScreen.tsx:48
+#: src/view/com/auth/SplashScreen.web.tsx:106
 #: src/view/shell/bottom-bar/BottomBar.tsx:315
 #: src/view/shell/bottom-bar/BottomBar.tsx:320
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:199
@@ -1990,8 +1939,8 @@ msgstr "បង្កើតរូបតំណាងជំនួសវិញ"
 msgid "Create another"
 msgstr "បង្កើតមួយផ្សេងទៀត"
 
-#: src/view/com/auth/SplashScreen.tsx:47
-#: src/view/com/auth/SplashScreen.web.tsx:109
+#: src/view/com/auth/SplashScreen.tsx:40
+#: src/view/com/auth/SplashScreen.web.tsx:98
 msgid "Create new account"
 msgstr "បង្កើតគណនីថ្មី"
 
@@ -2027,7 +1976,7 @@ msgid "Customize who can interact with this post."
 msgstr "ប្ដូរតាមបំណងអ្នកដែលអាចធ្វើអន្តរកម្មជាមួយនឹងការបង្ហោះនេះ"
 
 #: src/screens/Onboarding/Layout.tsx:56
-msgid "Customizes your Bluesky experience"
+msgid "Customizes your koyu.space experience"
 msgstr ""
 
 #: src/components/dialogs/Embed.tsx:167
@@ -2076,7 +2025,7 @@ msgstr "លំនាំដើម"
 msgid "Default icons"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:154
+#: src/components/dms/MessageContextMenu.tsx:144
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:591
@@ -2124,7 +2073,7 @@ msgstr ""
 msgid "Delete Conversation"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:126
+#: src/components/dms/MessageContextMenu.tsx:117
 msgid "Delete for me"
 msgstr "លុបពីខ្ញុំ"
 
@@ -2132,11 +2081,11 @@ msgstr "លុបពីខ្ញុំ"
 msgid "Delete List"
 msgstr "លុបបញ្ជី"
 
-#: src/components/dms/MessageMenu.tsx:150
+#: src/components/dms/MessageContextMenu.tsx:140
 msgid "Delete message"
 msgstr "លុបសារ"
 
-#: src/components/dms/MessageMenu.tsx:124
+#: src/components/dms/MessageContextMenu.tsx:115
 msgid "Delete message for me"
 msgstr ""
 
@@ -2144,7 +2093,7 @@ msgstr ""
 msgid "Delete my account"
 msgstr "លុបសារពីខ្ញុំ"
 
-#: src/view/com/composer/Composer.tsx:842
+#: src/view/com/composer/Composer.tsx:846
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:709
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:711
 msgid "Delete post"
@@ -2256,8 +2205,8 @@ msgid "Disabled"
 msgstr "បានបិទ"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:84
-#: src/view/com/composer/Composer.tsx:696
-#: src/view/com/composer/Composer.tsx:875
+#: src/view/com/composer/Composer.tsx:697
+#: src/view/com/composer/Composer.tsx:879
 msgid "Discard"
 msgstr "បោះបង់"
 
@@ -2265,11 +2214,11 @@ msgstr "បោះបង់"
 msgid "Discard changes?"
 msgstr "បោះបង់ "
 
-#: src/view/com/composer/Composer.tsx:693
+#: src/view/com/composer/Composer.tsx:694
 msgid "Discard draft?"
 msgstr "បោះបង់ការផ្លាស់ប្តូរ?"
 
-#: src/view/com/composer/Composer.tsx:867
+#: src/view/com/composer/Composer.tsx:871
 msgid "Discard post?"
 msgstr "បោះបង់ការបង្ហោះ?"
 
@@ -2295,7 +2244,7 @@ msgstr "ស្វែងរកមតិព័ត៌មានថ្មី"
 msgid "Dismiss"
 msgstr "ច្រានចោល"
 
-#: src/view/com/composer/Composer.tsx:1576
+#: src/view/com/composer/Composer.tsx:1568
 msgid "Dismiss error"
 msgstr "ច្រានចោលកំហុស"
 
@@ -2393,13 +2342,13 @@ msgstr "ចុចពីរដងដើម្បីបិទប្រអប់"
 msgid "Double tap to like"
 msgstr ""
 
-#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
-msgid "Download Bluesky"
-msgstr ""
-
 #: src/screens/Settings/components/ExportCarDialog.tsx:79
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
+msgstr ""
+
+#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
+msgid "Download koyu.space"
 msgstr ""
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:342
@@ -2466,7 +2415,7 @@ msgctxt "action"
 msgid "Edit"
 msgstr "កែសម្រួល"
 
-#: src/view/com/util/UserAvatar.tsx:344
+#: src/view/com/util/UserAvatar.tsx:363
 #: src/view/com/util/UserBanner.tsx:95
 msgid "Edit avatar"
 msgstr "កែសម្រួលរូបតំណាង"
@@ -2746,7 +2695,7 @@ msgstr "បញ្ចូលឈ្មោះអ្នកប្រើប្រាស
 msgid "Enters full screen"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1661
+#: src/view/com/composer/Composer.tsx:1653
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "កំហុស"
@@ -2931,7 +2880,7 @@ msgctxt "toast"
 msgid "Failed to delete chat"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:75
+#: src/components/dms/MessageContextMenu.tsx:70
 msgid "Failed to delete message"
 msgstr "បរាជ័យក្នុងការលុបសារ"
 
@@ -2991,7 +2940,7 @@ msgstr "បរាជ័យក្នុងការរក្សាទុកចំ
 msgid "Failed to save settings. Please try again."
 msgstr ""
 
-#: src/components/dms/MessageItem.tsx:234
+#: src/components/dms/MessageItem.tsx:222
 msgid "Failed to send"
 msgstr "បរាជ័យក្នុងកាផ្ញើ"
 
@@ -3040,8 +2989,8 @@ msgstr ""
 msgid "Feed toggle"
 msgstr ""
 
-#: src/view/shell/desktop/RightNav.tsx:97
-#: src/view/shell/desktop/RightNav.tsx:98
+#: src/view/shell/desktop/RightNav.tsx:102
+#: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:324
 msgid "Feedback"
 msgstr "មតិកែលម្អ"
@@ -3058,7 +3007,7 @@ msgstr "បានផ្ញើមតិកែលម្អ!"
 #: src/view/screens/Profile.tsx:227
 #: src/view/screens/SavedFeeds.tsx:96
 #: src/view/screens/Search/Search.tsx:531
-#: src/view/shell/desktop/LeftNav.tsx:651
+#: src/view/shell/desktop/LeftNav.tsx:655
 #: src/view/shell/Drawer.tsx:486
 msgid "Feeds"
 msgstr "ព័ត៌មាន"
@@ -3114,7 +3063,7 @@ msgid "Find people to follow"
 msgstr ""
 
 #: src/view/screens/Search/Search.tsx:582
-msgid "Find posts, users, and feeds on Bluesky"
+msgid "Find posts, users, and feeds on koyu.space"
 msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:195
@@ -3363,7 +3312,7 @@ msgstr "ផ្តល់ទម្រង់មុខរបស់អ្នក"
 msgid "Glaring violations of law or terms of service"
 msgstr "ការបំពានច្បាប់ ឬលក្ខខណ្ឌប្រើប្រាស់ជាក់ស្តែង"
 
-#: src/components/Layout/Header/index.tsx:126
+#: src/components/Layout/Header/index.tsx:127
 #: src/components/moderation/ScreenHider.tsx:154
 #: src/components/moderation/ScreenHider.tsx:163
 #: src/screens/Messages/Inbox.tsx:228
@@ -3475,8 +3424,8 @@ msgstr "មានបញ្ហា?"
 
 #: src/screens/Settings/Settings.tsx:207
 #: src/screens/Settings/Settings.tsx:211
-#: src/view/shell/desktop/RightNav.tsx:115
-#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:120
+#: src/view/shell/desktop/RightNav.tsx:121
 #: src/view/shell/Drawer.tsx:337
 msgid "Help"
 msgstr "ជំនួយ"
@@ -3506,7 +3455,7 @@ msgstr "បញ្ជីដែលលាក់"
 #: src/components/interstitials/TrendingVideos.tsx:140
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:135
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -3610,7 +3559,7 @@ msgstr "ចាំ! យើងកំពុងផ្តល់សិទ្ធិច�
 #: src/Navigation.tsx:627
 #: src/Navigation.tsx:647
 #: src/view/shell/bottom-bar/BottomBar.tsx:162
-#: src/view/shell/desktop/LeftNav.tsx:595
+#: src/view/shell/desktop/LeftNav.tsx:599
 #: src/view/shell/Drawer.tsx:396
 msgid "Home"
 msgstr "ទំព័រដើម"
@@ -3626,8 +3575,8 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:67
 #: src/screens/Settings/ThreadPreferences.tsx:70
-#: src/view/com/post-thread/PostThread.tsx:656
-#: src/view/com/post-thread/PostThread.tsx:661
+#: src/view/com/post-thread/PostThread.tsx:655
+#: src/view/com/post-thread/PostThread.tsx:660
 msgid "Hot replies first"
 msgstr "ការឆ្លើយតបភ្លាមៗជាមុន"
 
@@ -3822,21 +3771,16 @@ msgstr "វាត្រឹមត្រូវ"
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "មានតែអ្នកទេឥឡូវនេះ! បន្ថែមមនុស្សបន្ថែមទៀតទៅក្នុងកញ្ចប់ចាប់ផ្តើមរបស់អ្នកដោយស្វែងរកខាងលើ"
 
-#: src/view/com/composer/Composer.tsx:1595
+#: src/view/com/composer/Composer.tsx:1587
 msgid "Job ID: {0}"
 msgstr ""
-
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "Jobs"
-msgstr "ការងារ"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:211
 #: src/screens/StarterPack/StarterPackScreen.tsx:461
 #: src/screens/StarterPack/StarterPackScreen.tsx:472
-msgid "Join Bluesky"
-msgstr "ចូលរួមជាមួយ Bluesky"
+msgid "Join koyu.space"
+msgstr "ចូលរួមជាមួយ koyu.space"
 
 #: src/components/StarterPack/QrCode.tsx:68
 #: src/view/shell/NavSignupCard.tsx:40
@@ -3847,6 +3791,57 @@ msgstr "ចូលរួមការសន្ទនា"
 #: src/screens/Onboarding/state.ts:104
 msgid "Journalism"
 msgstr "សារព័ត៌មាន"
+
+#: src/view/com/auth/server-input/index.tsx:136
+#: src/view/com/auth/server-input/index.tsx:137
+msgid "koyu.space"
+msgstr ""
+
+#: src/view/com/post-thread/PostThreadItem.tsx:870
+msgid "koyu.space cannot confirm the authenticity of the claimed date."
+msgstr "koyu.space មិនអាចបញ្ជាក់ពីភាពត្រឹមត្រូវនៃកាលបរិច្ឆេទដែលបានទាមទារនោះទេ"
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
+msgctxt "Name of app icon variant"
+msgid "koyu.space Classic™"
+msgstr ""
+
+#: src/view/com/auth/server-input/index.tsx:212
+msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
+msgstr "koyu.space គឺជាបណ្តាញបើកចំហដែលអ្នកអាចជ្រើសរើសអ្នកផ្តល់សេវាបង្ហោះរបស់អ្នក។ ប្រសិនបើអ្នកជាអ្នកអភិវឌ្ឍន៍ អ្នកអាចធ្វើជាម្ចាស់ផ្ទះម៉ាស៊ីនមេរបស់អ្នក"
+
+#: src/view/com/auth/server-input/index.tsx:149
+msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
+msgstr ""
+
+#: src/components/ProgressGuide/List.tsx:53
+#: src/components/ProgressGuide/List.tsx:70
+msgid "koyu.space is better with friends!"
+msgstr "koyu.space គឺល្អជាមួយមិត្តភក្តិ!"
+
+#: src/screens/Takendown.tsx:217
+msgid "koyu.space Terms of Service"
+msgstr ""
+
+#: src/components/StarterPack/ProfileStarterPacks.tsx:298
+msgid "koyu.space will choose a set of recommended accounts from people in your network."
+msgstr "koyu.space នឹងជ្រើសរើសសំណុំនៃគណនីដែលបានណែនាំពីមនុស្សនៅក្នុងបណ្តាញរបស់អ្នក"
+
+#: src/screens/Settings/components/PwiOptOut.tsx:99
+msgid "koyu.space will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
+msgstr "koyu.space នឹងមិនបង្ហាញប្រវត្តិរូប និងការបង្ហោះរបស់អ្នកទៅកាន់អ្នកប្រើប្រាស់ដែលបានចេញពីគណនីនោះទេ។ កម្មវិធីផ្សេងទៀតប្រហែលជាមិនគោរពសំណើនេះទេ។ នេះមិនធ្វើឱ្យគណនីរបស់អ្នកជាឯកជនទេ"
+
+#: src/screens/Settings/AppIconSettings/index.tsx:99
+msgid "koyu.space+"
+msgstr ""
+
+#: src/screens/Settings/AppIconSettings/index.tsx:102
+msgid "koyu.space+ icons"
+msgstr ""
+
+#: src/view/shell/NavSignupCard.tsx:72
+msgid "koyu's personal website"
+msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:231
 msgid "Labeled by {0}."
@@ -3909,10 +3904,6 @@ msgstr "ស្វែងយល់បន្ថែម"
 msgid "Learn More"
 msgstr "ស្វែងយល់បន្ថែម"
 
-#: src/view/com/auth/SplashScreen.web.tsx:166
-msgid "Learn more about Bluesky"
-msgstr "មើល​បន្ថែមទៀត​អំពី Bluesky នៅលើ Facebook"
-
 #: src/view/com/auth/server-input/index.tsx:218
 msgid "Learn more about self hosting your PDS."
 msgstr "ស្វែងយល់បន្ថែមអំពីការបង្ហោះដោយខ្លួនឯង PDS របស់អ្នក"
@@ -3932,8 +3923,8 @@ msgstr "ស្វែងយល់បន្ថែមអំពីការព្រ
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:99
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:102
-msgid "Learn more about what is public on Bluesky."
-msgstr "ស្វែងយល់បន្ថែមអំពីអ្វីដែលជាសាធារណៈនៅលើ Bluesky"
+msgid "Learn more about what is public on koyu.space."
+msgstr "ស្វែងយល់បន្ថែមអំពីអ្វីដែលជាសាធារណៈនៅលើ koyu.space"
 
 #: src/components/moderation/ContentHider.tsx:239
 #: src/view/com/auth/server-input/index.tsx:220
@@ -3962,8 +3953,8 @@ msgid "Leave them all unchecked to see any language."
 msgstr "ទុកពួកវាទាំងអស់ដោយមិនធីក ដើម្បីមើលភាសាណាមួយ"
 
 #: src/view/com/modals/LinkWarning.tsx:65
-msgid "Leaving Bluesky"
-msgstr "ចាកចេញពី Bluesky"
+msgid "Leaving koyu.space"
+msgstr "ចាកចេញពី koyu.space"
 
 #: src/screens/SignupQueued.tsx:155
 msgid "left to go."
@@ -4050,8 +4041,8 @@ msgstr "ចូលចិត្ត"
 msgid "Likes on this post"
 msgstr "ចូលចិត្តនៅលើប្រកាសនេះ"
 
-#: src/view/com/post-thread/PostThread.tsx:630
-#: src/view/com/post-thread/PostThread.tsx:635
+#: src/view/com/post-thread/PostThread.tsx:629
+#: src/view/com/post-thread/PostThread.tsx:634
 msgid "Linear"
 msgstr ""
 
@@ -4117,7 +4108,7 @@ msgstr "បាន​បិទ​បញ្ជី"
 #: src/view/screens/Lists.tsx:62
 #: src/view/screens/Profile.tsx:221
 #: src/view/screens/Profile.tsx:229
-#: src/view/shell/desktop/LeftNav.tsx:669
+#: src/view/shell/desktop/LeftNav.tsx:673
 #: src/view/shell/Drawer.tsx:501
 msgid "Lists"
 msgstr "​បញ្ជី"
@@ -4161,18 +4152,22 @@ msgstr "កំណត់ហេតុ"
 msgid "Logged-out visibility"
 msgstr "ភាពមើលឃើញពីការចេញពីគណនី"
 
-#: src/view/shell/desktop/RightNav.tsx:125
-msgid "Logo by @sawaratsuki.bsky.social"
+#: src/view/shell/desktop/RightNav.tsx:130
+msgid "Logo by @sawaratsuki.koyu.space"
 msgstr ""
 
-#: src/view/shell/desktop/RightNav.tsx:122
+#: src/view/shell/desktop/RightNav.tsx:127
 #: src/view/shell/Drawer.tsx:639
-msgid "Logo by <0>@sawaratsuki.bsky.social</0>"
-msgstr "និមិត្តសញ្ញាដោយ <0>@sawaratsuki.bsky.social</0>"
+msgid "Logo by <0>@sawaratsuki.koyu.space</0>"
+msgstr "និមិត្តសញ្ញាដោយ <0>@sawaratsuki.koyu.space</0>"
 
 #: src/components/RichTextTag.tsx:53
 msgid "Long press to open tag menu for #{tag}"
 msgstr "ចុចឱ្យយូរដើម្បីបើកម៉ឺនុយស្លាកសម្រាប់ #{tag}"
+
+#: src/view/shell/NavSignupCard.tsx:69
+msgid "Looking for"
+msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:120
 msgid "Looks like XXXXX-XXXXX"
@@ -4251,7 +4246,7 @@ msgstr "ម៉ឺនុយ"
 msgid "Message {0}"
 msgstr "សារ {0}"
 
-#: src/components/dms/MessageMenu.tsx:73
+#: src/components/dms/MessageContextMenu.tsx:68
 msgctxt "toast"
 msgid "Message deleted"
 msgstr "សារត្រូវបានលុប"
@@ -4259,6 +4254,10 @@ msgstr "សារត្រូវបានលុប"
 #: src/screens/Messages/components/ChatListItem.tsx:190
 msgid "Message deleted"
 msgstr "សារត្រូវបានលុប"
+
+#: src/components/dms/MessageContextMenu.tsx:83
+msgid "Message from @{0}: {1}"
+msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:201
 msgid "Message from server: {0}"
@@ -4272,6 +4271,10 @@ msgstr "វាលបញ្ចូលសារ"
 #: src/screens/Messages/components/MessageInput.web.tsx:60
 msgid "Message is too long"
 msgstr "សារវែងពេក"
+
+#: src/components/dms/MessageContextMenu.tsx:81
+msgid "Message options"
+msgstr ""
 
 #: src/Navigation.tsx:642
 msgid "Messages"
@@ -4373,8 +4376,8 @@ msgid "Most-liked first"
 msgstr "ចូលចិត្តបំផុតមុនគេ"
 
 #: src/screens/Settings/ThreadPreferences.tsx:91
-#: src/view/com/post-thread/PostThread.tsx:686
-#: src/view/com/post-thread/PostThread.tsx:691
+#: src/view/com/post-thread/PostThread.tsx:685
+#: src/view/com/post-thread/PostThread.tsx:690
 msgid "Most-liked replies first"
 msgstr "ចម្លើយដែលចូលចិត្តបំផុតមុនគេ"
 
@@ -4601,7 +4604,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "post ថ្មី"
 
-#: src/view/shell/desktop/LeftNav.tsx:507
+#: src/view/shell/desktop/LeftNav.tsx:508
 msgctxt "action"
 msgid "New Post"
 msgstr "post ថ្មី"
@@ -4616,8 +4619,8 @@ msgstr "បញ្ជីអ្នកប្រើប្រាស់ថ្មី"
 
 #: src/screens/Settings/ThreadPreferences.tsx:83
 #: src/screens/Settings/ThreadPreferences.tsx:86
-#: src/view/com/post-thread/PostThread.tsx:676
-#: src/view/com/post-thread/PostThread.tsx:681
+#: src/view/com/post-thread/PostThread.tsx:675
+#: src/view/com/post-thread/PostThread.tsx:680
 msgid "Newest replies first"
 msgstr "ការឆ្លើយតបថ្មីបំផុតជាមុនសិន"
 
@@ -4789,8 +4792,8 @@ msgid "Note about sharing"
 msgstr "ចំណាំអំពីការចែករំលែក"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:88
-msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
-msgstr "ចំណាំ៖ Bluesky គឺជាបណ្តាញបើកចំហ និងសាធារណៈ។ ការកំណត់នេះកំណត់តែការមើលឃើញខ្លឹមសាររបស់អ្នកនៅលើកម្មវិធី និងគេហទំព័រ Bluesky ហើយកម្មវិធីផ្សេងទៀតប្រហែលជាមិនគោរពការកំណត់នេះទេ។ ខ្លឹមសាររបស់អ្នកអាចនៅតែត្រូវបានបង្ហាញដល់អ្នកប្រើប្រាស់ដែលបានចេញពីគណនីដោយកម្មវិធី និងគេហទំព័រផ្សេងទៀត"
+msgid "Note: koyu.space is an open and public network. This setting only limits the visibility of your content on the koyu.space app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
+msgstr "ចំណាំ៖ koyu.space គឺជាបណ្តាញបើកចំហ និងសាធារណៈ។ ការកំណត់នេះកំណត់តែការមើលឃើញខ្លឹមសាររបស់អ្នកនៅលើកម្មវិធី និងគេហទំព័រ koyu.space ហើយកម្មវិធីផ្សេងទៀតប្រហែលជាមិនគោរពការកំណត់នេះទេ។ ខ្លឹមសាររបស់អ្នកអាចនៅតែត្រូវបានបង្ហាញដល់អ្នកប្រើប្រាស់ដែលបានចេញពីគណនីដោយកម្មវិធី និងគេហទំព័រផ្សេងទៀត"
 
 #: src/screens/Messages/ChatList.tsx:264
 msgid "Nothing here"
@@ -4820,7 +4823,7 @@ msgstr "សំឡេងជូនដំណឹង"
 #: src/Navigation.tsx:637
 #: src/view/screens/Notifications.tsx:128
 #: src/view/shell/bottom-bar/BottomBar.tsx:236
-#: src/view/shell/desktop/LeftNav.tsx:632
+#: src/view/shell/desktop/LeftNav.tsx:636
 #: src/view/shell/Drawer.tsx:449
 msgid "Notifications"
 msgstr "ការជូនដំណឹង"
@@ -4829,7 +4832,7 @@ msgstr "ការជូនដំណឹង"
 msgid "now"
 msgstr "ឥឡូវនេះ"
 
-#: src/components/dms/MessageItem.tsx:198
+#: src/components/dms/MessageItem.tsx:186
 msgid "Now"
 msgstr "ឥឡូវនេះ"
 
@@ -4869,8 +4872,8 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:75
 #: src/screens/Settings/ThreadPreferences.tsx:78
-#: src/view/com/post-thread/PostThread.tsx:666
-#: src/view/com/post-thread/PostThread.tsx:671
+#: src/view/com/post-thread/PostThread.tsx:665
+#: src/view/com/post-thread/PostThread.tsx:670
 msgid "Oldest replies first"
 msgstr "ចម្លើយចាស់បំផុតជាមុនសិន"
 
@@ -4945,12 +4948,12 @@ msgstr "បើកអ្នកបង្កើតរូបតំណាង"
 msgid "Open conversation options"
 msgstr "បើកជម្រើសការសន្ទនា"
 
-#: src/components/Layout/Header/index.tsx:158
+#: src/components/Layout/Header/index.tsx:159
 msgid "Open drawer menu"
 msgstr ""
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1244
+#: src/view/com/composer/Composer.tsx:1247
 msgid "Open emoji picker"
 msgstr "បើកកម្មវិធីជ្រើសរើសរូបអារម្មណ៍"
 
@@ -4963,11 +4966,11 @@ msgstr ""
 msgid "Open feed options menu"
 msgstr "បើកម៉ឺនុយជម្រើសមតិព័ត៌មាន"
 
-#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:71
+#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:79
 msgid "Open link to {niceUrl}"
 msgstr "បើកតំណទៅ {niceUrl}"
 
-#: src/components/dms/ActionsWrapper.tsx:90
+#: src/components/dms/ActionsWrapper.tsx:57
 msgid "Open message options"
 msgstr "បើកជម្រើសសារ"
 
@@ -5036,18 +5039,18 @@ msgstr "បើកកម្មវិធីតែង"
 msgid "Opens device photo gallery"
 msgstr "បើកវិចិត្រសាលរូបភាពឧបករណ៍"
 
-#: src/view/com/composer/Composer.tsx:1245
+#: src/view/com/composer/Composer.tsx:1248
 msgid "Opens emoji picker"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:49
-#: src/view/com/auth/SplashScreen.web.tsx:111
-msgid "Opens flow to create a new Bluesky account"
-msgstr "បើកលំហូរដើម្បីបង្កើតគណនី Bluesky ថ្មី"
+#: src/view/com/auth/SplashScreen.tsx:42
+#: src/view/com/auth/SplashScreen.web.tsx:100
+msgid "Opens flow to create a new koyu.space account"
+msgstr "បើកលំហូរដើម្បីបង្កើតគណនី koyu.space ថ្មី"
 
-#: src/view/com/auth/SplashScreen.tsx:63
-#: src/view/com/auth/SplashScreen.web.tsx:125
-msgid "Opens flow to sign in to your existing Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:56
+#: src/view/com/auth/SplashScreen.web.tsx:114
+msgid "Opens flow to sign in to your existing koyu.space account"
 msgstr ""
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
@@ -5071,7 +5074,7 @@ msgid "Opens the linked website"
 msgstr "បើកគេហទំព័រដែលបានភ្ជាប់"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:683
-#: src/view/com/util/UserAvatar.tsx:446
+#: src/view/com/util/UserAvatar.tsx:465
 msgid "Opens this profile"
 msgstr "បើកកម្រងព័ត៌មាននេះ"
 
@@ -5135,8 +5138,8 @@ msgid "Our moderation team has received your report."
 msgstr ""
 
 #: src/screens/Messages/components/ChatDisabled.tsx:28
-msgid "Our moderators have reviewed reports and decided to disable your access to chats on Bluesky."
-msgstr "អ្នកសម្របសម្រួលរបស់យើងបានពិនិត្យរបាយការណ៍ ហើយបានសម្រេចចិត្តបិទការចូលប្រើការជជែករបស់អ្នកនៅលើ Bluesky"
+msgid "Our moderators have reviewed reports and decided to disable your access to chats on koyu.space."
+msgstr "អ្នកសម្របសម្រួលរបស់យើងបានពិនិត្យរបាយការណ៍ ហើយបានសម្រេចចិត្តបិទការចូលប្រើការជជែករបស់អ្នកនៅលើ koyu.space"
 
 #: src/components/Lists.tsx:190
 #: src/view/screens/NotFound.tsx:47
@@ -5395,7 +5398,7 @@ msgstr ""
 msgid "Porn"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:959
+#: src/view/com/composer/Composer.tsx:963
 msgctxt "action"
 msgid "Post"
 msgstr "ការបង្ហោះ"
@@ -5405,7 +5408,7 @@ msgctxt "description"
 msgid "Post"
 msgstr "ការបង្ហោះ"
 
-#: src/view/com/composer/Composer.tsx:957
+#: src/view/com/composer/Composer.tsx:961
 msgctxt "action"
 msgid "Post All"
 msgstr "Post ទាំងអស់"
@@ -5534,8 +5537,8 @@ msgstr "ផ្តល់អាទិភាពដល់ការតាមដាន
 msgid "Priority notifications"
 msgstr "ការជូនដំណឹងជាអាទិភាព"
 
-#: src/view/shell/desktop/RightNav.tsx:105
-#: src/view/shell/desktop/RightNav.tsx:106
+#: src/view/shell/desktop/RightNav.tsx:110
+#: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
 msgstr "ឯកជនភាព"
 
@@ -5558,7 +5561,7 @@ msgstr "ភាពឯកជន និងសុវត្ថិភាព"
 msgid "Privacy Policy"
 msgstr "គោលការណ៍ឯកជនភាព"
 
-#: src/view/com/composer/Composer.tsx:1658
+#: src/view/com/composer/Composer.tsx:1650
 msgid "Processing video..."
 msgstr "ដំណើរការវីដេអូ..."
 
@@ -5573,7 +5576,7 @@ msgid "profile"
 msgstr "ប្រវត្តិរូប"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:286
-#: src/view/shell/desktop/LeftNav.tsx:687
+#: src/view/shell/desktop/LeftNav.tsx:691
 #: src/view/shell/Drawer.tsx:71
 #: src/view/shell/Drawer.tsx:526
 msgid "Profile"
@@ -5645,8 +5648,8 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:99
 #: src/screens/Settings/ThreadPreferences.tsx:102
-#: src/view/com/post-thread/PostThread.tsx:696
-#: src/view/com/post-thread/PostThread.tsx:701
+#: src/view/com/post-thread/PostThread.tsx:695
+#: src/view/com/post-thread/PostThread.tsx:700
 msgid "Random (aka \"Poster's Roulette\")"
 msgstr "ចៃដន្យ (ហៅកាត់ថា \"រ៉ូឡែតរបស់ផ្ទាំងរូបភាព\")"
 
@@ -5671,19 +5674,15 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:171
-msgid "Read the Bluesky blog"
-msgstr "អានប្លក់ Bluesky"
-
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
-msgid "Read the Bluesky Privacy Policy"
-msgstr "អានគោលការណ៍ឯកជនភាព Bluesky"
+msgid "Read the koyu.space Privacy Policy"
+msgstr "អានគោលការណ៍ឯកជនភាព koyu.space"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
-msgid "Read the Bluesky Terms of Service"
-msgstr "អានលក្ខខណ្ឌនៃសេវាកម្ម Bluesky"
+msgid "Read the koyu.space Terms of Service"
+msgstr "អានលក្ខខណ្ឌនៃសេវាកម្ម koyu.space"
 
 #: src/screens/Takendown.tsx:162
 #: src/screens/Takendown.tsx:170
@@ -5749,8 +5748,8 @@ msgstr "លុបគណនី"
 msgid "Remove attachment"
 msgstr "យកឯកសារភ្ជាប់ចេញ"
 
-#: src/view/com/util/UserAvatar.tsx:397
-#: src/view/com/util/UserAvatar.tsx:400
+#: src/view/com/util/UserAvatar.tsx:416
+#: src/view/com/util/UserAvatar.tsx:419
 msgid "Remove Avatar"
 msgstr "លុប Avatar"
 
@@ -5877,7 +5876,7 @@ msgstr "ការឆ្លើយតបត្រូវបានបិទ"
 msgid "Replies to this post are disabled."
 msgstr "ការឆ្លើយតបទៅនឹងការបង្ហោះនេះត្រូវបានបិទ"
 
-#: src/view/com/composer/Composer.tsx:955
+#: src/view/com/composer/Composer.tsx:959
 msgctxt "action"
 msgid "Reply"
 msgstr "ឆ្លើយតប"
@@ -5904,7 +5903,7 @@ msgstr "ឆ្លើយតបការកំណត់"
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "ការកំណត់ការឆ្លើយតបត្រូវបានជ្រើសរើសដោយ author នៃ thread"
 
-#: src/view/com/post-thread/PostThread.tsx:652
+#: src/view/com/post-thread/PostThread.tsx:651
 msgid "Reply sorting"
 msgstr ""
 
@@ -5939,7 +5938,7 @@ msgstr "បានធ្វើបច្ចុប្បន្នភាពភាព
 msgid "Reply was successfully hidden"
 msgstr "ការឆ្លើយតបត្រូវបានលាក់ដោយជោគជ័យ"
 
-#: src/components/dms/MessageMenu.tsx:134
+#: src/components/dms/MessageContextMenu.tsx:125
 #: src/components/dms/MessagesListBlockedFooter.tsx:85
 #: src/components/dms/MessagesListBlockedFooter.tsx:92
 msgid "Report"
@@ -5973,7 +5972,7 @@ msgstr "រាយការណ៍ព័ត៌មាន"
 msgid "Report List"
 msgstr "រាយការណ៍ពីបញ្ជី"
 
-#: src/components/dms/MessageMenu.tsx:132
+#: src/components/dms/MessageContextMenu.tsx:123
 msgid "Report message"
 msgstr "រាយការណ៍ពីសារ"
 
@@ -6138,7 +6137,7 @@ msgstr ""
 msgid "Retries the last action, which errored out"
 msgstr "ព្យាយាមម្តងទៀតនូវសកម្មភាពចុងក្រោយ ដែលវាមានបញ្ហា"
 
-#: src/components/dms/MessageItem.tsx:245
+#: src/components/dms/MessageItem.tsx:233
 #: src/components/Error.tsx:65
 #: src/components/Lists.tsx:110
 #: src/components/moderation/ReportDialog/index.tsx:221
@@ -6289,7 +6288,7 @@ msgstr "រំកិលទៅកំពូល"
 #: src/view/screens/Search/Search.tsx:570
 #: src/view/screens/Search/Search.tsx:848
 #: src/view/shell/bottom-bar/BottomBar.tsx:182
-#: src/view/shell/desktop/LeftNav.tsx:613
+#: src/view/shell/desktop/LeftNav.tsx:617
 #: src/view/shell/Drawer.tsx:370
 msgid "Search"
 msgstr "ស្វែងរក"
@@ -6381,10 +6380,6 @@ msgstr ""
 #: src/components/RichTextTag.tsx:132
 msgid "See #{tag} posts by user"
 msgstr ""
-
-#: src/view/com/auth/SplashScreen.web.tsx:176
-msgid "See jobs at Bluesky"
-msgstr "មើលការងារនៅ Bluesky"
 
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "See this guide"
@@ -6585,7 +6580,7 @@ msgstr "កំណត់អ៊ីមែលសម្រាប់កំណត់ព
 
 #: src/Navigation.tsx:173
 #: src/screens/Settings/Settings.tsx:80
-#: src/view/shell/desktop/LeftNav.tsx:705
+#: src/view/shell/desktop/LeftNav.tsx:709
 #: src/view/shell/Drawer.tsx:539
 msgid "Settings"
 msgstr "ការកំណត់"
@@ -6665,8 +6660,8 @@ msgid "Share this starter pack"
 msgstr "ចែករំលែកកញ្ចប់ចាប់ផ្តើមនេះ"
 
 #: src/components/StarterPack/ShareDialog.tsx:99
-msgid "Share this starter pack and help people join your community on Bluesky."
-msgstr "ចែករំលែកកញ្ចប់ចាប់ផ្តើមនេះ និងជួយមនុស្សចូលរួមសហគមន៍របស់អ្នកនៅលើ Bluesky"
+msgid "Share this starter pack and help people join your community on koyu.space."
+msgstr "ចែករំលែកកញ្ចប់ចាប់ផ្តើមនេះ និងជួយមនុស្សចូលរួមសហគមន៍របស់អ្នកនៅលើ koyu.space"
 
 #: src/components/dms/ChatEmptyPill.tsx:34
 msgid "Share your favorite feed!"
@@ -6682,7 +6677,7 @@ msgstr "ចែករំលែកគេហទំព័រដែលបានភ្
 
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:137
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 msgid "Show"
 msgstr "បង្ហាញ"
 
@@ -6749,7 +6744,7 @@ msgstr "បង្ហាញប្រកាសសម្រង់"
 msgid "Show replies"
 msgstr "បង្ហាញការឆ្លើយតប"
 
-#: src/view/com/post-thread/PostThread.tsx:626
+#: src/view/com/post-thread/PostThread.tsx:625
 msgid "Show replies as"
 msgstr ""
 
@@ -6802,10 +6797,10 @@ msgstr ""
 #: src/screens/Login/index.tsx:122
 #: src/screens/Login/index.tsx:143
 #: src/screens/Login/LoginForm.tsx:181
-#: src/view/com/auth/SplashScreen.tsx:61
-#: src/view/com/auth/SplashScreen.tsx:69
-#: src/view/com/auth/SplashScreen.web.tsx:123
-#: src/view/com/auth/SplashScreen.web.tsx:131
+#: src/view/com/auth/SplashScreen.tsx:54
+#: src/view/com/auth/SplashScreen.tsx:62
+#: src/view/com/auth/SplashScreen.web.tsx:112
+#: src/view/com/auth/SplashScreen.web.tsx:120
 #: src/view/shell/bottom-bar/BottomBar.tsx:325
 #: src/view/shell/bottom-bar/BottomBar.tsx:330
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:209
@@ -6837,8 +6832,8 @@ msgid "Sign in to account that is not listed"
 msgstr "ចូលទៅគណនីដែលមិនមានក្នុងបញ្ជី"
 
 #: src/components/dialogs/Signin.tsx:46
-msgid "Sign in to Bluesky or create a new account"
-msgstr "ចូល Bluesky ឬបង្កើតគណនីថ្មីមួយ"
+msgid "Sign in to koyu.space or create a new account"
+msgstr "ចូល koyu.space ឬបង្កើតគណនីថ្មីមួយ"
 
 #: src/screens/Settings/Settings.tsx:225
 #: src/screens/Settings/Settings.tsx:227
@@ -6846,9 +6841,9 @@ msgstr "ចូល Bluesky ឬបង្កើតគណនីថ្មីមួយ
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:85
-#: src/view/shell/desktop/LeftNav.tsx:207
-#: src/view/shell/desktop/LeftNav.tsx:287
-#: src/view/shell/desktop/LeftNav.tsx:290
+#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:288
+#: src/view/shell/desktop/LeftNav.tsx:291
 msgid "Sign out"
 msgstr "ចេញ"
 
@@ -6857,7 +6852,7 @@ msgid "Sign Out"
 msgstr "ចេញ"
 
 #: src/screens/Settings/Settings.tsx:256
-#: src/view/shell/desktop/LeftNav.tsx:204
+#: src/view/shell/desktop/LeftNav.tsx:205
 msgid "Sign out?"
 msgstr "ចេញ?"
 
@@ -6939,8 +6934,8 @@ msgstr ""
 msgid "Something wrong? Let us know."
 msgstr ""
 
-#: src/App.native.tsx:122
-#: src/App.web.tsx:98
+#: src/App.native.tsx:123
+#: src/App.web.tsx:99
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr ""
 
@@ -7122,7 +7117,7 @@ msgstr "គាំទ្រ"
 #: src/screens/Settings/Settings.tsx:102
 #: src/screens/Settings/Settings.tsx:116
 #: src/screens/Settings/Settings.tsx:412
-#: src/view/shell/desktop/LeftNav.tsx:242
+#: src/view/shell/desktop/LeftNav.tsx:243
 msgid "Switch account"
 msgstr "ប្តូរគណនី"
 
@@ -7131,11 +7126,11 @@ msgstr "ប្តូរគណនី"
 msgid "Switch Account"
 msgstr "ប្តូរគណនី"
 
-#: src/view/shell/desktop/LeftNav.tsx:106
+#: src/view/shell/desktop/LeftNav.tsx:107
 msgid "Switch accounts"
 msgstr ""
 
-#: src/view/shell/desktop/LeftNav.tsx:250
+#: src/view/shell/desktop/LeftNav.tsx:251
 msgid "Switch to {0}"
 msgstr ""
 
@@ -7155,6 +7150,11 @@ msgstr "កំណត់ហេតុប្រព័ន្ធ"
 #: src/components/dialogs/MutedWords.tsx:282
 msgid "Tags only"
 msgstr "ស្លាកតែប៉ុណ្ណោះ"
+
+#: src/components/ContextMenu/Backdrop.ios.tsx:44
+#: src/components/ContextMenu/Backdrop.tsx:40
+msgid "Tap to close context menu"
+msgstr ""
 
 #: src/components/ProgressGuide/Toast.tsx:156
 msgid "Tap to dismiss"
@@ -7189,8 +7189,8 @@ msgstr "ប្រាប់យើងបន្តិចអំពីខ្លួន
 msgid "Tell us a little more"
 msgstr "ប្រាប់យើងបន្តិចទៀត"
 
-#: src/view/shell/desktop/RightNav.tsx:111
-#: src/view/shell/desktop/RightNav.tsx:112
+#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
 msgstr "លក្ខខណ្ឌ"
 
@@ -7279,10 +7279,6 @@ msgstr ""
 msgid "The author of this thread has hidden this reply."
 msgstr "អ្នកនិពន្ធនៃអត្ថបទនេះបានលាក់ការឆ្លើយតបនេះ"
 
-#: src/screens/Moderation/index.tsx:358
-msgid "The Bluesky web application"
-msgstr "កម្មវិធីបណ្តាញ Bluesky"
-
 #: src/view/screens/CommunityGuidelines.tsx:38
 msgid "The Community Guidelines have been moved to <0/>"
 msgstr "គោលការណ៍ណែនាំសហគមន៍ត្រូវបានផ្លាស់ទីទៅ <0/>"
@@ -7300,8 +7296,8 @@ msgid "The Discover feed now knows what you like"
 msgstr "ឥឡូវនេះផ្ទាំងព័ត៌មាន Discover ដឹងពីអ្វីដែលអ្នកចូលចិត្ត"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:324
-msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
-msgstr "បទពិសោធន៍គឺប្រសើរជាងនៅក្នុងកម្មវិធី។ ទាញយក Bluesky ឥឡូវនេះ ហើយយើងនឹងយកមកវិញនូវកន្លែងដែលអ្នកបានចាកចេញ"
+msgid "The experience is better in the app. Download koyu.space now and we'll pick back up where you left off."
+msgstr "បទពិសោធន៍គឺប្រសើរជាងនៅក្នុងកម្មវិធី។ ទាញយក koyu.space ឥឡូវនេះ ហើយយើងនឹងយកមកវិញនូវកន្លែងដែលអ្នកបានចាកចេញ"
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
 msgid "The feed has been replaced with Discover."
@@ -7318,6 +7314,10 @@ msgstr "ស្លាកខាងក្រោមត្រូវបានអនុ
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
 msgstr ""
+
+#: src/screens/Moderation/index.tsx:358
+msgid "The koyu.space web application"
+msgstr "កម្មវិធីបណ្តាញ koyu.space"
 
 #: src/view/com/post-thread/PostThread.tsx:265
 #: src/view/com/post-thread/PostThread.tsx:277
@@ -7339,6 +7339,10 @@ msgstr "ម៉ាស៊ីនមេហាក់ដូចជាកំពុងជ
 #: src/screens/StarterPack/StarterPackScreen.tsx:722
 msgid "The starter pack that you are trying to view is invalid. You may delete this starter pack instead."
 msgstr "កញ្ចប់ចាប់ផ្តើមដែលអ្នកកំពុងព្យាយាមមើលគឺមិនត្រឹមត្រូវទេ។ អ្នកអាចលុបកញ្ចប់ចាប់ផ្តើមនេះជំនួសវិញ"
+
+#: src/components/ContextMenu/index.tsx:305
+msgid "The subject of the context menu"
+msgstr ""
 
 #: src/view/screens/Support.tsx:37
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
@@ -7385,7 +7389,7 @@ msgstr "មានបញ្ហាក្នុងការទាក់ទងម៉
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "មានបញ្ហាក្នុងការទាញយកការជូនដំណឹង។ ចុចទីនេះដើម្បីព្យាយាមម្តងទៀត"
 
-#: src/view/com/posts/PostFeed.tsx:592
+#: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "មានបញ្ហាក្នុងការទាញយកសារបង្ហោះ។ ចុចទីនេះដើម្បីព្យាយាមម្តងទៀត"
 
@@ -7455,8 +7459,8 @@ msgid "There was an unexpected issue in the application. Please let us know if t
 msgstr "មានបញ្ហាដែលមិននឹកស្មានដល់នៅក្នុងកម្មវិធី។ សូមប្រាប់ពួកយើងប្រសិនបើរឿងនេះកើតឡើងចំពោះអ្នក"
 
 #: src/screens/SignupQueued.tsx:130
-msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "មានការប្រញាប់ប្រញាល់នៃអ្នកប្រើប្រាស់ថ្មីទៅកាន់ Bluesky! យើងនឹងដំណើរការគណនីរបស់អ្នកឱ្យបានឆាប់តាមដែលយើងអាចធ្វើបាន"
+msgid "There's been a rush of new users to koyu.space! We'll activate your account as soon as we can."
+msgstr "មានការប្រញាប់ប្រញាល់នៃអ្នកប្រើប្រាស់ថ្មីទៅកាន់ koyu.space! យើងនឹងដំណើរការគណនីរបស់អ្នកឱ្យបានឆាប់តាមដែលយើងអាចធ្វើបាន"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:62
 msgid "These settings only apply to the Following feed."
@@ -7479,8 +7483,8 @@ msgid "This appeal will be sent to <0>{sourceName}</0>."
 msgstr "បណ្ដឹងតវ៉ានេះនឹងត្រូវបានផ្ញើទៅ <0>{sourceName}</0>"
 
 #: src/screens/Messages/components/ChatDisabled.tsx:104
-msgid "This appeal will be sent to Bluesky's moderation service."
-msgstr "ការអំពាវនាវនេះនឹងត្រូវបញ្ជូនទៅសេវាកម្មសម្របសម្រួលរបស់ Bluesky"
+msgid "This appeal will be sent to koyu.space's moderation service."
+msgstr "ការអំពាវនាវនេះនឹងត្រូវបញ្ជូនទៅសេវាកម្មសម្របសម្រួលរបស់ koyu.space"
 
 #: src/screens/Messages/components/MessageListError.tsx:18
 msgid "This chat was disconnected"
@@ -7504,8 +7508,8 @@ msgid "This content is not available because one of the users involved has block
 msgstr "ខ្លឹមសារនេះមិនមានទេ ដោយសារអ្នកប្រើប្រាស់ម្នាក់ដែលពាក់ព័ន្ធបានរារាំងអ្នកផ្សេង"
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:114
-msgid "This content is not viewable without a Bluesky account."
-msgstr "ខ្លឹមសារនេះមិនអាចមើលបានដោយគ្មានគណនី Bluesky ទេ"
+msgid "This content is not viewable without a koyu.space account."
+msgstr "ខ្លឹមសារនេះមិនអាចមើលបានដោយគ្មានគណនី koyu.space ទេ"
 
 #: src/screens/Messages/components/ChatListItem.tsx:296
 msgid "This conversation is with a deleted or a deactivated account. Press for options"
@@ -7566,11 +7570,11 @@ msgid "This link is taking you to the following website:"
 msgstr "តំណភ្ជាប់នេះនាំអ្នកទៅកាន់គេហទំព័រខាងក្រោម៖"
 
 #: src/screens/List/ListHiddenScreen.tsx:151
-msgid "This list – created by <0>{0}</0> – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by <0>{0}</0> – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/screens/List/ListHiddenScreen.tsx:146
-msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
+msgid "This list – created by you – contains possible violations of koyu.space's community guidelines in its name or description."
 msgstr ""
 
 #: src/view/screens/ProfileList.tsx:955
@@ -7582,8 +7586,8 @@ msgid "This moderation service is unavailable. See below for more details. If th
 msgstr "សេវាកម្មសម្របសម្រួលនេះមិនមានទេ។ សូមមើលខាងក្រោមសម្រាប់ព័ត៌មានលម្អិតបន្ថែម។ ប្រសិនបើបញ្ហានេះនៅតែបន្តកើតមាន សូមទាក់ទងមកយើងខ្ញុំ"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:856
-msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
-msgstr "ប្រកាសនេះអះអាងថាត្រូវបានបង្កើតឡើងនៅលើ <0>{0}</0> ប៉ុន្តែត្រូវបានមើលឃើញជាលើកដំបូងដោយ Bluesky នៅលើ <1>{1}</1>"
+msgid "This post claims to have been created on <0>{0}</0>, but was first seen by koyu.space on <1>{1}</1>."
+msgstr "ប្រកាសនេះអះអាងថាត្រូវបានបង្កើតឡើងនៅលើ <0>{0}</0> ប៉ុន្តែត្រូវបានមើលឃើញជាលើកដំបូងដោយ koyu.space នៅលើ <1>{1}</1>"
 
 #: src/components/WhoCanReply.tsx:217
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
@@ -7667,8 +7671,8 @@ msgstr "វានឹងដក @{0} ចេញពីបញ្ជីចូលប្
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "វានឹងលុបការបង្ហោះរបស់អ្នកចេញពីប្រកាសសម្រង់នេះសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់ ហើយជំនួសវាដោយកន្លែងដាក់"
 
-#: src/view/com/post-thread/PostThread.tsx:610
-#: src/view/com/post-thread/PostThread.tsx:613
+#: src/view/com/post-thread/PostThread.tsx:609
+#: src/view/com/post-thread/PostThread.tsx:612
 msgid "Thread options"
 msgstr ""
 
@@ -7681,8 +7685,8 @@ msgstr "ចំណូលចិត្តខ្សែស្រឡាយ"
 msgid "Thread Preferences"
 msgstr "ចំណូលចិត្តខ្សែស្រឡាយ"
 
-#: src/view/com/post-thread/PostThread.tsx:640
-#: src/view/com/post-thread/PostThread.tsx:645
+#: src/view/com/post-thread/PostThread.tsx:639
+#: src/view/com/post-thread/PostThread.tsx:644
 msgid "Threaded"
 msgstr ""
 
@@ -7707,8 +7711,8 @@ msgid "To report a conversation, please report one of its messages via the conve
 msgstr "ដើម្បីរាយការណ៍ការសន្ទនា សូមរាយការណ៍សារមួយរបស់វាតាមរយៈអេក្រង់សន្ទនា។ វាអនុញ្ញាតឱ្យអ្នកសម្របសម្រួលរបស់យើងយល់ពីបរិបទនៃបញ្ហារបស់អ្នក"
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:129
-msgid "To upload videos to Bluesky, you must first verify your email."
-msgstr "ដើម្បីបង្ហោះវីដេអូទៅ Bluesky អ្នកត្រូវតែផ្ទៀងផ្ទាត់អ៊ីមែលរបស់អ្នកជាមុនសិន"
+msgid "To upload videos to koyu.space, you must first verify your email."
+msgstr "ដើម្បីបង្ហោះវីដេអូទៅ koyu.space អ្នកត្រូវតែផ្ទៀងផ្ទាត់អ៊ីមែលរបស់អ្នកជាមុនសិន"
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:31
 msgid "To whom would you like to send this report?"
@@ -7740,8 +7744,8 @@ msgstr "កំពូល"
 msgid "Topic"
 msgstr ""
 
-#: src/components/dms/MessageMenu.tsx:105
-#: src/components/dms/MessageMenu.tsx:107
+#: src/components/dms/MessageContextMenu.tsx:96
+#: src/components/dms/MessageContextMenu.tsx:98
 #: src/view/com/post-thread/PostThreadItem.tsx:778
 #: src/view/com/post-thread/PostThreadItem.tsx:781
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:451
@@ -7960,7 +7964,7 @@ msgstr "ឈប់ជាវពីអ្នកដាក់ស្លាកនេះ
 msgid "Unsubscribed from list"
 msgstr "ឈប់ជាវពីបញ្ជី"
 
-#: src/view/com/composer/Composer.tsx:781
+#: src/view/com/composer/Composer.tsx:782
 msgid "Unsupported video type"
 msgstr "ប្រភេទវីដេអូដែលមិនគាំទ្រ"
 
@@ -8011,20 +8015,20 @@ msgstr "បង្ហោះរូបថតជំនួសវិញ"
 msgid "Upload a text file to:"
 msgstr "បង្ហោះឯកសារអត្ថបទទៅ៖"
 
-#: src/view/com/util/UserAvatar.tsx:368
-#: src/view/com/util/UserAvatar.tsx:371
+#: src/view/com/util/UserAvatar.tsx:387
+#: src/view/com/util/UserAvatar.tsx:390
 #: src/view/com/util/UserBanner.tsx:123
 #: src/view/com/util/UserBanner.tsx:126
 msgid "Upload from Camera"
 msgstr "បង្ហោះពីកាមេរ៉ា"
 
-#: src/view/com/util/UserAvatar.tsx:385
+#: src/view/com/util/UserAvatar.tsx:404
 #: src/view/com/util/UserBanner.tsx:140
 msgid "Upload from Files"
 msgstr "បង្ហោះពីឯកសារ"
 
-#: src/view/com/util/UserAvatar.tsx:379
-#: src/view/com/util/UserAvatar.tsx:383
+#: src/view/com/util/UserAvatar.tsx:398
+#: src/view/com/util/UserAvatar.tsx:402
 #: src/view/com/util/UserBanner.tsx:134
 #: src/view/com/util/UserBanner.tsx:138
 msgid "Upload from Library"
@@ -8039,13 +8043,13 @@ msgstr "កំពុងបង្ហោះរូបភាព..."
 msgid "Uploading link thumbnail..."
 msgstr "កំពុងបង្ហោះរូបភាពតូចនៃតំណ..."
 
-#: src/view/com/composer/Composer.tsx:1655
+#: src/view/com/composer/Composer.tsx:1647
 msgid "Uploading video..."
 msgstr "កំពុងបង្ហោះវីដេអូ..."
 
 #: src/screens/Settings/AppPasswords.tsx:67
-msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
-msgstr "ប្រើ​ពាក្យ​សម្ងាត់​កម្មវិធី​ដើម្បី​ចូល​ម៉ាស៊ីន​ភ្ញៀវ Bluesky ផ្សេង​ទៀត​ដោយ​មិន​អនុញ្ញាត​ឱ្យ​ចូល​ប្រើប្រាស់​គណនី​ឬ​ពាក្យ​សម្ងាត់​របស់​អ្នក​ពេញលេញ"
+msgid "Use app passwords to sign in to other koyu.space clients without giving full access to your account or password."
+msgstr "ប្រើ​ពាក្យ​សម្ងាត់​កម្មវិធី​ដើម្បី​ចូល​ម៉ាស៊ីន​ភ្ញៀវ koyu.space ផ្សេង​ទៀត​ដោយ​មិន​អនុញ្ញាត​ឱ្យ​ចូល​ប្រើប្រាស់​គណនី​ឬ​ពាក្យ​សម្ងាត់​របស់​អ្នក​ពេញលេញ"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:539
 msgid "Use default provider"
@@ -8240,7 +8244,7 @@ msgstr "រកមិនឃើញវីដេអូ"
 msgid "Video settings"
 msgstr "ការកំណត់វីដេអូ"
 
-#: src/view/com/composer/Composer.tsx:1665
+#: src/view/com/composer/Composer.tsx:1657
 msgid "Video uploaded"
 msgstr "បង្ហោះវីដេអូ"
 
@@ -8410,8 +8414,8 @@ msgid "We have sent another verification email to <0>{0}</0>."
 msgstr "យើងបានផ្ញើអ៊ីមែលផ្ទៀងផ្ទាត់មួយផ្សេងទៀតទៅ <0>{0}</0>"
 
 #: src/screens/Onboarding/StepFinished.tsx:256
-msgid "We hope you have a wonderful time. Remember, Bluesky is:"
-msgstr "យើងសង្ឃឹមថាអ្នកមានពេលវេលាដ៏អស្ចារ្យ។ សូមចាំថា Bluesky គឺ៖"
+msgid "We hope you have a wonderful time. Remember, koyu.space is:"
+msgstr "យើងសង្ឃឹមថាអ្នកមានពេលវេលាដ៏អស្ចារ្យ។ សូមចាំថា koyu.space គឺ៖"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
@@ -8495,9 +8499,7 @@ msgstr "តើអ្នកចង់ហៅកញ្ចប់ចាប់ផ្ត
 msgid "What people are posting about."
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.tsx:38
-#: src/view/com/auth/SplashScreen.web.tsx:99
-#: src/view/com/composer/Composer.tsx:744
+#: src/view/com/composer/Composer.tsx:745
 msgid "What's up?"
 msgstr "មានរឿងអី?"
 
@@ -8571,11 +8573,11 @@ msgstr "ហេតុអ្វីបានជាអ្នកប្រើប្រ
 msgid "Write a message"
 msgstr "សរសេរសារ"
 
-#: src/view/com/composer/Composer.tsx:832
+#: src/view/com/composer/Composer.tsx:836
 msgid "Write post"
 msgstr "សរសេរសារបង្ហោះ"
 
-#: src/view/com/composer/Composer.tsx:742
+#: src/view/com/composer/Composer.tsx:743
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:69
 msgid "Write your reply"
 msgstr "សរសេរការឆ្លើយតបរបស់អ្នក"
@@ -8684,8 +8686,8 @@ msgid "You don't have any chat requests at the moment."
 msgstr ""
 
 #: src/view/com/modals/InviteCodes.tsx:67
-msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
-msgstr "អ្នកមិនទាន់មានលេខកូដអញ្ជើញនៅឡើយទេ! យើង​នឹង​ផ្ញើ​ជូន​អ្នក​ខ្លះ​នៅ​ពេល​អ្នក​នៅ​លើ Bluesky យូរ​ជាង​នេះ​បន្តិច"
+msgid "You don't have any invite codes yet! We'll send you some when you've been on koyu.space for a little longer."
+msgstr "អ្នកមិនទាន់មានលេខកូដអញ្ជើញនៅឡើយទេ! យើង​នឹង​ផ្ញើ​ជូន​អ្នក​ខ្លះ​នៅ​ពេល​អ្នក​នៅ​លើ koyu.space យូរ​ជាង​នេះ​បន្តិច"
 
 #: src/view/screens/SavedFeeds.tsx:137
 msgid "You don't have any pinned feeds."
@@ -8820,7 +8822,7 @@ msgid "You previously deactivated @{0}."
 msgstr "ពីមុនអ្នកបានបិទដំណើរការ @{0}"
 
 #: src/screens/Settings/Settings.tsx:257
-#: src/view/shell/desktop/LeftNav.tsx:205
+#: src/view/shell/desktop/LeftNav.tsx:206
 msgid "You will be signed out of all your accounts."
 msgstr "អ្នកនឹងត្រូវបានចេញពីគណនីរបស់អ្នកទាំងអស់"
 
@@ -8931,7 +8933,7 @@ msgid "Your account repository, containing all public data records, can be downl
 msgstr "ឃ្លាំងគណនីរបស់អ្នកដែលមានកំណត់ត្រាទិន្នន័យសាធារណៈទាំងអស់ អាចទាញយកជាឯកសារ \"CAR\"។ ឯកសារនេះមិនរួមបញ្ចូលការបង្កប់មេឌៀ ដូចជារូបភាព ឬទិន្នន័យឯកជនរបស់អ្នក ដែលត្រូវតែទាញយកដោយឡែកពីគ្នា"
 
 #: src/screens/Takendown.tsx:214
-msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
+msgid "Your account was found to be in violation of the <0>koyu.space Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
 msgstr ""
 
 #: src/screens/Takendown.tsx:154
@@ -9018,8 +9020,8 @@ msgid "Your posts, likes, and blocks are public. Mutes are private."
 msgstr "ការបង្ហោះ ការចូលចិត្ត និងប្លុករបស់អ្នកគឺសាធារណៈ។ ការបិទសំឡេងមានលក្ខណៈឯកជន"
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
-msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr "ប្រវត្តិរូប ការបង្ហោះ មតិព័ត៌មាន និងបញ្ជីរបស់អ្នកនឹងលែងអាចមើលឃើញដោយអ្នកប្រើប្រាស់ Bluesky ផ្សេងទៀត។ អ្នកអាចដំណើរការគណនីរបស់អ្នកឡើងវិញបានគ្រប់ពេលដោយការចូល"
+msgid "Your profile, posts, feeds, and lists will no longer be visible to other koyu.space users. You can reactivate your account at any time by logging in."
+msgstr "ប្រវត្តិរូប ការបង្ហោះ មតិព័ត៌មាន និងបញ្ជីរបស់អ្នកនឹងលែងអាចមើលឃើញដោយអ្នកប្រើប្រាស់ koyu.space ផ្សេងទៀត។ អ្នកអាចដំណើរការគណនីរបស់អ្នកឡើងវិញបានគ្រប់ពេលដោយការចូល"
 
 #: src/view/com/composer/Composer.tsx:484
 msgid "Your reply has been published"
@@ -9030,5 +9032,5 @@ msgid "Your report will be sent to <0>{0}</0>."
 msgstr ""
 
 #: src/components/dms/ReportDialog.tsx:200
-msgid "Your report will be sent to the Bluesky Moderation Service"
-msgstr "របាយការណ៍របស់អ្នកនឹងត្រូវបានផ្ញើទៅកាន់សេវាសម្របសម្រួល Bluesky"
+msgid "Your report will be sent to the koyu.space Moderation Service"
+msgstr "របាយការណ៍របស់អ្នកនឹងត្រូវបានផ្ញើទៅកាន់សេវាសម្របសម្រួល koyu.space"

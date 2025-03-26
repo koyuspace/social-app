@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary        = 'Forward scroll gesture from UIView to UIScrollView'
   s.description    = 'Forward scroll gesture from UIView to UIScrollView'
   s.author         = 'bluesky-social'
-  s.homepage       = 'https://github.com/bluesky-social/social-app'
+  s.homepage       = 'https://github.com/koyuspace/social-app'
   s.platforms      = { :ios => '13.4', :tvos => '13.4' }
   s.source         = { git: '' }
   s.static_framework = true

@@ -55,7 +55,7 @@ to create your branch from, this should be properly set.
     - These steps should spit out what the current build number is, save those values
         for later too
 - Run the deployment
-  - Navigate to https://github.com/bluesky-social/social-app/actions/workflows/bundle-deploy-eas-update.yml
+  - Navigate to https://github.com/koyuspace/social-app/actions/workflows/bundle-deploy-eas-update.yml
   - Select the “Run Workflow” dropdown
   
     ![run-workflow](./img/run-workflow.png)

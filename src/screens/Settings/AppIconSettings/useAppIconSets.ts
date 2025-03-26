@@ -32,7 +32,7 @@ export function useAppIconSets() {
     ] satisfies AppIconSet[]
 
     /**
-     * Bluesky+
+     * koyu.space+
      */
     const core = [
       {
@@ -128,7 +128,7 @@ export function useAppIconSets() {
         name: _(
           msg({
             context: 'Name of app icon variant',
-            message: 'Bluesky Classic™',
+            message: 'koyu.space Classic™',
           }),
         ),
         iosImage: () => {

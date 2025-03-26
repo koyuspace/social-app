@@ -34,7 +34,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
     webView.navigationDelegate = self
     self.view.addSubview(webView)
     self.webView = webView
-    self.webView?.load(URLRequest(url: URL(string: "https://bsky.app/?splash=true&clip=true")!))
+    self.webView?.load(URLRequest(url: URL(string: "https://koyu.space/?splash=true&clip=true")!))
   }
 
   func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
@@ -86,13 +86,13 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
     }
     
     switch host {
-    case "bsky.app":
+    case "koyu.space":
       if url.pathComponents.count == 4,
          (url.pathComponents[1] == "start" || url.pathComponents[1] == "starter-pack") {
         return true
       }
       return false
-    case "go.bsky.app":
+    case "go.koyu.space":
       if url.pathComponents.count == 2 {
         return true
       }
@@ -109,7 +109,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         self.webView?.load(URLRequest(url: url))
       }
     } else {
-      self.webView?.load(URLRequest(url: URL(string: "https://bsky.app/?splash=true&clip=true")!))
+      self.webView?.load(URLRequest(url: URL(string: "https://koyu.space/?splash=true&clip=true")!))
     }
   }
 

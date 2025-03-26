@@ -296,7 +296,7 @@ function Empty() {
         </Prompt.TitleText>
         <Prompt.DescriptionText>
           <Trans>
-            Bluesky will choose a set of recommended accounts from people in
+            koyu.space will choose a set of recommended accounts from people in
             your network.
           </Trans>
         </Prompt.DescriptionText>

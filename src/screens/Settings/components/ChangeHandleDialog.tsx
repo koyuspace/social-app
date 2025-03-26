@@ -489,7 +489,7 @@ function OwnHandlePage({goToServiceHandle}: {goToServiceHandle: () => void}) {
         </Animated.View>
       )}
       <Animated.View layout={native(LinearTransition)}>
-        {currentAccount?.handle?.endsWith('.bsky.social') && (
+        {currentAccount?.handle?.endsWith('.koyu.space') && (
           <Admonition type="info" style={[a.mb_md]}>
             <Trans>
               Your current handle{' '}

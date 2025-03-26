@@ -143,7 +143,7 @@ msgstr "50/{0}"
 msgid "{0} people have used this starter pack!"
 msgstr "Eddig {0} személy vette igénybe ezt a kezdőcsomagot."
 
-#: src/view/com/util/UserAvatar.tsx:445
+#: src/view/com/util/UserAvatar.tsx:464
 msgid "{0}'s avatar"
 msgstr "{0} profilképe"
 
@@ -175,7 +175,7 @@ msgstr "{0} perce"
 msgid "{0}s"
 msgstr "{0} másodperce"
 
-#: src/view/shell/desktop/LeftNav.tsx:382
+#: src/view/shell/desktop/LeftNav.tsx:383
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr "{count, plural, one {# olvasatlan} other {# olvasatlan}}"
 
@@ -294,12 +294,12 @@ msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
 msgstr "{notificationCount, plural, one {# olvasatlan értesítés} other {# olvasatlan értesítés}}"
 
 #: src/components/NewskieDialog.tsx:116
-msgid "{profileName} joined Bluesky {0} ago"
-msgstr "{profileName} {0} ezelőtt csatlakozott a Blueskyhoz"
+msgid "{profileName} joined koyu.space {0} ago"
+msgstr "{profileName} {0} ezelőtt csatlakozott a koyu.spacehoz"
 
 #: src/components/NewskieDialog.tsx:111
-msgid "{profileName} joined Bluesky using a starter pack {0} ago"
-msgstr "{profileName} {0} ezelőtt csatlakozott a Blueskyhoz egy kezdőcsomag igénybevételével"
+msgid "{profileName} joined koyu.space using a starter pack {0} ago"
+msgstr "{profileName} {0} ezelőtt csatlakozott a koyu.spacehoz egy kezdőcsomag igénybevételével"
 
 #: src/screens/StarterPack/Wizard/index.tsx:449
 msgctxt "profiles"
@@ -499,12 +499,12 @@ msgstr "Helyettesítő szöveg hozzáadása (nem kötelező)"
 
 #: src/screens/Settings/Settings.tsx:373
 #: src/screens/Settings/Settings.tsx:376
-#: src/view/shell/desktop/LeftNav.tsx:280
-#: src/view/shell/desktop/LeftNav.tsx:284
+#: src/view/shell/desktop/LeftNav.tsx:281
+#: src/view/shell/desktop/LeftNav.tsx:285
 msgid "Add another account"
 msgstr "Fiók felvétele a listára"
 
-#: src/view/com/composer/Composer.tsx:743
+#: src/view/com/composer/Composer.tsx:744
 msgid "Add another post"
 msgstr "Válaszlánc folytatása"
 
@@ -531,7 +531,7 @@ msgstr "Szó elnémítása a megadott beállításokkal"
 msgid "Add muted words and tags"
 msgstr "Elnémított szavak és címkék felvétele"
 
-#: src/view/com/composer/Composer.tsx:1258
+#: src/view/com/composer/Composer.tsx:1261
 msgid "Add new post"
 msgstr "Válaszlánc folytatása"
 
@@ -594,8 +594,8 @@ msgid "Adult Content"
 msgstr "Felnőtt tartalom"
 
 #: src/screens/Moderation/index.tsx:355
-msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
-msgstr "A felnőtt tartalmakat csak böngészőből, a <0>bsky.app</0> honlapon engedélyezheted."
+msgid "Adult content can only be enabled via the Web at <0>koyu.space</0>."
+msgstr "A felnőtt tartalmakat csak böngészőből, a <0>koyu.space</0> honlapon engedélyezheted."
 
 #: src/components/moderation/LabelPreference.tsx:242
 msgid "Adult content is disabled."
@@ -894,7 +894,7 @@ msgstr "Archivált bejegyzés"
 msgid "Are you sure you want to delete the app password \"{0}\"?"
 msgstr "Biztosan törölni akarod a(z) „{0}” nevű alkalmazásjelszót?"
 
-#: src/components/dms/MessageMenu.tsx:152
+#: src/components/dms/MessageContextMenu.tsx:142
 msgid "Are you sure you want to delete this message? The message will be deleted for you, but not for the other participant."
 msgstr "Biztosan törölni akarod ezt az üzenetet? Az üzenet a Te nézőpontodból el lesz távolítva, de a másik fél számára nem."
 
@@ -922,11 +922,11 @@ msgstr "Biztosan el akarod távolítani a(z) {0} c. hírfolyamot a gyűjteménye
 msgid "Are you sure you want to remove this from your feeds?"
 msgstr "Biztosan el akarod távolítani ezt a hírfolyamgyűjteményedből?"
 
-#: src/view/com/composer/Composer.tsx:694
+#: src/view/com/composer/Composer.tsx:695
 msgid "Are you sure you'd like to discard this draft?"
 msgstr "Biztosan el akarod vetni ezt a piszkozatot?"
 
-#: src/view/com/composer/Composer.tsx:868
+#: src/view/com/composer/Composer.tsx:872
 msgid "Are you sure you'd like to discard this post?"
 msgstr "Biztosan el akarod vetni ezt a bejegyzést?"
 
@@ -1110,57 +1110,6 @@ msgstr "A letiltás nyilvános. Az általad letiltott fiókok nem képesek vála
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "A fiók letiltása nem fogja megakadályozni a feljegyzések hozzárendelését a saját fiókodhoz, viszont a letiltott fiók nem lesz képes válaszolni a bejegyzéseidre és egyéb módon kapcsolatba lépni Veled."
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Blog"
-msgstr "Blog"
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr "Bluesky"
-
-#: src/view/com/post-thread/PostThreadItem.tsx:870
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "A Bluesky nem tudja megerősíteni a létrehozás dátumát."
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr "Klasszikus Bluesky"
-
-#: src/view/com/auth/server-input/index.tsx:212
-msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr "A Bluesky egy nyílt hálózat, ahol saját szolgáltatót választhatsz. Ha fejlesztő vagy, saját kiszolgálót is üzemeltethetsz."
-
-#: src/view/com/auth/server-input/index.tsx:149
-msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr "A Bluesky egy nyílt hálózat, ahol saját szolgáltatót választhatsz. Ha kezdő felhasználó vagy, akkor az alapértelmezett Bluesky Social lehetőséget javasoljuk."
-
-#: src/components/ProgressGuide/List.tsx:53
-#: src/components/ProgressGuide/List.tsx:70
-msgid "Bluesky is better with friends!"
-msgstr "A Bluesky ismerősökkel még jobb!"
-
-#: src/screens/Takendown.tsx:217
-msgid "Bluesky Social Terms of Service"
-msgstr "A Bluesky felhasználási feltételei"
-
-#: src/components/StarterPack/ProfileStarterPacks.tsx:298
-msgid "Bluesky will choose a set of recommended accounts from people in your network."
-msgstr "A Bluesky egy javasolt felhasználócsoportot fog kijelölni a hálózatodon."
-
-#: src/screens/Settings/components/PwiOptOut.tsx:99
-msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr "A Bluesky nem fogja mutatni a profilodat és a bejegyzéseidet a kijelentkezett felhasználók számára. Lehetséges, hogy ezt a kérést nem minden alkalmazás fogja tiszteletben tartani. Ez a beállítás nem teszi priváttá a profilodat."
-
-#: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "Bluesky+"
-msgstr "Bluesky+"
-
-#: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "Bluesky+ icons"
-msgstr "Bluesky+-ikonok"
-
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
 msgstr "Képek elhomályosítása"
@@ -1215,10 +1164,6 @@ msgstr "A(z) „{displayName}” kezdőcsomag böngészése"
 msgid "Browse topic {displayName}"
 msgstr "A(z) „{displayName}” témakör böngészése"
 
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Business"
-msgstr "Honlap"
-
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:672
 msgid "By {0}"
@@ -1257,7 +1202,7 @@ msgstr "Kamera"
 #: src/screens/Settings/Settings.tsx:260
 #: src/screens/Takendown.tsx:99
 #: src/screens/Takendown.tsx:102
-#: src/view/com/composer/Composer.tsx:931
+#: src/view/com/composer/Composer.tsx:935
 #: src/view/com/modals/ChangeEmail.tsx:213
 #: src/view/com/modals/ChangeEmail.tsx:215
 #: src/view/com/modals/ChangePassword.tsx:279
@@ -1273,7 +1218,7 @@ msgstr "Kamera"
 #: src/view/com/modals/VerifyEmail.tsx:261
 #: src/view/com/util/post-ctrls/RepostButton.tsx:213
 #: src/view/screens/Search/Search.tsx:890
-#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -1398,7 +1343,7 @@ msgstr "Tárhelyszolgáltató megváltoztatása"
 
 #: src/Navigation.tsx:408
 #: src/view/shell/bottom-bar/BottomBar.tsx:205
-#: src/view/shell/desktop/LeftNav.tsx:534
+#: src/view/shell/desktop/LeftNav.tsx:535
 #: src/view/shell/Drawer.tsx:422
 msgid "Chat"
 msgstr "Csevegés"
@@ -1425,7 +1370,6 @@ msgid "Chat requests"
 msgstr "Csevegési kérelmek"
 
 #: src/components/dms/ConvoMenu.tsx:75
-#: src/components/dms/MessageMenu.tsx:83
 #: src/Navigation.tsx:413
 #: src/screens/Messages/ChatList.tsx:328
 msgid "Chat settings"
@@ -1531,7 +1475,7 @@ msgstr "Kattints ide a bejegyzés idézésének engedélyezéséhez."
 msgid "Click to open tag menu for {tag}"
 msgstr "A(z) {tag} címke menüjének megnyitása"
 
-#: src/components/dms/MessageItem.tsx:241
+#: src/components/dms/MessageItem.tsx:229
 msgid "Click to retry failed message"
 msgstr "Üzenetküldés megkísérlése ismét"
 
@@ -1597,6 +1541,11 @@ msgstr "Kép bezárása"
 msgid "Close image viewer"
 msgstr "Képnézegető bezárása"
 
+#: src/components/ContextMenu/Backdrop.ios.tsx:43
+#: src/components/ContextMenu/Backdrop.tsx:39
+msgid "Close menu"
+msgstr ""
+
 #: src/components/Menu/index.tsx:298
 msgid "Close this dialog"
 msgstr "Párbeszédablak bezárása"
@@ -1648,17 +1597,17 @@ msgstr "Közösségi irányelvek"
 
 #: src/screens/Onboarding/StepFinished.tsx:311
 msgid "Complete onboarding and start using your account"
-msgstr "Regisztrációs varázsló befejezése és a Bluesky használatának megkezdése"
+msgstr "Regisztrációs varázsló befejezése és a koyu.space használatának megkezdése"
 
 #: src/screens/Signup/index.tsx:148
 msgid "Complete the challenge"
 msgstr "Biztonsági kihívás"
 
-#: src/view/shell/desktop/LeftNav.tsx:499
+#: src/view/shell/desktop/LeftNav.tsx:500
 msgid "Compose new post"
 msgstr "Új bejegyzés írása"
 
-#: src/view/com/composer/Composer.tsx:834
+#: src/view/com/composer/Composer.tsx:838
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
 msgstr "Írj legfeljebb {MAX_GRAPHEME_LENGTH} karakter hosszú bejegyzéseket"
 
@@ -1666,7 +1615,7 @@ msgstr "Írj legfeljebb {MAX_GRAPHEME_LENGTH} karakter hosszú bejegyzéseket"
 msgid "Compose reply"
 msgstr "Válaszírás"
 
-#: src/view/com/composer/Composer.tsx:1652
+#: src/view/com/composer/Composer.tsx:1644
 msgid "Compressing video..."
 msgstr "Videó tömörítése folyamatban…"
 
@@ -1827,7 +1776,7 @@ msgstr "Vágólapra helyezve"
 msgid "Copied build version to clipboard"
 msgstr "Buildszám a vágólapra helyezve"
 
-#: src/components/dms/MessageMenu.tsx:57
+#: src/components/dms/MessageContextMenu.tsx:52
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -1895,8 +1844,8 @@ msgstr "Lista hivatkozásának másolása"
 msgid "Copy link to post"
 msgstr "Bejegyzés hivatkozásának másolása"
 
-#: src/components/dms/MessageMenu.tsx:112
-#: src/components/dms/MessageMenu.tsx:114
+#: src/components/dms/MessageContextMenu.tsx:103
+#: src/components/dms/MessageContextMenu.tsx:106
 msgid "Copy message text"
 msgstr "Üzenet szövegének másolása"
 
@@ -1962,8 +1911,8 @@ msgstr "Kezdőcsomag létrehozása"
 msgid "Create a starter pack for me"
 msgstr "Automatikus létrehozás"
 
-#: src/view/com/auth/SplashScreen.tsx:55
-#: src/view/com/auth/SplashScreen.web.tsx:117
+#: src/view/com/auth/SplashScreen.tsx:48
+#: src/view/com/auth/SplashScreen.web.tsx:106
 #: src/view/shell/bottom-bar/BottomBar.tsx:315
 #: src/view/shell/bottom-bar/BottomBar.tsx:320
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:199
@@ -1990,8 +1939,8 @@ msgstr "Profilkép létrehozása"
 msgid "Create another"
 msgstr "Másik létrehozása"
 
-#: src/view/com/auth/SplashScreen.tsx:47
-#: src/view/com/auth/SplashScreen.web.tsx:109
+#: src/view/com/auth/SplashScreen.tsx:40
+#: src/view/com/auth/SplashScreen.web.tsx:98
 msgid "Create new account"
 msgstr "Regisztráció"
 
@@ -2027,7 +1976,7 @@ msgid "Customize who can interact with this post."
 msgstr "Add meg, hogy ki léphet kapcsolatba ezzel a bejegyzéssel!"
 
 #: src/screens/Onboarding/Layout.tsx:56
-msgid "Customizes your Bluesky experience"
+msgid "Customizes your koyu.space experience"
 msgstr "A Bluseky-élményed testreszabása"
 
 #: src/components/dialogs/Embed.tsx:167
@@ -2076,7 +2025,7 @@ msgstr "Alapértelmezett"
 msgid "Default icons"
 msgstr "Alapértelmezett ikonok"
 
-#: src/components/dms/MessageMenu.tsx:154
+#: src/components/dms/MessageContextMenu.tsx:144
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:591
@@ -2124,7 +2073,7 @@ msgstr "Beszélgetés törlése"
 msgid "Delete Conversation"
 msgstr "Beszélgetés törlése"
 
-#: src/components/dms/MessageMenu.tsx:126
+#: src/components/dms/MessageContextMenu.tsx:117
 msgid "Delete for me"
 msgstr "Törlés helyileg"
 
@@ -2132,11 +2081,11 @@ msgstr "Törlés helyileg"
 msgid "Delete List"
 msgstr "Lista törlése"
 
-#: src/components/dms/MessageMenu.tsx:150
+#: src/components/dms/MessageContextMenu.tsx:140
 msgid "Delete message"
 msgstr "Üzenet törlése"
 
-#: src/components/dms/MessageMenu.tsx:124
+#: src/components/dms/MessageContextMenu.tsx:115
 msgid "Delete message for me"
 msgstr "Üzenet törlése helyileg"
 
@@ -2144,7 +2093,7 @@ msgstr "Üzenet törlése helyileg"
 msgid "Delete my account"
 msgstr "Fiók törlése"
 
-#: src/view/com/composer/Composer.tsx:842
+#: src/view/com/composer/Composer.tsx:846
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:709
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:711
 msgid "Delete post"
@@ -2256,8 +2205,8 @@ msgid "Disabled"
 msgstr "Letiltva"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:84
-#: src/view/com/composer/Composer.tsx:696
-#: src/view/com/composer/Composer.tsx:875
+#: src/view/com/composer/Composer.tsx:697
+#: src/view/com/composer/Composer.tsx:879
 msgid "Discard"
 msgstr "Elvetés"
 
@@ -2265,11 +2214,11 @@ msgstr "Elvetés"
 msgid "Discard changes?"
 msgstr "Változtatások elvetése"
 
-#: src/view/com/composer/Composer.tsx:693
+#: src/view/com/composer/Composer.tsx:694
 msgid "Discard draft?"
 msgstr "Piszkozat elvetése"
 
-#: src/view/com/composer/Composer.tsx:867
+#: src/view/com/composer/Composer.tsx:871
 msgid "Discard post?"
 msgstr "Bejegyzés elvetése"
 
@@ -2295,7 +2244,7 @@ msgstr "Új hírfolyamok felfedezése"
 msgid "Dismiss"
 msgstr "Bezárás"
 
-#: src/view/com/composer/Composer.tsx:1576
+#: src/view/com/composer/Composer.tsx:1568
 msgid "Dismiss error"
 msgstr "Hiba bezárása"
 
@@ -2393,14 +2342,14 @@ msgstr "Koppints kétszer a párbeszédablak bezárásához"
 msgid "Double tap to like"
 msgstr "Koppints kétszer a kedveléshez"
 
-#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
-msgid "Download Bluesky"
-msgstr "A Bluesky letöltése"
-
 #: src/screens/Settings/components/ExportCarDialog.tsx:79
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
 msgstr "CAR fájl letöltése"
+
+#: src/screens/StarterPack/StarterPackLandingScreen.tsx:321
+msgid "Download koyu.space"
+msgstr "A koyu.space letöltése"
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:342
 msgid "Drop to add images"
@@ -2466,7 +2415,7 @@ msgctxt "action"
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: src/view/com/util/UserAvatar.tsx:344
+#: src/view/com/util/UserAvatar.tsx:363
 #: src/view/com/util/UserBanner.tsx:95
 msgid "Edit avatar"
 msgstr "Profilkép szerkesztése"
@@ -2746,7 +2695,7 @@ msgstr "Add meg a felhasználóneved és a jelszavad"
 msgid "Enters full screen"
 msgstr "Teljes képernyős mód"
 
-#: src/view/com/composer/Composer.tsx:1661
+#: src/view/com/composer/Composer.tsx:1653
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Hiba"
@@ -2931,7 +2880,7 @@ msgctxt "toast"
 msgid "Failed to delete chat"
 msgstr "A csevegés törlése meghiúsult"
 
-#: src/components/dms/MessageMenu.tsx:75
+#: src/components/dms/MessageContextMenu.tsx:70
 msgid "Failed to delete message"
 msgstr "Az üzenet törlése meghiúsult"
 
@@ -2991,7 +2940,7 @@ msgstr "Az értesítési beállítások mentése meghiúsult. Próbáld újra!"
 msgid "Failed to save settings. Please try again."
 msgstr "A beállítások mentése meghiúsult. Próbáld újra!"
 
-#: src/components/dms/MessageItem.tsx:234
+#: src/components/dms/MessageItem.tsx:222
 msgid "Failed to send"
 msgstr "A küldés meghiúsult"
 
@@ -3040,8 +2989,8 @@ msgstr "Hírfolyammenü"
 msgid "Feed toggle"
 msgstr "Hírfolyam ki/be"
 
-#: src/view/shell/desktop/RightNav.tsx:97
-#: src/view/shell/desktop/RightNav.tsx:98
+#: src/view/shell/desktop/RightNav.tsx:102
+#: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:324
 msgid "Feedback"
 msgstr "Visszajelzés"
@@ -3058,7 +3007,7 @@ msgstr "Megkaptuk a visszajelzést!"
 #: src/view/screens/Profile.tsx:227
 #: src/view/screens/SavedFeeds.tsx:96
 #: src/view/screens/Search/Search.tsx:531
-#: src/view/shell/desktop/LeftNav.tsx:651
+#: src/view/shell/desktop/LeftNav.tsx:655
 #: src/view/shell/Drawer.tsx:486
 msgid "Feeds"
 msgstr "Hírfolyamok"
@@ -3114,8 +3063,8 @@ msgid "Find people to follow"
 msgstr "Követendő személyek felfedezése"
 
 #: src/view/screens/Search/Search.tsx:582
-msgid "Find posts, users, and feeds on Bluesky"
-msgstr "Bejegyzések, felhasználók és hírfolyamok felfedezése a Blueskyon"
+msgid "Find posts, users, and feeds on koyu.space"
+msgstr "Bejegyzések, felhasználók és hírfolyamok felfedezése a koyu.spaceon"
 
 #: src/screens/StarterPack/Wizard/index.tsx:195
 msgid "Finish"
@@ -3363,7 +3312,7 @@ msgstr "Adj arcot a profilodnak!"
 msgid "Glaring violations of law or terms of service"
 msgstr "A törvény vagy a felhasználási feltételek egyértelmű megszegése"
 
-#: src/components/Layout/Header/index.tsx:126
+#: src/components/Layout/Header/index.tsx:127
 #: src/components/moderation/ScreenHider.tsx:154
 #: src/components/moderation/ScreenHider.tsx:163
 #: src/screens/Messages/Inbox.tsx:228
@@ -3475,8 +3424,8 @@ msgstr "Problémába ütköztél?"
 
 #: src/screens/Settings/Settings.tsx:207
 #: src/screens/Settings/Settings.tsx:211
-#: src/view/shell/desktop/RightNav.tsx:115
-#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:120
+#: src/view/shell/desktop/RightNav.tsx:121
 #: src/view/shell/Drawer.tsx:337
 msgid "Help"
 msgstr "Súgó"
@@ -3506,7 +3455,7 @@ msgstr "Rejtett lista"
 #: src/components/interstitials/TrendingVideos.tsx:140
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:135
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -3610,7 +3559,7 @@ msgstr "Egy pillanat! A videófeltöltés lehetősége még nem mindenki számá
 #: src/Navigation.tsx:627
 #: src/Navigation.tsx:647
 #: src/view/shell/bottom-bar/BottomBar.tsx:162
-#: src/view/shell/desktop/LeftNav.tsx:595
+#: src/view/shell/desktop/LeftNav.tsx:599
 #: src/view/shell/Drawer.tsx:396
 msgid "Home"
 msgstr "Kezdőlap"
@@ -3626,8 +3575,8 @@ msgstr "Tárhelyszolgáltató"
 
 #: src/screens/Settings/ThreadPreferences.tsx:67
 #: src/screens/Settings/ThreadPreferences.tsx:70
-#: src/view/com/post-thread/PostThread.tsx:656
-#: src/view/com/post-thread/PostThread.tsx:661
+#: src/view/com/post-thread/PostThread.tsx:655
+#: src/view/com/post-thread/PostThread.tsx:660
 msgid "Hot replies first"
 msgstr "A legfelkapottabb válaszok elöl"
 
@@ -3822,21 +3771,16 @@ msgstr "Igen, helyes"
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Még csak Te szerepelsz a kezdőcsomagban. A fenti keresővel másokat is hozzáadhatsz."
 
-#: src/view/com/composer/Composer.tsx:1595
+#: src/view/com/composer/Composer.tsx:1587
 msgid "Job ID: {0}"
 msgstr "Állásazonosító: {0}"
-
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "Jobs"
-msgstr "Karrier"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:211
 #: src/screens/StarterPack/StarterPackScreen.tsx:461
 #: src/screens/StarterPack/StarterPackScreen.tsx:472
-msgid "Join Bluesky"
-msgstr "Csatlakozz a Blueskyhoz!"
+msgid "Join koyu.space"
+msgstr "Csatlakozz a koyu.spacehoz!"
 
 #: src/components/StarterPack/QrCode.tsx:68
 #: src/view/shell/NavSignupCard.tsx:40
@@ -3847,6 +3791,57 @@ msgstr "Csatlakozz hozzánk!"
 #: src/screens/Onboarding/state.ts:104
 msgid "Journalism"
 msgstr "Sajtó"
+
+#: src/view/com/auth/server-input/index.tsx:136
+#: src/view/com/auth/server-input/index.tsx:137
+msgid "koyu.space"
+msgstr "koyu.space"
+
+#: src/view/com/post-thread/PostThreadItem.tsx:870
+msgid "koyu.space cannot confirm the authenticity of the claimed date."
+msgstr "A koyu.space nem tudja megerősíteni a létrehozás dátumát."
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:129
+msgctxt "Name of app icon variant"
+msgid "koyu.space Classic™"
+msgstr "Klasszikus koyu.space"
+
+#: src/view/com/auth/server-input/index.tsx:212
+msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
+msgstr "A koyu.space egy nyílt hálózat, ahol saját szolgáltatót választhatsz. Ha fejlesztő vagy, saját kiszolgálót is üzemeltethetsz."
+
+#: src/view/com/auth/server-input/index.tsx:149
+msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
+msgstr ""
+
+#: src/components/ProgressGuide/List.tsx:53
+#: src/components/ProgressGuide/List.tsx:70
+msgid "koyu.space is better with friends!"
+msgstr "A koyu.space ismerősökkel még jobb!"
+
+#: src/screens/Takendown.tsx:217
+msgid "koyu.space Terms of Service"
+msgstr "A koyu.space felhasználási feltételei"
+
+#: src/components/StarterPack/ProfileStarterPacks.tsx:298
+msgid "koyu.space will choose a set of recommended accounts from people in your network."
+msgstr "A koyu.space egy javasolt felhasználócsoportot fog kijelölni a hálózatodon."
+
+#: src/screens/Settings/components/PwiOptOut.tsx:99
+msgid "koyu.space will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
+msgstr "A koyu.space nem fogja mutatni a profilodat és a bejegyzéseidet a kijelentkezett felhasználók számára. Lehetséges, hogy ezt a kérést nem minden alkalmazás fogja tiszteletben tartani. Ez a beállítás nem teszi priváttá a profilodat."
+
+#: src/screens/Settings/AppIconSettings/index.tsx:99
+msgid "koyu.space+"
+msgstr "koyu.space+"
+
+#: src/screens/Settings/AppIconSettings/index.tsx:102
+msgid "koyu.space+ icons"
+msgstr "koyu.space+-ikonok"
+
+#: src/view/shell/NavSignupCard.tsx:72
+msgid "koyu's personal website"
+msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:231
 msgid "Labeled by {0}."
@@ -3909,10 +3904,6 @@ msgstr "további információ"
 msgid "Learn More"
 msgstr "További információ"
 
-#: src/view/com/auth/SplashScreen.web.tsx:166
-msgid "Learn more about Bluesky"
-msgstr "További információ a Blueskyról"
-
 #: src/view/com/auth/server-input/index.tsx:218
 msgid "Learn more about self hosting your PDS."
 msgstr "További információ a személyes adatkiszolgálók üzemeltetéséről."
@@ -3932,8 +3923,8 @@ msgstr "További információ erről a figyelmeztetésről"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:99
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:102
-msgid "Learn more about what is public on Bluesky."
-msgstr "További információ a Bluesky-tartalmak nyilvánosságáról."
+msgid "Learn more about what is public on koyu.space."
+msgstr "További információ a koyu.space-tartalmak nyilvánosságáról."
 
 #: src/components/moderation/ContentHider.tsx:239
 #: src/view/com/auth/server-input/index.tsx:220
@@ -3962,8 +3953,8 @@ msgid "Leave them all unchecked to see any language."
 msgstr "Az összes nyelv megjelenítéséhez kapcsolj ki minden nyelvet."
 
 #: src/view/com/modals/LinkWarning.tsx:65
-msgid "Leaving Bluesky"
-msgstr "A Bluesky elhagyása"
+msgid "Leaving koyu.space"
+msgstr "A koyu.space elhagyása"
 
 #: src/screens/SignupQueued.tsx:155
 msgid "left to go."
@@ -4050,8 +4041,8 @@ msgstr "Kedvelések"
 msgid "Likes on this post"
 msgstr "A bejegyzést kedvelők"
 
-#: src/view/com/post-thread/PostThread.tsx:630
-#: src/view/com/post-thread/PostThread.tsx:635
+#: src/view/com/post-thread/PostThread.tsx:629
+#: src/view/com/post-thread/PostThread.tsx:634
 msgid "Linear"
 msgstr "Egyszerű"
 
@@ -4117,7 +4108,7 @@ msgstr "Feloldottad a listán szereplő személyek némítását"
 #: src/view/screens/Lists.tsx:62
 #: src/view/screens/Profile.tsx:221
 #: src/view/screens/Profile.tsx:229
-#: src/view/shell/desktop/LeftNav.tsx:669
+#: src/view/shell/desktop/LeftNav.tsx:673
 #: src/view/shell/Drawer.tsx:501
 msgid "Lists"
 msgstr "Listák"
@@ -4161,18 +4152,22 @@ msgstr "Napló"
 msgid "Logged-out visibility"
 msgstr "Láthatóság kijelentkezett felhasználók számára"
 
-#: src/view/shell/desktop/RightNav.tsx:125
-msgid "Logo by @sawaratsuki.bsky.social"
-msgstr "A logó szerzője: @sawaratsuki.bsky.social"
+#: src/view/shell/desktop/RightNav.tsx:130
+msgid "Logo by @sawaratsuki.koyu.space"
+msgstr "A logó szerzője: @sawaratsuki.koyu.space"
 
-#: src/view/shell/desktop/RightNav.tsx:122
+#: src/view/shell/desktop/RightNav.tsx:127
 #: src/view/shell/Drawer.tsx:639
-msgid "Logo by <0>@sawaratsuki.bsky.social</0>"
-msgstr "A logó szerzője: <0>@sawaratsuki.bsky.social</0>"
+msgid "Logo by <0>@sawaratsuki.koyu.space</0>"
+msgstr "A logó szerzője: <0>@sawaratsuki.koyu.space</0>"
 
 #: src/components/RichTextTag.tsx:53
 msgid "Long press to open tag menu for #{tag}"
 msgstr "Tartsd lenyomva a(z) #{tag} címkét a menü megnyitásához"
+
+#: src/view/shell/NavSignupCard.tsx:69
+msgid "Looking for"
+msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:120
 msgid "Looks like XXXXX-XXXXX"
@@ -4251,7 +4246,7 @@ msgstr "Menü"
 msgid "Message {0}"
 msgstr "Üzenetküldés neki: {0}"
 
-#: src/components/dms/MessageMenu.tsx:73
+#: src/components/dms/MessageContextMenu.tsx:68
 msgctxt "toast"
 msgid "Message deleted"
 msgstr "Törölted az üzenetet"
@@ -4259,6 +4254,10 @@ msgstr "Törölted az üzenetet"
 #: src/screens/Messages/components/ChatListItem.tsx:190
 msgid "Message deleted"
 msgstr "Törölted az üzenetet"
+
+#: src/components/dms/MessageContextMenu.tsx:83
+msgid "Message from @{0}: {1}"
+msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:201
 msgid "Message from server: {0}"
@@ -4272,6 +4271,10 @@ msgstr "Üzenetbeviteli mező"
 #: src/screens/Messages/components/MessageInput.web.tsx:60
 msgid "Message is too long"
 msgstr "Az üzenet túl hosszú"
+
+#: src/components/dms/MessageContextMenu.tsx:81
+msgid "Message options"
+msgstr ""
 
 #: src/Navigation.tsx:642
 msgid "Messages"
@@ -4373,8 +4376,8 @@ msgid "Most-liked first"
 msgstr "A legtöbb kedveléssel rendelkező válaszok elöl"
 
 #: src/screens/Settings/ThreadPreferences.tsx:91
-#: src/view/com/post-thread/PostThread.tsx:686
-#: src/view/com/post-thread/PostThread.tsx:691
+#: src/view/com/post-thread/PostThread.tsx:685
+#: src/view/com/post-thread/PostThread.tsx:690
 msgid "Most-liked replies first"
 msgstr "A legtöbb kedveléssel rendelkező válaszok elöl"
 
@@ -4601,7 +4604,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "Új bejegyzés"
 
-#: src/view/shell/desktop/LeftNav.tsx:507
+#: src/view/shell/desktop/LeftNav.tsx:508
 msgctxt "action"
 msgid "New Post"
 msgstr "Új bejegyzés"
@@ -4616,8 +4619,8 @@ msgstr "Felhasználólista létrehozása"
 
 #: src/screens/Settings/ThreadPreferences.tsx:83
 #: src/screens/Settings/ThreadPreferences.tsx:86
-#: src/view/com/post-thread/PostThread.tsx:676
-#: src/view/com/post-thread/PostThread.tsx:681
+#: src/view/com/post-thread/PostThread.tsx:675
+#: src/view/com/post-thread/PostThread.tsx:680
 msgid "Newest replies first"
 msgstr "A legújabb válaszok elöl"
 
@@ -4789,8 +4792,8 @@ msgid "Note about sharing"
 msgstr "Korlátozott láthatóság"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:88
-msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
-msgstr "Megjegyzés: A Bluesky egy nyílt és nyilvános hálózat. Ez a beállítás csak a Bluesky alkalmazásban és -honlapon korlátozza a tartalmaid láthatóságát és nem biztos, hogy más alkalmazások is tiszteletben tartják. Lehetséges, hogy más alkalmazásokban és honlapokon ugyanúgy láthatóak maradnak a tartalmaid kijelentkezett felhasználók számára is."
+msgid "Note: koyu.space is an open and public network. This setting only limits the visibility of your content on the koyu.space app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
+msgstr "Megjegyzés: A koyu.space egy nyílt és nyilvános hálózat. Ez a beállítás csak a koyu.space alkalmazásban és -honlapon korlátozza a tartalmaid láthatóságát és nem biztos, hogy más alkalmazások is tiszteletben tartják. Lehetséges, hogy más alkalmazásokban és honlapokon ugyanúgy láthatóak maradnak a tartalmaid kijelentkezett felhasználók számára is."
 
 #: src/screens/Messages/ChatList.tsx:264
 msgid "Nothing here"
@@ -4820,7 +4823,7 @@ msgstr "Értesítési hangok"
 #: src/Navigation.tsx:637
 #: src/view/screens/Notifications.tsx:128
 #: src/view/shell/bottom-bar/BottomBar.tsx:236
-#: src/view/shell/desktop/LeftNav.tsx:632
+#: src/view/shell/desktop/LeftNav.tsx:636
 #: src/view/shell/Drawer.tsx:449
 msgid "Notifications"
 msgstr "Értesítések"
@@ -4829,7 +4832,7 @@ msgstr "Értesítések"
 msgid "now"
 msgstr "épp most"
 
-#: src/components/dms/MessageItem.tsx:198
+#: src/components/dms/MessageItem.tsx:186
 msgid "Now"
 msgstr "Épp most"
 
@@ -4869,8 +4872,8 @@ msgstr "Oké"
 
 #: src/screens/Settings/ThreadPreferences.tsx:75
 #: src/screens/Settings/ThreadPreferences.tsx:78
-#: src/view/com/post-thread/PostThread.tsx:666
-#: src/view/com/post-thread/PostThread.tsx:671
+#: src/view/com/post-thread/PostThread.tsx:665
+#: src/view/com/post-thread/PostThread.tsx:670
 msgid "Oldest replies first"
 msgstr "A legrégebbi válaszok elöl"
 
@@ -4945,12 +4948,12 @@ msgstr "Profilképkészítő megnyitása"
 msgid "Open conversation options"
 msgstr "Beszélgetési beállítások megnyitása"
 
-#: src/components/Layout/Header/index.tsx:158
+#: src/components/Layout/Header/index.tsx:159
 msgid "Open drawer menu"
 msgstr "Oldalsó menü megnyitása"
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1244
+#: src/view/com/composer/Composer.tsx:1247
 msgid "Open emoji picker"
 msgstr "Emojiválasztó megnyitása"
 
@@ -4963,11 +4966,11 @@ msgstr "Hírfolyam tulajdonságainak megnyitása"
 msgid "Open feed options menu"
 msgstr "Hírfolyambeállítások megnyitása"
 
-#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:71
+#: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:79
 msgid "Open link to {niceUrl}"
 msgstr "A(z) {niceUrl} hivatkozás megnyitása"
 
-#: src/components/dms/ActionsWrapper.tsx:90
+#: src/components/dms/ActionsWrapper.tsx:57
 msgid "Open message options"
 msgstr "Üzenetlehetőségek megnyitása"
 
@@ -5036,18 +5039,18 @@ msgstr "Bejegyzésíró megnyitása"
 msgid "Opens device photo gallery"
 msgstr "Az eszköz fényképgalériájának megnyitása"
 
-#: src/view/com/composer/Composer.tsx:1245
+#: src/view/com/composer/Composer.tsx:1248
 msgid "Opens emoji picker"
 msgstr "Emojiválasztó megnyitása"
 
-#: src/view/com/auth/SplashScreen.tsx:49
-#: src/view/com/auth/SplashScreen.web.tsx:111
-msgid "Opens flow to create a new Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:42
+#: src/view/com/auth/SplashScreen.web.tsx:100
+msgid "Opens flow to create a new koyu.space account"
 msgstr "Regisztrációs varázsló indítása"
 
-#: src/view/com/auth/SplashScreen.tsx:63
-#: src/view/com/auth/SplashScreen.web.tsx:125
-msgid "Opens flow to sign in to your existing Bluesky account"
+#: src/view/com/auth/SplashScreen.tsx:56
+#: src/view/com/auth/SplashScreen.web.tsx:114
+msgid "Opens flow to sign in to your existing koyu.space account"
 msgstr "Bejelentkezési varázsló megnyitása"
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
@@ -5071,7 +5074,7 @@ msgid "Opens the linked website"
 msgstr "Hivatkozás megnyitása"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:683
-#: src/view/com/util/UserAvatar.tsx:446
+#: src/view/com/util/UserAvatar.tsx:465
 msgid "Opens this profile"
 msgstr "Saját profil megnyitása"
 
@@ -5135,8 +5138,8 @@ msgid "Our moderation team has received your report."
 msgstr "Megkaptuk a jelentésedet."
 
 #: src/screens/Messages/components/ChatDisabled.tsx:28
-msgid "Our moderators have reviewed reports and decided to disable your access to chats on Bluesky."
-msgstr "A fiókod ellen jelentések érkeztek, és miután a moderátoraink felülvizsgálták őket, úgy döntöttek, hogy megfosztanak a csevegési jogosultságoktól a Blueskyon."
+msgid "Our moderators have reviewed reports and decided to disable your access to chats on koyu.space."
+msgstr "A fiókod ellen jelentések érkeztek, és miután a moderátoraink felülvizsgálták őket, úgy döntöttek, hogy megfosztanak a csevegési jogosultságoktól a koyu.spaceon."
 
 #: src/components/Lists.tsx:190
 #: src/view/screens/NotFound.tsx:47
@@ -5395,7 +5398,7 @@ msgstr "Népszerű videók a hálózatról."
 msgid "Porn"
 msgstr "Pornó"
 
-#: src/view/com/composer/Composer.tsx:959
+#: src/view/com/composer/Composer.tsx:963
 msgctxt "action"
 msgid "Post"
 msgstr "Közzététel"
@@ -5405,7 +5408,7 @@ msgctxt "description"
 msgid "Post"
 msgstr "Bejegyzés"
 
-#: src/view/com/composer/Composer.tsx:957
+#: src/view/com/composer/Composer.tsx:961
 msgctxt "action"
 msgid "Post All"
 msgstr "Összes közzététele"
@@ -5534,8 +5537,8 @@ msgstr "Követett személyek előnyben részesítése"
 msgid "Priority notifications"
 msgstr "Előnyben részesített értesítések"
 
-#: src/view/shell/desktop/RightNav.tsx:105
-#: src/view/shell/desktop/RightNav.tsx:106
+#: src/view/shell/desktop/RightNav.tsx:110
+#: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
 msgstr "Adatvédelem"
 
@@ -5558,7 +5561,7 @@ msgstr "Adatvédelem és biztonság"
 msgid "Privacy Policy"
 msgstr "Adatvédelmi irányelvek"
 
-#: src/view/com/composer/Composer.tsx:1658
+#: src/view/com/composer/Composer.tsx:1650
 msgid "Processing video..."
 msgstr "Videó feldolgozása folyamatban…"
 
@@ -5573,7 +5576,7 @@ msgid "profile"
 msgstr "profil"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:286
-#: src/view/shell/desktop/LeftNav.tsx:687
+#: src/view/shell/desktop/LeftNav.tsx:691
 #: src/view/shell/Drawer.tsx:71
 #: src/view/shell/Drawer.tsx:526
 msgid "Profile"
@@ -5645,8 +5648,8 @@ msgstr "A bejegyzés idézései"
 
 #: src/screens/Settings/ThreadPreferences.tsx:99
 #: src/screens/Settings/ThreadPreferences.tsx:102
-#: src/view/com/post-thread/PostThread.tsx:696
-#: src/view/com/post-thread/PostThread.tsx:701
+#: src/view/com/post-thread/PostThread.tsx:695
+#: src/view/com/post-thread/PostThread.tsx:700
 msgid "Random (aka \"Poster's Roulette\")"
 msgstr "Véletlenszerű (más néven: „Közzétevői rulett”)"
 
@@ -5671,19 +5674,15 @@ msgstr "Kevesebb"
 msgid "Read more"
 msgstr "Több"
 
-#: src/view/com/auth/SplashScreen.web.tsx:171
-msgid "Read the Bluesky blog"
-msgstr "A Bluesky blog megnyitása"
-
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
-msgid "Read the Bluesky Privacy Policy"
-msgstr "A Bluesky adatvédelmi irányelveinek megtekintése"
+msgid "Read the koyu.space Privacy Policy"
+msgstr "A koyu.space adatvédelmi irányelveinek megtekintése"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
-msgid "Read the Bluesky Terms of Service"
-msgstr "A Bluesky felhasználói feltételeinek megtekintése"
+msgid "Read the koyu.space Terms of Service"
+msgstr "A koyu.space felhasználói feltételeinek megtekintése"
 
 #: src/screens/Takendown.tsx:162
 #: src/screens/Takendown.tsx:170
@@ -5749,8 +5748,8 @@ msgstr "Fiók eltávolítása"
 msgid "Remove attachment"
 msgstr "Melléklet eltávolítása"
 
-#: src/view/com/util/UserAvatar.tsx:397
-#: src/view/com/util/UserAvatar.tsx:400
+#: src/view/com/util/UserAvatar.tsx:416
+#: src/view/com/util/UserAvatar.tsx:419
 msgid "Remove Avatar"
 msgstr "Profilkép eltávolítása"
 
@@ -5877,7 +5876,7 @@ msgstr "Válaszadás letiltva"
 msgid "Replies to this post are disabled."
 msgstr "A bejegyzés alatti válaszadás le van tiltva."
 
-#: src/view/com/composer/Composer.tsx:955
+#: src/view/com/composer/Composer.tsx:959
 msgctxt "action"
 msgid "Reply"
 msgstr "Válasz közzététele"
@@ -5904,7 +5903,7 @@ msgstr "Válaszbeállítások"
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "A teljes válaszlánc beállításait az eredeti szerző kezeli"
 
-#: src/view/com/post-thread/PostThread.tsx:652
+#: src/view/com/post-thread/PostThread.tsx:651
 msgid "Reply sorting"
 msgstr "Válaszok rendezése"
 
@@ -5939,7 +5938,7 @@ msgstr "Frissítetted a válasz láthatóságát"
 msgid "Reply was successfully hidden"
 msgstr "Elrejtetted a választ"
 
-#: src/components/dms/MessageMenu.tsx:134
+#: src/components/dms/MessageContextMenu.tsx:125
 #: src/components/dms/MessagesListBlockedFooter.tsx:85
 #: src/components/dms/MessagesListBlockedFooter.tsx:92
 msgid "Report"
@@ -5973,7 +5972,7 @@ msgstr "Hírfolyam jelentése"
 msgid "Report List"
 msgstr "Lista jelentése"
 
-#: src/components/dms/MessageMenu.tsx:132
+#: src/components/dms/MessageContextMenu.tsx:123
 msgid "Report message"
 msgstr "Üzenet jelentése"
 
@@ -6138,7 +6137,7 @@ msgstr "Bejelentkezés újrapróbálása"
 msgid "Retries the last action, which errored out"
 msgstr "A legutóbb meghiúsult folyamat újrapróbálása"
 
-#: src/components/dms/MessageItem.tsx:245
+#: src/components/dms/MessageItem.tsx:233
 #: src/components/Error.tsx:65
 #: src/components/Lists.tsx:110
 #: src/components/moderation/ReportDialog/index.tsx:221
@@ -6289,7 +6288,7 @@ msgstr "Vissza a tetejére"
 #: src/view/screens/Search/Search.tsx:570
 #: src/view/screens/Search/Search.tsx:848
 #: src/view/shell/bottom-bar/BottomBar.tsx:182
-#: src/view/shell/desktop/LeftNav.tsx:613
+#: src/view/shell/desktop/LeftNav.tsx:617
 #: src/view/shell/Drawer.tsx:370
 msgid "Search"
 msgstr "Keresés"
@@ -6381,10 +6380,6 @@ msgstr "A(z) #{tag} címkével ellátott bejegyzések megtekintése"
 #: src/components/RichTextTag.tsx:132
 msgid "See #{tag} posts by user"
 msgstr "A felhasználó #{tag} címkével ellátott bejegyzéseinek megtekintése"
-
-#: src/view/com/auth/SplashScreen.web.tsx:176
-msgid "See jobs at Bluesky"
-msgstr "Állások a Blueskynál"
 
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "See this guide"
@@ -6585,7 +6580,7 @@ msgstr "Email cím beállítása jelszóvisszaállításhoz"
 
 #: src/Navigation.tsx:173
 #: src/screens/Settings/Settings.tsx:80
-#: src/view/shell/desktop/LeftNav.tsx:705
+#: src/view/shell/desktop/LeftNav.tsx:709
 #: src/view/shell/Drawer.tsx:539
 msgid "Settings"
 msgstr "Beállítások"
@@ -6665,8 +6660,8 @@ msgid "Share this starter pack"
 msgstr "Kezdőcsomag továbbítása"
 
 #: src/components/StarterPack/ShareDialog.tsx:99
-msgid "Share this starter pack and help people join your community on Bluesky."
-msgstr "Oszd meg ezt a kezdőcsomagot, hogy mások is csatlakozhassanak a Blueskyos közösségedhez!"
+msgid "Share this starter pack and help people join your community on koyu.space."
+msgstr "Oszd meg ezt a kezdőcsomagot, hogy mások is csatlakozhassanak a koyu.spaceos közösségedhez!"
 
 #: src/components/dms/ChatEmptyPill.tsx:34
 msgid "Share your favorite feed!"
@@ -6682,7 +6677,7 @@ msgstr "A hivatkozott honlap továbbítása"
 
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:137
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 msgid "Show"
 msgstr "Mutatás"
 
@@ -6749,7 +6744,7 @@ msgstr "Idézetek mutatása"
 msgid "Show replies"
 msgstr "Válaszok mutatása"
 
-#: src/view/com/post-thread/PostThread.tsx:626
+#: src/view/com/post-thread/PostThread.tsx:625
 msgid "Show replies as"
 msgstr "Válaszok megjelenése"
 
@@ -6802,10 +6797,10 @@ msgstr "Tartalom mutatása"
 #: src/screens/Login/index.tsx:122
 #: src/screens/Login/index.tsx:143
 #: src/screens/Login/LoginForm.tsx:181
-#: src/view/com/auth/SplashScreen.tsx:61
-#: src/view/com/auth/SplashScreen.tsx:69
-#: src/view/com/auth/SplashScreen.web.tsx:123
-#: src/view/com/auth/SplashScreen.web.tsx:131
+#: src/view/com/auth/SplashScreen.tsx:54
+#: src/view/com/auth/SplashScreen.tsx:62
+#: src/view/com/auth/SplashScreen.web.tsx:112
+#: src/view/com/auth/SplashScreen.web.tsx:120
 #: src/view/shell/bottom-bar/BottomBar.tsx:325
 #: src/view/shell/bottom-bar/BottomBar.tsx:330
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:209
@@ -6837,8 +6832,8 @@ msgid "Sign in to account that is not listed"
 msgstr "Bejelentkezés egy másik felhasználói fiókba"
 
 #: src/components/dialogs/Signin.tsx:46
-msgid "Sign in to Bluesky or create a new account"
-msgstr "Jelentkezz be vagy hozz létre egy Bluesky-fiókot!"
+msgid "Sign in to koyu.space or create a new account"
+msgstr "Jelentkezz be vagy hozz létre egy koyu.space-fiókot!"
 
 #: src/screens/Settings/Settings.tsx:225
 #: src/screens/Settings/Settings.tsx:227
@@ -6846,9 +6841,9 @@ msgstr "Jelentkezz be vagy hozz létre egy Bluesky-fiókot!"
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:85
-#: src/view/shell/desktop/LeftNav.tsx:207
-#: src/view/shell/desktop/LeftNav.tsx:287
-#: src/view/shell/desktop/LeftNav.tsx:290
+#: src/view/shell/desktop/LeftNav.tsx:208
+#: src/view/shell/desktop/LeftNav.tsx:288
+#: src/view/shell/desktop/LeftNav.tsx:291
 msgid "Sign out"
 msgstr "Kijelentkezés"
 
@@ -6857,7 +6852,7 @@ msgid "Sign Out"
 msgstr "Kijelentkezés"
 
 #: src/screens/Settings/Settings.tsx:256
-#: src/view/shell/desktop/LeftNav.tsx:204
+#: src/view/shell/desktop/LeftNav.tsx:205
 msgid "Sign out?"
 msgstr "Kijelentkezés"
 
@@ -6939,8 +6934,8 @@ msgstr "Valami balul sült el. Próbáld újra!"
 msgid "Something wrong? Let us know."
 msgstr "Valami nem stimmel? Vedd fel velünk a kapcsolatot!"
 
-#: src/App.native.tsx:122
-#: src/App.web.tsx:98
+#: src/App.native.tsx:123
+#: src/App.web.tsx:99
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr "Sajnáljuk, de lejárt a munkameneted. Jelentkezz be újra!"
 
@@ -7122,7 +7117,7 @@ msgstr "Támogatás"
 #: src/screens/Settings/Settings.tsx:102
 #: src/screens/Settings/Settings.tsx:116
 #: src/screens/Settings/Settings.tsx:412
-#: src/view/shell/desktop/LeftNav.tsx:242
+#: src/view/shell/desktop/LeftNav.tsx:243
 msgid "Switch account"
 msgstr "Fiókváltás"
 
@@ -7131,11 +7126,11 @@ msgstr "Fiókváltás"
 msgid "Switch Account"
 msgstr "Fiókváltás"
 
-#: src/view/shell/desktop/LeftNav.tsx:106
+#: src/view/shell/desktop/LeftNav.tsx:107
 msgid "Switch accounts"
 msgstr "Fiókváltás"
 
-#: src/view/shell/desktop/LeftNav.tsx:250
+#: src/view/shell/desktop/LeftNav.tsx:251
 msgid "Switch to {0}"
 msgstr "Váltás rá: {0}"
 
@@ -7155,6 +7150,11 @@ msgstr "Rendszernapló"
 #: src/components/dialogs/MutedWords.tsx:282
 msgid "Tags only"
 msgstr "Csak címkék"
+
+#: src/components/ContextMenu/Backdrop.ios.tsx:44
+#: src/components/ContextMenu/Backdrop.tsx:40
+msgid "Tap to close context menu"
+msgstr ""
 
 #: src/components/ProgressGuide/Toast.tsx:156
 msgid "Tap to dismiss"
@@ -7191,8 +7191,8 @@ msgstr "Mesélj magadról!"
 msgid "Tell us a little more"
 msgstr "További részletek"
 
-#: src/view/shell/desktop/RightNav.tsx:111
-#: src/view/shell/desktop/RightNav.tsx:112
+#: src/view/shell/desktop/RightNav.tsx:116
+#: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
 msgstr "Feltételek"
 
@@ -7281,10 +7281,6 @@ msgstr "A beállítások érvénybeléptetése érdekében az alkalmazás újra 
 msgid "The author of this thread has hidden this reply."
 msgstr "A válaszlánc szerzője elrejtette ezt a választ."
 
-#: src/screens/Moderation/index.tsx:358
-msgid "The Bluesky web application"
-msgstr "A Bluesky webalkalmazás"
-
 #: src/view/screens/CommunityGuidelines.tsx:38
 msgid "The Community Guidelines have been moved to <0/>"
 msgstr "A közösségi irányelvek elköltöztek: <0/>"
@@ -7302,8 +7298,8 @@ msgid "The Discover feed now knows what you like"
 msgstr "A Felfedezés hírfolyam olyan tartalmakat mutat, amelyek tetszhetnek Neked"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:324
-msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
-msgstr "Az alkalmazás jobb. Töltsd le a Blueskyt és onnan folytatjuk, ahol abbahagytad!"
+msgid "The experience is better in the app. Download koyu.space now and we'll pick back up where you left off."
+msgstr "Az alkalmazás jobb. Töltsd le a koyu.spacet és onnan folytatjuk, ahol abbahagytad!"
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
 msgid "The feed has been replaced with Discover."
@@ -7320,6 +7316,10 @@ msgstr "Az alábbi feljegyzéseket alkalmazták a tartalmadra."
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
 msgstr "Új bejegyzéseknél az alábbi beállítások lesznek az alapértelmezettek. Ezeket az egyes bejegyzések írása közben felülírhatod."
+
+#: src/screens/Moderation/index.tsx:358
+msgid "The koyu.space web application"
+msgstr "A koyu.space webalkalmazás"
 
 #: src/view/com/post-thread/PostThread.tsx:265
 #: src/view/com/post-thread/PostThread.tsx:277
@@ -7341,6 +7341,10 @@ msgstr "Hibát tapasztaltunk a kiszolgálóval. Próbáld újra egy pár percen 
 #: src/screens/StarterPack/StarterPackScreen.tsx:722
 msgid "The starter pack that you are trying to view is invalid. You may delete this starter pack instead."
 msgstr "A kezdőcsomag érvénytelen. Ha szeretnéd, törölheted a listáról."
+
+#: src/components/ContextMenu/index.tsx:305
+msgid "The subject of the context menu"
+msgstr ""
 
 #: src/view/screens/Support.tsx:37
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
@@ -7387,7 +7391,7 @@ msgstr "Megszakadt a kapcsolat a kiszolgálóddal"
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Az értesítések frissítése meghiúsult. Koppints ide az újrapróbálkozáshoz!"
 
-#: src/view/com/posts/PostFeed.tsx:592
+#: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "A bejegyzések lekérése meghiúsult. Koppints ide az újrapróbálkozáshoz!"
 
@@ -7457,8 +7461,8 @@ msgid "There was an unexpected issue in the application. Please let us know if t
 msgstr "Váratlan alkalmazáshiba történt. Kérjük jelentsd!"
 
 #: src/screens/SignupQueued.tsx:130
-msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "Jelenleg rengeteg új felhasználó csatlakozik a Blueskyhoz. A fiókodat aktiválni fogjuk, amint tudjuk!"
+msgid "There's been a rush of new users to koyu.space! We'll activate your account as soon as we can."
+msgstr "Jelenleg rengeteg új felhasználó csatlakozik a koyu.spacehoz. A fiókodat aktiválni fogjuk, amint tudjuk!"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:62
 msgid "These settings only apply to the Following feed."
@@ -7481,8 +7485,8 @@ msgid "This appeal will be sent to <0>{sourceName}</0>."
 msgstr "A fellebbezés címzettje: <0>{sourceName}</0>."
 
 #: src/screens/Messages/components/ChatDisabled.tsx:104
-msgid "This appeal will be sent to Bluesky's moderation service."
-msgstr "Ez a fellebbezés a Bluesky moderálási szolgáltatásához lesz elküldve."
+msgid "This appeal will be sent to koyu.space's moderation service."
+msgstr "Ez a fellebbezés a koyu.space moderálási szolgáltatásához lesz elküldve."
 
 #: src/screens/Messages/components/MessageListError.tsx:18
 msgid "This chat was disconnected"
@@ -7506,7 +7510,7 @@ msgid "This content is not available because one of the users involved has block
 msgstr "Ez a tartalom jelenleg nem elérhető, mert az egyik kapcsolódó felhasználó letiltotta a másikat."
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:114
-msgid "This content is not viewable without a Bluesky account."
+msgid "This content is not viewable without a koyu.space account."
 msgstr "Ezt a tartalmat bejelentkezés nélkül nem tekintheted meg."
 
 #: src/screens/Messages/components/ChatListItem.tsx:296
@@ -7568,12 +7572,12 @@ msgid "This link is taking you to the following website:"
 msgstr "Ez a hivatkozás az alábbi honlapra mutat:"
 
 #: src/screens/List/ListHiddenScreen.tsx:151
-msgid "This list – created by <0>{0}</0> – contains possible violations of Bluesky's community guidelines in its name or description."
-msgstr "Ennek a(z) <0>{0}</0> által létrehozott listának a címe vagy leírása lehetséges, hogy megsérti a Bluesky közösségi irányelveit."
+msgid "This list – created by <0>{0}</0> – contains possible violations of koyu.space's community guidelines in its name or description."
+msgstr "Ennek a(z) <0>{0}</0> által létrehozott listának a címe vagy leírása lehetséges, hogy megsérti a koyu.space közösségi irányelveit."
 
 #: src/screens/List/ListHiddenScreen.tsx:146
-msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
-msgstr "Ennek az Általad létrehozott listának a címe vagy leírása lehetséges, hogy megsérti a Bluesky közösségi irányelveit."
+msgid "This list – created by you – contains possible violations of koyu.space's community guidelines in its name or description."
+msgstr "Ennek az Általad létrehozott listának a címe vagy leírása lehetséges, hogy megsérti a koyu.space közösségi irányelveit."
 
 #: src/view/screens/ProfileList.tsx:955
 msgid "This list is empty."
@@ -7584,8 +7588,8 @@ msgid "This moderation service is unavailable. See below for more details. If th
 msgstr "Ez a moderálási szolgáltatás jelenleg nem elérhető. A részleteket alább olvashatod. Ha a probléma fennáll, lépj velünk kapcsolatba!"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:856
-msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
-msgstr "A bejegyzés adatai szerint az eredeti létrehozási dátuma <0>{0}</0> volt, de először ekkor jelent meg a Blueskyon: <1>{1}</1>"
+msgid "This post claims to have been created on <0>{0}</0>, but was first seen by koyu.space on <1>{1}</1>."
+msgstr "A bejegyzés adatai szerint az eredeti létrehozási dátuma <0>{0}</0> volt, de először ekkor jelent meg a koyu.spaceon: <1>{1}</1>"
 
 #: src/components/WhoCanReply.tsx:217
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
@@ -7669,8 +7673,8 @@ msgstr "Ezzel @{0} el lesz távolítva a fióklistáról."
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "Ezzel el fogod távolítani a bejegyzést az idézésből mindenki számára, ami egy helyőrzővel lesz helyettesítve."
 
-#: src/view/com/post-thread/PostThread.tsx:610
-#: src/view/com/post-thread/PostThread.tsx:613
+#: src/view/com/post-thread/PostThread.tsx:609
+#: src/view/com/post-thread/PostThread.tsx:612
 msgid "Thread options"
 msgstr "Válaszlánc-beállítások"
 
@@ -7683,8 +7687,8 @@ msgstr "Válaszláncok"
 msgid "Thread Preferences"
 msgstr "Válaszláncok"
 
-#: src/view/com/post-thread/PostThread.tsx:640
-#: src/view/com/post-thread/PostThread.tsx:645
+#: src/view/com/post-thread/PostThread.tsx:639
+#: src/view/com/post-thread/PostThread.tsx:644
 msgid "Threaded"
 msgstr "Egymásba ágyazott"
 
@@ -7709,7 +7713,7 @@ msgid "To report a conversation, please report one of its messages via the conve
 msgstr "Ha egy beszélgetést szeretnél jelenteni, kérjük egy konkrét üzenetet jelents a csevegési képernyőről. Ez segít a moderátorainknak megérteni a probléma szókörnyezetét."
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:129
-msgid "To upload videos to Bluesky, you must first verify your email."
+msgid "To upload videos to koyu.space, you must first verify your email."
 msgstr "A videófeltöltés előtt ellenőriznünk kell az email-címedet."
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:31
@@ -7742,8 +7746,8 @@ msgstr "Felkapott"
 msgid "Topic"
 msgstr "Témakör"
 
-#: src/components/dms/MessageMenu.tsx:105
-#: src/components/dms/MessageMenu.tsx:107
+#: src/components/dms/MessageContextMenu.tsx:96
+#: src/components/dms/MessageContextMenu.tsx:98
 #: src/view/com/post-thread/PostThreadItem.tsx:778
 #: src/view/com/post-thread/PostThreadItem.tsx:781
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:451
@@ -7962,7 +7966,7 @@ msgstr "Leiratkozás a feljegyzőről"
 msgid "Unsubscribed from list"
 msgstr "Leiratkoztál a listáról"
 
-#: src/view/com/composer/Composer.tsx:781
+#: src/view/com/composer/Composer.tsx:782
 msgid "Unsupported video type"
 msgstr "Nem támogatott videóformátum"
 
@@ -8013,20 +8017,20 @@ msgstr "Fénykép feltöltése"
 msgid "Upload a text file to:"
 msgstr "Tölts fel ide egy szöveges fájlt:"
 
-#: src/view/com/util/UserAvatar.tsx:368
-#: src/view/com/util/UserAvatar.tsx:371
+#: src/view/com/util/UserAvatar.tsx:387
+#: src/view/com/util/UserAvatar.tsx:390
 #: src/view/com/util/UserBanner.tsx:123
 #: src/view/com/util/UserBanner.tsx:126
 msgid "Upload from Camera"
 msgstr "Feltöltés a kamerából"
 
-#: src/view/com/util/UserAvatar.tsx:385
+#: src/view/com/util/UserAvatar.tsx:404
 #: src/view/com/util/UserBanner.tsx:140
 msgid "Upload from Files"
 msgstr "Feltöltés a fájlkezelőből"
 
-#: src/view/com/util/UserAvatar.tsx:379
-#: src/view/com/util/UserAvatar.tsx:383
+#: src/view/com/util/UserAvatar.tsx:398
+#: src/view/com/util/UserAvatar.tsx:402
 #: src/view/com/util/UserBanner.tsx:134
 #: src/view/com/util/UserBanner.tsx:138
 msgid "Upload from Library"
@@ -8041,13 +8045,13 @@ msgstr "Képek feltöltése folyamatban…"
 msgid "Uploading link thumbnail..."
 msgstr "Hivatkozás indexképének feltöltése folyamatban…"
 
-#: src/view/com/composer/Composer.tsx:1655
+#: src/view/com/composer/Composer.tsx:1647
 msgid "Uploading video..."
 msgstr "Videó feltöltése folyamatban…"
 
 #: src/screens/Settings/AppPasswords.tsx:67
-msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
-msgstr "Egy alkalmazásjelszó használatával bármely egyéb Bluesky-kliensbe bejelentkezhetsz, anélkül hogy teljes hozzáférést biztosítanál a fiókodhoz vagy a valódi jelszavadhoz."
+msgid "Use app passwords to sign in to other koyu.space clients without giving full access to your account or password."
+msgstr "Egy alkalmazásjelszó használatával bármely egyéb koyu.space-kliensbe bejelentkezhetsz, anélkül hogy teljes hozzáférést biztosítanál a fiókodhoz vagy a valódi jelszavadhoz."
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:539
 msgid "Use default provider"
@@ -8242,7 +8246,7 @@ msgstr "A videó nem található."
 msgid "Video settings"
 msgstr "Videóbeállítások"
 
-#: src/view/com/composer/Composer.tsx:1665
+#: src/view/com/composer/Composer.tsx:1657
 msgid "Video uploaded"
 msgstr "A videó feltöltése sikeresen befejeződött"
 
@@ -8412,8 +8416,8 @@ msgid "We have sent another verification email to <0>{0}</0>."
 msgstr "Küldtünk egy új visszaigazoló emailt a(z) <0>{0}</0> címre."
 
 #: src/screens/Onboarding/StepFinished.tsx:256
-msgid "We hope you have a wonderful time. Remember, Bluesky is:"
-msgstr "Reméljük, jól érzed magad! Ne feledd; a Bluesky:"
+msgid "We hope you have a wonderful time. Remember, koyu.space is:"
+msgstr "Reméljük, jól érzed magad! Ne feledd; a koyu.space:"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
@@ -8497,9 +8501,7 @@ msgstr "Milyen címet adnál a kezdőcsomagodnak?"
 msgid "What people are posting about."
 msgstr "Mostanában erről beszélnek."
 
-#: src/view/com/auth/SplashScreen.tsx:38
-#: src/view/com/auth/SplashScreen.web.tsx:99
-#: src/view/com/composer/Composer.tsx:744
+#: src/view/com/composer/Composer.tsx:745
 msgid "What's up?"
 msgstr "Mi a helyzet?"
 
@@ -8573,11 +8575,11 @@ msgstr "Miért kell ezt a felhasználót átvizsgálni?"
 msgid "Write a message"
 msgstr "Üzenet írása"
 
-#: src/view/com/composer/Composer.tsx:832
+#: src/view/com/composer/Composer.tsx:836
 msgid "Write post"
 msgstr "Bejegyzés írása"
 
-#: src/view/com/composer/Composer.tsx:742
+#: src/view/com/composer/Composer.tsx:743
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:69
 msgid "Write your reply"
 msgstr "Válasz írása"
@@ -8686,8 +8688,8 @@ msgid "You don't have any chat requests at the moment."
 msgstr "Jelenleg nincsenek bejövő csevegési kérelmek."
 
 #: src/view/com/modals/InviteCodes.tsx:67
-msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
-msgstr "Még egy meghívókóddal sem rendelkezel. Majd küldünk néhányat, ha már hosszabb ideje leszel a Blueskyon."
+msgid "You don't have any invite codes yet! We'll send you some when you've been on koyu.space for a little longer."
+msgstr "Még egy meghívókóddal sem rendelkezel. Majd küldünk néhányat, ha már hosszabb ideje leszel a koyu.spaceon."
 
 #: src/view/screens/SavedFeeds.tsx:137
 msgid "You don't have any pinned feeds."
@@ -8822,7 +8824,7 @@ msgid "You previously deactivated @{0}."
 msgstr "Korábban deaktiváltad a(z) @{0} fiókot."
 
 #: src/screens/Settings/Settings.tsx:257
-#: src/view/shell/desktop/LeftNav.tsx:205
+#: src/view/shell/desktop/LeftNav.tsx:206
 msgid "You will be signed out of all your accounts."
 msgstr "Ezzel az összes fiókból ki fogsz jelentkezni."
 
@@ -8933,8 +8935,8 @@ msgid "Your account repository, containing all public data records, can be downl
 msgstr "A fiókod adattára, ami az összes nyilvános adatodat tartalmazza, letölthető egy „CAR” fájlként. Ez a fájl nem tartalmazza a beágyazott médiatartalmakat (pl.: képeket), sem pedig a személyes adataidat, amit külön kell lekérned."
 
 #: src/screens/Takendown.tsx:214
-msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
-msgstr "A fiókod megsértette a <0>Bluesky Social felhasználási feltételeit</0>. Küldtünk Számodra egy emailt a felfüggesztésed okáról és (adott esetben) hosszáról. Ha úgy gondolod, hogy a felfüggesztés tévedésből történt, lehetőséged van fellebbezni azt."
+msgid "Your account was found to be in violation of the <0>koyu.space Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
+msgstr "A fiókod megsértette a <0>koyu.space felhasználási feltételeit</0>. Küldtünk Számodra egy emailt a felfüggesztésed okáról és (adott esetben) hosszáról. Ha úgy gondolod, hogy a felfüggesztés tévedésből történt, lehetőséged van fellebbezni azt."
 
 #: src/screens/Takendown.tsx:154
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
@@ -9020,8 +9022,8 @@ msgid "Your posts, likes, and blocks are public. Mutes are private."
 msgstr "A bejegyzéseid, kedveléseid és letiltásaid nyilvánosak. Az elnémítások nem."
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
-msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr "A profilod, bejegyzéseid, hírfolyamaid és listáid mostantól el vannak rejtve a többi Bluesky-felhasználó elől. A fiókod újraaktiválásához jelentkezz be!"
+msgid "Your profile, posts, feeds, and lists will no longer be visible to other koyu.space users. You can reactivate your account at any time by logging in."
+msgstr "A profilod, bejegyzéseid, hírfolyamaid és listáid mostantól el vannak rejtve a többi koyu.space-felhasználó elől. A fiókod újraaktiválásához jelentkezz be!"
 
 #: src/view/com/composer/Composer.tsx:484
 msgid "Your reply has been published"
@@ -9032,5 +9034,5 @@ msgid "Your report will be sent to <0>{0}</0>."
 msgstr "A jelentés címzettje: <0>{0}</0>."
 
 #: src/components/dms/ReportDialog.tsx:200
-msgid "Your report will be sent to the Bluesky Moderation Service"
-msgstr "Ez a jelentés a Bluesky moderálási szolgáltatásának lesz elküldve"
+msgid "Your report will be sent to the koyu.space Moderation Service"
+msgstr "Ez a jelentés a koyu.space moderálási szolgáltatásának lesz elküldve"

@@ -36,7 +36,7 @@ export const TermsOfServiceScreen = (_props: Props) => {
             <TextLink
               style={pal.link}
               href="https://bsky.social/about/support/tos"
-              text="bsky.social/about/support/tos"
+              text="koyu.space/about/support/tos"
             />
           </Text>
         </View>

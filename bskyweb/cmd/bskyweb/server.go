@@ -23,7 +23,7 @@ import (
 	"github.com/bluesky-social/indigo/atproto/syntax"
 	"github.com/bluesky-social/indigo/util/cliutil"
 	"github.com/bluesky-social/indigo/xrpc"
-	"github.com/bluesky-social/social-app/bskyweb"
+	"github.com/koyuspace/social-app/bskyweb"
 
 	"github.com/flosch/pongo2/v6"
 	"github.com/klauspost/compress/gzhttp"
@@ -162,7 +162,7 @@ func serve(cctx *cli.Context) error {
 			return id, nil
 		},
 		DenyHandler: func(c echo.Context, identifier string, err error) error {
-			return c.String(http.StatusTooManyRequests, "Your request has been rate limited. Please try again later. Contact security@bsky.app if you believe this was a mistake.\n")
+			return c.String(http.StatusTooManyRequests, "Your request has been rate limited. Please try again later. Contact security@koyu.space if you believe this was a mistake.\n")
 		},
 	}))
 
@@ -206,7 +206,7 @@ func serve(cctx *cli.Context) error {
 		return http.FS(fsys)
 	}())
 
-	// enable some special endpoints for the "canonical" deployment (bsky.app). not having these enabled should *not* impact regular operation
+	// enable some special endpoints for the "canonical" deployment (koyu.space). not having these enabled should *not* impact regular operation
 	if canonicalInstance {
 		e.GET("/ips-v4", echo.WrapHandler(staticHandler))
 		e.GET("/ips-v6", echo.WrapHandler(staticHandler))

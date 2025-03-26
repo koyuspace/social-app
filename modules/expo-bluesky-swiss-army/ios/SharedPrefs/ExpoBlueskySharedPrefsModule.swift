@@ -1,7 +1,7 @@
 import Foundation
 import ExpoModulesCore
 
-public class ExpoBlueskySharedPrefsModule: Module {
+public class Expokoyu.spaceSharedPrefsModule: Module {
   let defaults = UserDefaults(suiteName: "group.app.bsky")
 
   func getDefaults(_ info: String = "(no info)") -> UserDefaults? {
@@ -13,7 +13,7 @@ public class ExpoBlueskySharedPrefsModule: Module {
   }
 
   public func definition() -> ModuleDefinition {
-    Name("ExpoBlueskySharedPrefs")
+    Name("Expokoyu.spaceSharedPrefs")
 
     // JavaScripValue causes a crash when trying to check `isString()`. Let's
     // explicitly define setString instead.

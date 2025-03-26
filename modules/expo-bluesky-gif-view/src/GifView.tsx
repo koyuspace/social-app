@@ -4,10 +4,10 @@ import {requireNativeViewManager} from 'expo-modules-core'
 
 import {GifViewProps} from './GifView.types'
 
-const NativeModule = requireNativeModule('ExpoBlueskyGifView')
+const NativeModule = requireNativeModule('Expokoyu.spaceGifView')
 const NativeView: React.ComponentType<
   GifViewProps & {ref: React.RefObject<any>}
-> = requireNativeViewManager('ExpoBlueskyGifView')
+> = requireNativeViewManager('Expokoyu.spaceGifView')
 
 export class GifView extends React.PureComponent<GifViewProps> {
   // TODO native types, should all be the same as those in this class

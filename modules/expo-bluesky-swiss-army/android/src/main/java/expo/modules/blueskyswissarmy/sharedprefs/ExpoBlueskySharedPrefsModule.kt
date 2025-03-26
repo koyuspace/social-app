@@ -6,7 +6,7 @@ import expo.modules.kotlin.jni.JavaScriptValue
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 
-class ExpoBlueskySharedPrefsModule : Module() {
+class Expokoyu.spaceSharedPrefsModule : Module() {
   private fun getContext(): Context {
     val context = appContext.reactContext ?: throw Error("Context is null")
     return context
@@ -14,7 +14,7 @@ class ExpoBlueskySharedPrefsModule : Module() {
 
   override fun definition() =
     ModuleDefinition {
-      Name("ExpoBlueskySharedPrefs")
+      Name("Expokoyu.spaceSharedPrefs")
 
       Function("setString") { key: String, value: String ->
         return@Function SharedPrefs(getContext()).setValue(key, value)
@@ -22,7 +22,7 @@ class ExpoBlueskySharedPrefsModule : Module() {
 
       Function("setValue") { key: String, value: JavaScriptValue ->
         val context = getContext()
-        Log.d("ExpoBlueskySharedPrefs", "Setting value for key: $key")
+        Log.d("Expokoyu.spaceSharedPrefs", "Setting value for key: $key")
         try {
           if (value.isNumber()) {
             SharedPrefs(context).setValue(key, value.getFloat())

@@ -1,6 +1,6 @@
 import {requireNativeModule} from 'expo-modules-core'
 
-const NativeModule = requireNativeModule('ExpoBlueskySharedPrefs')
+const NativeModule = requireNativeModule('Expokoyu.spaceSharedPrefs')
 
 export function setValue(
   key: string,

@@ -1,6 +1,6 @@
 # Logger
 
-Simple logger for Bluesky.
+Simple logger for koyu.space.
 
 ## At a Glance
 

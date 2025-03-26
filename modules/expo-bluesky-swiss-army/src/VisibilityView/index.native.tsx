@@ -8,9 +8,9 @@ const NativeView: React.ComponentType<{
   children: React.ReactNode
   enabled: Boolean
   style: StyleProp<ViewStyle>
-}> = requireNativeViewManager('ExpoBlueskyVisibilityView')
+}> = requireNativeViewManager('Expokoyu.spaceVisibilityView')
 
-const NativeModule = requireNativeModule('ExpoBlueskyVisibilityView')
+const NativeModule = requireNativeModule('Expokoyu.spaceVisibilityView')
 
 export async function updateActiveViewAsync() {
   await NativeModule.updateActiveViewAsync()

@@ -355,14 +355,14 @@ export function ModerationScreenInner({
                     <Trans>
                       Adult content can only be enabled via the Web at{' '}
                       <InlineLinkText
-                        label={_(msg`The Bluesky web application`)}
+                        label={_(msg`The koyu.space web application`)}
                         to=""
                         onPress={evt => {
                           evt.preventDefault()
-                          Linking.openURL('https://bsky.app/')
+                          Linking.openURL('https://koyu.space/')
                           return false
                         }}>
-                        bsky.app
+                        koyu.space
                       </InlineLinkText>
                       .
                     </Trans>

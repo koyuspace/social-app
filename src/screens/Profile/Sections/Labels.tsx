@@ -113,7 +113,7 @@ export function ProfileLabelsSectionInner({
   const t = useTheme()
 
   // Intentionally destructured outside the main thread closure.
-  // See https://github.com/bluesky-social/social-app/pull/4108.
+  // See https://github.com/koyuspace/social-app/pull/4108.
   const {
     onBeginDrag: onBeginDragFromContext,
     onEndDrag: onEndDragFromContext,
