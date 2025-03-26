@@ -332,11 +332,11 @@ export function createProxiedUrl(url: string): string {
     return url
   }
 
-  return `https://go.koyu.space/redirect?u=${encodeURIComponent(url)}`
+  return `https://go.bsky.app/redirect?u=${encodeURIComponent(url)}`
 }
 
 export function isShortLink(url: string): boolean {
-  return url.startsWith('https://go.koyu.space/')
+  return url.startsWith('https://go.bsky.app/')
 }
 
 export function shortLinkToHref(url: string): string {

@@ -23,7 +23,7 @@ module.exports = function (config) {
     'applinks:koyu.space',
     'applinks:staging.koyu.space',
     'appclips:koyu.space',
-    'appclips:go.koyu.space', // Allows App Clip to work when scanning QR codes
+    'appclips:go.bsky.app', // Allows App Clip to work when scanning QR codes
     // When testing local services, enter an ngrok (et al) domain here. It must use a standard HTTP/HTTPS port.
     ...(IS_DEV || IS_TESTFLIGHT ? [] : []),
   ]

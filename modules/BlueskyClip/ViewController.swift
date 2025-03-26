@@ -92,7 +92,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         return true
       }
       return false
-    case "go.koyu.space":
+    case "go.bsky.app":
       if url.pathComponents.count == 2 {
         return true
       }
