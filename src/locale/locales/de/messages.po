@@ -2664,7 +2664,7 @@ msgstr "Gib die Domain ein, die du verwenden möchtest"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:113
 msgid "Enter the email you used to create your account. We'll send you a \"reset code\" so you can set a new password."
-msgstr ""
+msgstr "Gib die E-Mail-Adresse ein, die du zur Erstellung deines Accounts verwendet hast. Wir senden dir einen \"Zurücksetzungscode\", damit du ein neues Passwort festlegen kannst."
 
 #: src/components/dialogs/BirthDateSettings.tsx:104
 msgid "Enter your birth date"
@@ -3808,11 +3808,11 @@ msgstr "koyu.space Classic™"
 
 #: src/view/com/auth/server-input/index.tsx:212
 msgid "koyu.space is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr ""
+msgstr "koyu.space ist ein offenes Netzwerk, in dem du deinen Hosting-Anbieter auswählen kannst. Als Entwickler kannst du deinen eigenen Server hosten."
 
 #: src/view/com/auth/server-input/index.tsx:149
 msgid "koyu.space is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default koyu.space Social option."
-msgstr ""
+msgstr "koyu.space ist ein offenes Netzwerk, in dem du deinen eigenen Anbieter auswählen kannst. Wenn du neu hier bist, empfehlen wir dir, bei der Standardoption koyu.space Social zu bleiben."
 
 #: src/components/ProgressGuide/List.tsx:53
 #: src/components/ProgressGuide/List.tsx:70
