@@ -11,6 +11,7 @@ import {AppLanguageDropdown} from '#/components/AppLanguageDropdown'
 import {Button, ButtonText} from '#/components/Button'
 import {Link} from '#/components/Link'
 import {Text} from '#/components/Typography'
+import { Radio } from './desktop/Radio'
 
 let NavSignupCard = ({}: {}): React.ReactNode => {
   const {_} = useLingui()
@@ -75,6 +76,8 @@ let NavSignupCard = ({}: {}): React.ReactNode => {
           <Text>?</Text>
         </Text>
       </View>
+
+      <Radio />
 
       <View style={[a.mt_md, a.w_full, {height: 32}]}>
         <AppLanguageDropdown style={{marginTop: 0}} />

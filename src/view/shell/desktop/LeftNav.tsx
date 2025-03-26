@@ -75,6 +75,7 @@ import * as Prompt from '#/components/Prompt'
 import {Text} from '#/components/Typography'
 import {PlatformInfo} from '../../../../modules/expo-bluesky-swiss-army'
 import {router} from '../../../routes'
+import { Radio } from './Radio'
 
 const NAV_ICON_WIDTH = 28
 
@@ -710,6 +711,8 @@ export function DesktopLeftNav() {
           />
 
           <ComposeBtn />
+
+          <Radio />
         </>
       )}
     </View>
