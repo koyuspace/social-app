@@ -34,17 +34,17 @@ export const colors = {
   red6: '#690419',
   red7: '#4F0314',
 
-  pink1: '#f8ccff',
-  pink2: '#e966ff',
-  pink3: '#db00ff',
-  pink4: '#a601c1',
+  pink1: '#fff0fd',
+  pink2: '#ff8aeb',
+  pink3: '#fe53e1',
+  pink4: '#d011b1',
   pink5: '#570066',
 
-  purple1: '#ebdbff',
-  purple2: '#ba85ff',
-  purple3: '#9747ff',
-  purple4: '#6d00fa',
-  purple5: '#380080',
+  purple1: '#fff0fd',
+  purple2: '#ff8aeb',
+  purple3: '#fe53e1',
+  purple4: '#d011b1',
+  purple5: '#570066',
 
   green1: '#c1ffb8',
   green2: '#27f406',
@@ -52,15 +52,15 @@ export const colors = {
   green4: '#148203',
   green5: '#082b03',
 
-  unreadNotifBg: '#ebf6ff',
-  brandBlue: '#ff53e1',
-  like: '#ec4899',
+  unreadNotifBg: '#fff0fd',
+  brandBlue: '#fe53e1',
+  like: '#fe53e1',
 }
 
 export const gradients = {
-  blueLight: {start: '#FF53E1', end: '#FF53E1'}, // buttons
-  blue: {start: '#FF53E1', end: "#FF53E1"}, // fab
-  blueDark: {start: '#FF53E1', end: "#FF53E1"}, // avis, banner
+  blueLight: {start: '#ff8aeb', end: '#fe53e1'}, // buttons
+  blue: {start: '#fe53e1', end: "#d011b1"}, // fab
+  blueDark: {start: '#d011b1', end: "#570066"}, // avis, banner
 }
 
 export const s = StyleSheet.create({
