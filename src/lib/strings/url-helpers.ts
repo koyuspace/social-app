@@ -7,12 +7,14 @@ import {isInvalidHandle} from '#/lib/strings/handles'
 import {startUriToStarterPackUri} from '#/lib/strings/starter-pack'
 import {logger} from '#/logger'
 
-export const BSKY_APP_HOST = 'https://koyu.space'
+export const BSKY_APP_HOST = 'https://app.koyu.space'
 const BSKY_TRUSTED_HOSTS = [
   'bsky\\.app',
   'bsky\\.social',
   'blueskyweb\\.xyz',
   'blueskyweb\\.zendesk\\.com',
+  'app\\.koyu\\.space',
+  'koyu\\.space',
   ...(__DEV__ ? ['localhost:19006', 'localhost:8100'] : []),
 ]
 
@@ -79,7 +81,7 @@ export function toShortUrl(url: string): string {
 
 export function toShareUrl(url: string): string {
   if (!url.startsWith('https')) {
-    const urlp = new URL('https://koyu.space')
+    const urlp = new URL('https://app.koyu.space')
     urlp.pathname = url
     url = urlp.toString()
   }
@@ -91,7 +93,7 @@ export function toBskyAppUrl(url: string): string {
 }
 
 export function isBskyAppUrl(url: string): boolean {
-  return url.startsWith('https://koyu.space/')
+  return url.startsWith('https://app.koyu.space/')
 }
 
 export function isRelativeUrl(url: string): boolean {
