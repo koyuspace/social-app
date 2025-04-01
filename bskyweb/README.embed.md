@@ -4,7 +4,7 @@
 <https://oembed.com/>
 
 * URL scheme: `https://koyu.space/profile/*/post/*`
-* API endpoint: `https://embed.koyu.space/oembed`
+* API endpoint: `https://embed.bsky.app/oembed`
 
 Request params:
 
@@ -35,14 +35,14 @@ Not used:
 Only `json` is supported; `xml` is a 501.
 
 ```
-<link rel="alternate" type="application/json+oembed" href="https://embed.koyu.space/oembed?format=json&url=https://koyu.space/profile/bnewbold.net/post/abc123" />
+<link rel="alternate" type="application/json+oembed" href="https://embed.bsky.app/oembed?format=json&url=https://koyu.space/profile/bnewbold.net/post/abc123" />
 ```
 
 
 ## iframe URL
 
-`https://embed.koyu.space/embed/<did>/app.bsky.feed.post/<rkey>`
-`https://embed.koyu.space/static/embed.js`
+`https://embed.bsky.app/embed/<did>/app.bsky.feed.post/<rkey>`
+`https://embed.bsky.app/static/embed.js`
 
 ```
 <blockquote class="bluesky-post" data-lang="en" data-align="center">

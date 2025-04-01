@@ -164,7 +164,7 @@ module.exports = function (config) {
             data: [
               {
                 scheme: 'https',
-                host: 'koyu.space',
+                host: 'app.koyu.space',
               },
               IS_DEV && {
                 scheme: 'http',

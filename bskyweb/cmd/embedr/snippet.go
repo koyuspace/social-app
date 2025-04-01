@@ -66,7 +66,7 @@ func (srv *Server) postEmbedHTML(postView *appbsky.FeedDefs_PostView) (string, e
 		PostIndexedAt: sortAt,
 		ProfileURL:    template.URL(fmt.Sprintf("https://koyu.space/profile/%s?ref_src=embed", aturi.Authority())),
 		PostURL:       template.URL(fmt.Sprintf("https://koyu.space/profile/%s/post/%s?ref_src=embed", aturi.Authority(), aturi.RecordKey())),
-		WidgetURL:     template.URL("https://embed.koyu.space/static/embed.js"),
+		WidgetURL:     template.URL("https://embed.bsky.app/static/embed.js"),
 	}
 
 	var buf bytes.Buffer

@@ -69,32 +69,32 @@ export const gradients = {
   },
   sky: {
     values: [
-      [0, '#0A7AFF'],
-      [1, '#59B9FF'],
+      [0, '#271623'],
+      [1, '#271623'],
     ],
     hover_value: '#0A7AFF',
   },
   midnight: {
     values: [
-      [0, '#022C5E'],
-      [1, '#4079BC'],
+      [0, '#fe53e1'],
+      [1, '#fe53e1'],
     ],
     hover_value: '#022C5E',
   },
   sunrise: {
     values: [
-      [0, '#4E90AE'],
-      [0.4, '#AEA3AB'],
-      [0.8, '#E6A98F'],
-      [1, '#F3A84C'],
+      [0, '#fe53e1'],
+      [0.4, '#fe53e1'],
+      [0.8, '#fe53e1'],
+      [1, '#fe53e1'],
     ],
     hover_value: '#AEA3AB',
   },
   sunset: {
     values: [
-      [0, '#6772AF'],
-      [0.6, '#B88BB6'],
-      [1, '#FFA6AC'],
+      [0, '#fe53e1'],
+      [0.6, '#fe53e1'],
+      [1, '#fe53e1'],
     ],
     hover_value: '#B88BB6',
   },

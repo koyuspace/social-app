@@ -5,7 +5,7 @@ interface Window {
   }
 }
 
-const EMBED_URL = 'https://embed.koyu.space'
+const EMBED_URL = 'https://embed.bsky.app'
 
 window.bluesky = window.bluesky || {
   scan,
