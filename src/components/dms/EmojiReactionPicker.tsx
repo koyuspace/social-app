@@ -53,15 +53,17 @@ export function EmojiReactionPicker({
 
   const limitReacted = hasReachedReactionLimit(message, currentAccount?.did)
 
+  const bgColor = t.scheme === 'light' ? t.atoms.bg : t.atoms.bg_contrast_25
+
   return (
     <View
       onLayout={evt => setLayout(evt.nativeEvent.layout)}
       style={[
+        bgColor,
         a.rounded_full,
         a.absolute,
         {bottom: '100%'},
         isFromSelf ? a.right_0 : a.left_0,
-        t.scheme === 'light' ? t.atoms.bg : t.atoms.bg_contrast_25,
         a.flex_row,
         a.p_xs,
         a.gap_xs,
@@ -95,9 +97,9 @@ export function EmojiReactionPicker({
                           ? t.palette.negative_100
                           : t.palette.primary_500,
                       }
-                    : alreadyReacted && {
-                        backgroundColor: t.palette.primary_200,
-                      },
+                    : alreadyReacted
+                    ? {backgroundColor: t.palette.primary_200}
+                    : bgColor,
                   {height: 40, width: 40},
                   a.justify_center,
                   a.align_center,
