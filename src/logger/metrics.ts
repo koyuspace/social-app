@@ -364,4 +364,23 @@ export type MetricEvents = {
     details: boolean
   }
   'reportDialog:failure': {}
+
+  translate: {
+    sourceLanguages: string[]
+    targetLanguage: string
+    textLength: number
+  }
+
+  'verification:create': {}
+  'verification:revoke': {}
+  'verification:badge:click': {}
+  'verification:learn-more': {
+    location:
+      | 'initialAnnouncementeNux'
+      | 'verificationsDialog'
+      | 'verifierDialog'
+      | 'verificationSettings'
+  }
+  'verification:settings:hideBadges': {}
+  'verification:settings:unHideBadges': {}
 }
