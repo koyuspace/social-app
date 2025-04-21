@@ -1273,11 +1273,11 @@ msgid "koyu.space will proactively verify notable and authentic accounts."
 msgstr ""
 
 #: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "koyu.space+"
+msgid "koyu.space"
 msgstr ""
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "koyu.space+ icons"
+msgid "koyu.space icons"
 msgstr ""
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
@@ -4093,11 +4093,11 @@ msgid "koyu.space will not show your profile and posts to logged-out users. Othe
 msgstr ""
 
 #: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "koyu.space+"
+msgid "koyu.space"
 msgstr ""
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "koyu.space+ icons"
+msgid "koyu.space icons"
 msgstr ""
 
 #: src/view/shell/NavSignupCard.tsx:72

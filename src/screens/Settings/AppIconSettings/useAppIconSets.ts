@@ -32,7 +32,7 @@ export function useAppIconSets() {
     ] satisfies AppIconSet[]
 
     /**
-     * koyu.space+
+     * koyu.space
      */
     const core = [
       {

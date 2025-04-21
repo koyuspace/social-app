@@ -1278,12 +1278,12 @@ msgid "koyu.space will proactively verify notable and authentic accounts."
 msgstr "koyu.spaceは、注目すべき本格的なアカウントを積極的に検証します。"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "koyu.space+"
-msgstr "koyu.space+"
+msgid "koyu.space"
+msgstr "koyu.space"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "koyu.space+ icons"
-msgstr "koyu.space+アイコン"
+msgid "koyu.space icons"
+msgstr "koyu.spaceアイコン"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
@@ -4098,12 +4098,12 @@ msgid "koyu.space will not show your profile and posts to logged-out users. Othe
 msgstr "koyu.spaceはログアウトしたユーザーにあなたのプロフィールや投稿を表示しません。他のアプリはこのリクエストに応じない場合があります。この設定はあなたのアカウントを非公開にするものではありません。"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:99
-msgid "koyu.space+"
-msgstr "koyu.space+"
+msgid "koyu.space"
+msgstr "koyu.space"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
-msgid "koyu.space+ icons"
-msgstr "koyu.space+アイコン"
+msgid "koyu.space icons"
+msgstr "koyu.spaceアイコン"
 
 #: src/view/shell/NavSignupCard.tsx:72
 msgid "koyu's personal website"

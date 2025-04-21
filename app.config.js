@@ -307,7 +307,7 @@ module.exports = function (config) {
             },
 
             /**
-             * koyu.space+ core set
+             * koyu.space core set
              */
             core_aurora: {
               ios: './assets/app-icons/ios_icon_core_aurora.png',
