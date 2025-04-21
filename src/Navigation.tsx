@@ -70,6 +70,7 @@ import {MessagesConversationScreen} from '#/screens/Messages/Conversation'
 import {MessagesInboxScreen} from '#/screens/Messages/Inbox'
 import {MessagesSettingsScreen} from '#/screens/Messages/Settings'
 import {ModerationScreen} from '#/screens/Moderation'
+import {Screen as ModerationVerificationSettings} from '#/screens/Moderation/VerificationSettings'
 import {Screen as ModerationInteractionSettings} from '#/screens/ModerationInteractionSettings'
 import {PostLikedByScreen} from '#/screens/Post/PostLikedBy'
 import {PostQuotesScreen} from '#/screens/Post/PostQuotes'
@@ -83,6 +84,7 @@ import {SearchScreen} from '#/screens/Search'
 import {AppearanceSettingsScreen} from '#/screens/Settings/AppearanceSettings'
 import {AppIconSettingsScreen} from '#/screens/Settings/AppIconSettings'
 import {NotificationSettingsScreen} from '#/screens/Settings/NotificationSettings'
+import {SettingsInterests} from '#/screens/Settings/SettingsInterests'
 import {
   StarterPackScreen,
   StarterPackScreenShort,
@@ -163,6 +165,14 @@ function commonScreens(Stack: typeof HomeTab, unreadCountLabel?: string) {
         getComponent={() => ModerationInteractionSettings}
         options={{
           title: title(msg`Post Interaction Settings`),
+          requireAuth: true,
+        }}
+      />
+      <Stack.Screen
+        name="ModerationVerificationSettings"
+        getComponent={() => ModerationVerificationSettings}
+        options={{
+          title: title(msg`Verification Settings`),
           requireAuth: true,
         }}
       />
@@ -372,6 +382,14 @@ function commonScreens(Stack: typeof HomeTab, unreadCountLabel?: string) {
         getComponent={() => ContentAndMediaSettingsScreen}
         options={{
           title: title(msg`Content and Media`),
+          requireAuth: true,
+        }}
+      />
+      <Stack.Screen
+        name="SettingsInterests"
+        getComponent={() => SettingsInterests}
+        options={{
+          title: title(msg`Your interests`),
           requireAuth: true,
         }}
       />
@@ -628,7 +646,7 @@ const FlatNavigator = () => {
       <Flat.Screen
         name="Search"
         getComponent={() => SearchScreen}
-        options={{title: title(msg`Search`)}}
+        options={{title: title(msg`Explore`)}}
       />
       <Flat.Screen
         name="Notifications"
