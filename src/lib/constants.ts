@@ -7,7 +7,6 @@ export const STAGING_SERVICE = 'https://staging.bsky.dev'
 export const BSKY_SERVICE = 'https://koyu.space'
 export const PUBLIC_BSKY_SERVICE = 'https://koyu.space'
 export const DEFAULT_SERVICE = BSKY_SERVICE
-const HELP_DESK_LANG = 'en-us'
 export const HELP_DESK_URL = `mailto:support@koyu.space`
 export const EMBED_SERVICE = 'https://embed.bsky.social'
 export const EMBED_SCRIPT = `${EMBED_SERVICE}/static/embed.js`
@@ -99,7 +98,7 @@ export const POST_IMG_MAX = {
 export const STAGING_LINK_META_PROXY =
   'https://cardyb.staging.bsky.dev/v1/extract?url='
 
-export const PROD_LINK_META_PROXY = 'https://cardyb.koyu.space/v1/extract?url='
+export const PROD_LINK_META_PROXY = 'https://cardyb.bsky.app/v1/extract?url='
 
 export function LINK_META_PROXY(serviceUrl: string) {
   if (IS_PROD_SERVICE(serviceUrl)) {
