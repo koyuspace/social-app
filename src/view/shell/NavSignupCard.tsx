@@ -80,7 +80,7 @@ let NavSignupCard = ({}: {}): React.ReactNode => {
       <Radio />
 
       <View style={[a.mt_md, a.w_full, {height: 32}]}>
-        <AppLanguageDropdown style={{marginTop: 0}} />
+        <AppLanguageDropdown />
       </View>
     </View>
   )
